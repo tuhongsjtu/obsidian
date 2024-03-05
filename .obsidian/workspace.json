@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "64e0206fa8e429f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd12175b33abb8e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adaaa416b0bd030c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Task_plugin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c10104f88d5a75e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Task_plugin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65e83c5ebf9fc976",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d6dc3a45185b9a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f8f6a61c23f575d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "582751c056881189",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dd24029204bfbae2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "04ef13bda26685a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e246b4db3a123735",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86e0133c3fc56063",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Task_plugin.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e90e601bc8b7f713",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Task_plugin.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8ad0c9b707c36627",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dd9ae1caf2683543",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Task_plugin.md"
+              }
+            }
+          },
+          {
+            "id": "abbb6a7877769cfd",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "4c10104f88d5a75e",
+  "lastOpenFiles": [
+    "2024-03-06.md",
+    "Task_plugin.md",
+    "aaa.md",
+    "Statistical Physics/未命名看板.md",
+    "未命名 2.canvas",
+    "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
+    "linux/Linux三剑客.md",
+    "Project/Negativity in Coupled Model.md",
+    "Project/FM-Triangle-Coupled-Model.md",
+    "Statistical Physics/Kardar",
+    "math/采样理论.md",
+    "Project/Draft.md",
+    "DQMC/New Code.md",
+    "未命名",
+    "DQMC",
+    "Pasted image 20240122154553.png",
+    "Pasted image 20240117144915.png",
+    "Pasted image 20240117144915的副本.png",
+    "Many-Body/Quantum Information/Density Matrix.md",
+    "Many-Body/Quantum Information",
+    "Pasted image 20240118180705.png",
+    "Pasted image 20240118173424.png",
+    "Pasted image 20240117161232.png",
+    "Pasted image 20240117141748.png",
+    "Pasted image 20240117141658.png",
+    "Pasted image 20240117141137.png",
+    "Pasted image 20240117141131.png",
+    "linux/find.md",
+    "Many-Body/Green's Function.md",
+    "Statistical Physics/Phase Transition Theory.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "Concept.md",
+    "Many-Body/Topological/边界态.md",
+    "Many-Body/Topological",
+    "Pic",
+    "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
+    "Many-Body/Free Partical",
+    "Many-Body/Fermi Liquid Theory/Fermi Liquid Theory.md",
+    "Many-Body/Fermi Liquid Theory",
+    "math/Complex Analysis.md",
+    "math",
+    "Statistical Physics/Boltzman Function.md",
+    "Statistical Physics",
+    "2023-12-24.md",
+    "QMC/正则系综AFQMC.md",
+    "正则系综AFQMC.md"
+  ]
+}

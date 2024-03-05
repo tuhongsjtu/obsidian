@@ -1,0 +1,16 @@
+{
+  "showLineNumber": true,
+  "autoPairBrackets": true,
+  "vimMode": true,
+  "spellcheck": true,
+  "autoPairMarkdown": true,
+  "strictLineBreaks": true,
+  "readableLineLength": false,
+  "defaultViewMode": "source",
+  "focusNewTab": false,
+  "useTab": true,
+  "rightToLeft": false,
+  "tabSize": 2,
+  "showIndentGuide": false,
+  "promptDelete": false
+}
