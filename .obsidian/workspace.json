@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "dd12175b33abb8e1",
+        "id": "da871dbf82796de1",
         "type": "tabs",
         "children": [
           {
-            "id": "adaaa416b0bd030c",
+            "id": "e4b4e25a6d5e17a5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Task_plugin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c10104f88d5a75e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Task_plugin.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Task_plugin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Task_plugin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Task_plugin.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,10 +146,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4c10104f88d5a75e",
+  "active": "e4b4e25a6d5e17a5",
   "lastOpenFiles": [
-    "2024-03-06.md",
     "Task_plugin.md",
+    "2024-03-06.md",
     "aaa.md",
     "Statistical Physics/未命名看板.md",
     "未命名 2.canvas",
