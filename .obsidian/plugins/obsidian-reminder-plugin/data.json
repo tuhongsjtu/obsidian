@@ -1,14 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "Task_plugin.md": [
-      {
-        "title": "no name",
-        "time": "2024-03-06 00:27",
-        "rowNumber": 4
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "settings": {
     "reminderTime": "18:00",

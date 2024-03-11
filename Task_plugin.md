@@ -2,7 +2,7 @@
 - [ ] Remember to do that important thing - with a due date 📅 2024-03-06
 - [ ] Send Kate a birthday card - with a scheduled date 🔁 every January on the 4th ⏳ 2025-01-04
 - [ ] Test📅 2024-03-06 
-- [ ] no name  📅 2024-03-10 ⏫ ⏰2024-03-06 00:27
+- [x] no name  📅 2024-03-10 ⏫ ⏰2024-03-06 00:27 ✅ 2024-03-06
 
 
 

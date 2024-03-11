@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dd12175b33abb8e1",
+        "id": "f49ada7397c0cae8",
         "type": "tabs",
         "children": [
           {
-            "id": "adaaa416b0bd030c",
+            "id": "d651fc85815e91d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Task_plugin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c10104f88d5a75e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Task_plugin.md",
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Task_plugin.md",
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Task_plugin.md",
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Task_plugin.md"
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md"
               }
             }
           },
@@ -151,11 +139,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,14 +156,26 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4c10104f88d5a75e",
+  "active": "d651fc85815e91d4",
   "lastOpenFiles": [
-    "2024-03-06.md",
+    "未命名 4.canvas",
+    "未命名 3.canvas",
+    "Project/Log.md",
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+    "Pasted image 20240311224843.png",
+    "Pasted image 20240311224807.png",
+    "Pasted image 20240311223154.png",
+    "Pasted image 20240311222632.png",
     "Task_plugin.md",
+    "Pasted image 20240307151530.png",
+    "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
+    "Statistical Physics/Boltzman Function.md",
+    "Statistical Physics/Kardar/Chapter 2..md",
+    "Statistical Physics/Phase Transition Theory.md",
+    "2024-03-06.md",
     "aaa.md",
     "Statistical Physics/未命名看板.md",
     "未命名 2.canvas",
-    "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
     "linux/Linux三剑客.md",
     "Project/Negativity in Coupled Model.md",
     "Project/FM-Triangle-Coupled-Model.md",
@@ -191,14 +192,8 @@
     "Many-Body/Quantum Information",
     "Pasted image 20240118180705.png",
     "Pasted image 20240118173424.png",
-    "Pasted image 20240117161232.png",
-    "Pasted image 20240117141748.png",
-    "Pasted image 20240117141658.png",
-    "Pasted image 20240117141137.png",
-    "Pasted image 20240117141131.png",
     "linux/find.md",
     "Many-Body/Green's Function.md",
-    "Statistical Physics/Phase Transition Theory.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "Concept.md",
@@ -211,10 +206,7 @@
     "Many-Body/Fermi Liquid Theory",
     "math/Complex Analysis.md",
     "math",
-    "Statistical Physics/Boltzman Function.md",
     "Statistical Physics",
-    "2023-12-24.md",
-    "QMC/正则系综AFQMC.md",
-    "正则系综AFQMC.md"
+    "2023-12-24.md"
   ]
 }
