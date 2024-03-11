@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d6377a80f46c1a4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -156,12 +169,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d651fc85815e91d4",
+  "active": "d6377a80f46c1a4e",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+    "conflict-files-obsidian-git.md",
     "未命名 4.canvas",
     "未命名 3.canvas",
     "Project/Log.md",
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Pasted image 20240311224843.png",
     "Pasted image 20240311224807.png",
     "Pasted image 20240311223154.png",
