@@ -30,3 +30,10 @@ sort by description
 path includes 2024-03-05
 short mode
 ```
+
+# TASK
+- [ ] https://www.youtube.com/watch?v=aircAruvnKk 神经网络
+- [ ] 📅 2024-03-12 ⏫ 完成Landau-Ginzburg的笔记
+- [ ] 📅 2024-03-17 ⏫ 完成Chapter1习题
+- [ ] 📅 2024-03-13 ⏫ corner数据分析
+- [ ] 📅 2024-03-13 ⏫ 自由体系scaling

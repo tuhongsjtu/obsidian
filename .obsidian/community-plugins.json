@@ -4,5 +4,6 @@
   "obsidian-kanban",
   "obsidian-reminder-plugin",
   "obsidian-git",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-plugin-toc"
 ]

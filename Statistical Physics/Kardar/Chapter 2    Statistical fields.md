@@ -1,6 +1,10 @@
-## 2.1    Introduction			
+- [[#2.1 Introduction|2.1 Introduction]]
+- [[#2.2 The Landau-Ginzburg Hamiltonian|2.2 The Landau-Ginzburg Hamiltonian]]
+- [[#2.3 Saddle point approximation, and mean-field theory|2.3 Saddle point approximation, and mean-field theory]]
 
-上一章中我们说到，临界点的热力学函数可以通过一系列临界指数$\{\alpha, \beta, \gamma, \cdots \}$进行表征. 实验上也表明了这些指数是普适的，即与所研究的材料无关，并且在某种程度上与相变的性质无关，比如$CO_2$的冷凝过程中共存边界的消失与蛋白质溶液相分离具有相同的奇异行为. 这种普适性需要解释. 
+## 2.1 Introduction			
+
+上一章中我们说到，临界点的热力学函数可以通过一系列临界指数$\{\alpha, \beta, \gamma, \cdots \}$进行表征. 实验上也表明了这些指数是普适的，即与所研究的材料无关，并且在某种程度上与相变的性质无关，比如$\text{CO}_2$的冷凝过程中共存边界的消失与蛋白质溶液相分离具有相同的奇异行为. 这种普适性需要解释. 
 我们还注意到，响应函数的发散以及通过散射实验对涨落的直接观察表明，涨落在临界点附近具有长波关联$\xi \gg a$. 这种相关的涨落涉及许多粒子，并且本着弹性理论的启发，粗粒化的方法可能适合它们的描述. 这里我们将构建这样一个*统计场论*.
 
 我们首先关注磁性系统，它们的对称性更加透明. 考虑像铁这样的材料，实验上观察到在居里温度$T_c$以下其具有铁磁性. 磁性的微观起源是量子力学，涉及巡游电子、自旋和相互作用等元素，可以用一个微观哈密顿量$\mathcal{H}_{\text{mic}}$描述. 原则上，系统的所有热力学性质都可以从配分函数中得到，这样的配分函数可以通过对所有自由度求和而得到
@@ -119,5 +123,52 @@ $$
 (2) 对于$t \lt 0$，需要$u$为正值来保证稳定性. 函数$\Psi(m)$现在有两个局部最小值，全局最小值处自旋与磁场对其.  当$\vec{h} \rightarrow 0$时全局最小值向非零值移动，表明自发磁化.  即使在$\vec{h} = 0$时也是如此，如铁磁体.  $h = 0$时$\vec{m}$的方向由系统的历史决定，并且可以通过外部场$\vec{h}$重新调整. 
 ![[Pasted image 20240311224807.png]]
 最可能磁化强度$\overline{m}(h)$的结果曲线与图1.4中的曲线非常相似.  因此，Landau-Ginzburg 配分函数的鞍点评估会导致$t>0$时产生顺磁行为，$t<0$时产生铁磁行为，相变线终止于点$t = h = 0$.
-![[Pasted image 20240311224843.png]]
 
+参数$(t, u, K, \cdots)$是温度的解析方程，可以在临界点$T = T_c$附近进行展开.  
+$$
+\left\{\begin{array}{l}
+t(T, \cdots)=a_0+a_1\left(T-T_c\right)+\mathcal{O}\left(T-T_c\right)^2, \\
+u(T, \cdots)=u+u_1\left(T-T_c\right)+\mathcal{O}\left(T-T_c\right)^2, \\
+K(T, \cdots)=K+K_1\left(T-T_c\right)+\mathcal{O}\left(T-T_c\right)^2 .
+\end{array}\right.
+$$
+展开系数可以看作唯象参数，可以通过与实验对比确定.  特别的，为了让图1.4和图2.3匹配，我们要求$t$是一个关于温度的单调函数并且在$T_c$时为$0$，这就要求$a_0=0$以及$a_1 = a \gt 0$.  在相变点附近的铁磁相的稳定性要求$u$和$K$是正的.  将磁体的实验相图与从鞍点获得的相图相匹配的最小条件集是
+$$
+t = a(T - T_c)^2 + \mathcal{O}(T-T_c)^2, \quad \text{with} \quad (a, u, K) \gt 0.
+\tag{2.15}
+$$
+![[Pasted image 20240311224843.png]]
+当然可以在扩展中设置附加项，例如$a$或$u$为零，并通过适当选择高阶项来保持相图和稳定性.  然而，这样的选择不是通用的，没有理由施加比实验绝对要求更多的限制.  
+使用式(2.15)我们可以我们可以量化式(2.11)-(2.13)中自由能的鞍点评估所预测的奇异行为.
+
+下面计算鞍点近似给出的临界指数.
+* **磁化：** 在零场时(2.13)简化为$\partial \Psi / \partial m = t \overline{m} + 4 u \overline{m}^3 = \overline{m}(t + 4 u \overline{m}^3) = 0$，我们得到
+$$
+\overline{m}(h=0)= \begin{cases}0 & \text { for } t>0, \\ \sqrt{\frac{-t}{4 u}}=\sqrt{\frac{a}{4 u}}\left(T_c-T\right)^{1 / 2} & \text { for } t<0 .\end{cases}
+\tag{2.16}
+$$
+![[Pasted image 20240312134209.png]]
+对于$t<0$，非磁化解$\overline{m} = 0$是$\Psi(m)$的最大值，并且存在自发磁化，普适指数$\beta = 1/2$.  总振幅是非普适的并且取决于材料.  
+通过(2.13)，当$t=0$时可以计算出
+$$
+\overline{m}(t = 0) = \left( \frac{h}{4u} \right)^{1/3},
+$$
+可以得到$\delta = 3$.  
+* **磁化率：** 其大小$t \overline{m} + 4u \overline{m}^3 = h$的解给. 幅度的变化由*纵向磁化率*$\chi_l$控制，其倒数很容易获得为：
+$$
+\chi_{\ell}^{-1}=\left.\frac{\partial h}{\partial \overline{m}}\right|_{h=0}=t+12 u \overline{m}^2= \begin{cases}t & \text { for } t>0, \text { and } h=0, \\ -2 t & \text { for } t<0, \text { and } h=0 .\end{cases}
+\tag{2.18}
+$$
+从两侧接近相变点时，零场磁化率按照$\chi_{\pm} \sim A_{\pm} |t|^{-\gamma_{\pm}}$发散且$\gamma_{+} = \gamma_{-} = 1$.  尽管振幅$A_{\pm}$是依赖于材料的，式$(2.18)$预测它们的比值$A_{+} / A_{-} = 2$是普适的.  （我们很快就会遇到横向磁化率$\chi_t$，它描述了磁化强度垂直于它的磁场的变化的响应。当$h = 0$时，磁化相中的$\chi_t$始终为无穷）
+![[Pasted image 20240312141129.png]]
+* **热容：** $h=0$时的自由能为
+$$
+\beta F=\beta F_0+V \Psi(\bar{m})=\beta F_0+V \begin{cases}0 & \text { for } t>0, \\ -\frac{t^2}{16 u} & \text { for } t<0 .\end{cases}
+\tag{2.19}
+$$
+由于$t = a(T-T_c) + \cdots$，只保留$(T-T_c)$的领头阶我们可以得到$\partial/\partial T \sim a \partial / \partial t$. 因此我们可以得到在零场时热容的行为为：
+$$
+C(h=0)=-T \frac{\partial^2 F}{\partial T^2} \approx-T_c a^2 \frac{\partial^2}{\partial t^2}\left(k_{\mathrm{B}} T_c \beta F\right)=C_0+V k_{\mathrm{B}} a^2 T_c^2 \times \begin{cases}0 & \text { for } t>0, \\ \frac{1}{8 u} & \text { for } t<0 .\end{cases}
+$$
+鞍点近似预测了一个不连续性而不是发散. 如果我们坚持使用幂律$t^{- \alpha}$来描述这个奇异性，我们只能选择$\alpha = 0$.
+![[Pasted image 20240312141733.png]]
