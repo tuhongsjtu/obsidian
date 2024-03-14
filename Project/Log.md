@@ -1,5 +1,5 @@
 ## 03.07
-- [ ] ⏫ 数值稳定有问题
+- [x] ⏫ 数值稳定有问题 ✅ 2024-03-14
 ![[Pasted image 20240307151530.png]]
 参数：nwrap=5
 max_wrap_error太大以及avg_re_logdet_log10error是无穷？
