@@ -9,13 +9,13 @@ $$
 $$
 G(\mathbf{k}, \omega) = \frac{1}{\omega + i\eta - \varepsilon(\mathbf{k})}
 $$$\omega = \epsilon / \hbar$，当取$\hbar = 1$时$\omega = \varepsilon$
-![[Pasted image 20231227200845.png]]
+![[Pasted image 20231227200845.png|500]]
 从这张图中我们可以看到能量与$-\mathrm{Im}G$等价性，$-\mathrm{Im} G$只在曲线关系上不为$0$，系统的能谱也是如此，这也是为什么$\mathrm{Im} G$叫做谱权重. 
 This actually highlights a more general fact: all the main features of the Green’s function happen at the energies of the system.
 
 回到我们的例子中
 
-![[Pasted image 20231227202011.png]]
+![[Pasted image 20231227202011.png|500]]
 
 “在量子临界点($h = h_c$)上和顺磁相($h >h_c$)里，格林函数的虚部$−\mathrm{Im}(G)$都随着松原频率的降低而增大，没有看到任何打开能隙的信号(至少在我们能达到的最低的松原频率$ω ∼ πT$).”
 此时这句话就不难理解了，因为格林函数只会在系统有能量分布的地方不为$0$，所以如果存在能隙，应该存在一段格林函数为$0$的区间

@@ -2,7 +2,7 @@
 [1] 卢欣｜Note(2)---LFLT中的格林函数与准粒子谱[[https://zhuanlan.zhihu.com/p/372538817]]
 
 
-![[Pasted image 20231225162159.png]]
+![[Pasted image 20231225162159.png|500]]
 
 对于费米液体，由于粒子之间存在相互作用，从而需要引入自能项描述相互作用进行修正，其格林函数和谱函数为
 $$
@@ -15,7 +15,7 @@ A(\mathbf{k}, \omega)
 $$
 由于$A(\mathcal{k}, \omega) \ge 0$，因此$\mathrm{Im} \Sigma(\mathbf{k}, \omega) \le 0$，谱函数是一个Lorentz型曲线，半高宽正比于自能虚部. 虚部越趋近于$0$，准粒子寿命将无限长.
 
-![[Pasted image 20231225165102.png]]
+![[Pasted image 20231225165102.png|500]]
 当$\mathrm{Im} \Sigma(\mathbf{k}, \omega) \rightarrow 0^-$时，
 $$
 A(\mathbf{k}, \omega)
