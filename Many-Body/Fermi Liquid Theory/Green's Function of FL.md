@@ -1,6 +1,3 @@
-#### References
-[1] 卢欣｜Note(2)---LFLT中的格林函数与准粒子谱[[https://zhuanlan.zhihu.com/p/372538817]]
-
 
 ![[Pasted image 20231225162159.png|500]]
 

@@ -10,8 +10,7 @@ $$
 G(\mathbf{k}, \omega) = \frac{1}{\omega + i\eta - \varepsilon(\mathbf{k})}
 $$$\omega = \epsilon / \hbar$，当取$\hbar = 1$时$\omega = \varepsilon$
 ![[Pasted image 20231227200845.png|500]]
-从这张图中我们可以看到能量与$-\mathrm{Im}G$等价性，$-\mathrm{Im} G$只在曲线关系上不为$0$，系统的能谱也是如此，这也是为什么$\mathrm{Im} G$叫做谱权重. 
-This actually highlights a more general fact: all the main features of the Green’s function happen at the energies of the system.
+从这张图中我们可以看到能量与$-\mathrm{Im}G$等价性，$-\mathrm{Im} G$只在曲线关系上不为$0$，系统的能谱也是如此，这也是为什么$\mathrm{Im} G$叫做谱权重.  This actually highlights a more general fact: all the main features of the Green’s function happen at the energies of the system.
 
 回到我们的例子中
 
