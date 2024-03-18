@@ -11,4 +11,10 @@ S(\mathbf{q}) \propto \langle |A(\mathbf{q})|^2 \rangle \propto \langle |\rho(\m
 \tag{3.2}
 $$
 $\langle \bullet \rangle$表示$\bullet$的热力学平均，由于遍历性大多数时候可以用来替代时间平均值.
-式(3.2)表明，均匀的密度只会导致向前散射$\mathbf{q} = \mathbf{0}$，而长波长涨落可以通过在小角度或小$k$下工作来研究. 如果
+式(3.2)表明，均匀的密度只会导致向前散射$\mathbf{q} = \mathbf{0}$，而长波长涨落可以通过在小角度或小$k$下工作来研究. 如果散射是由磁化密度引起的，我们可以使用Landau-Ginzburg哈密顿量来计算其强度. 特定构型的概率为：
+$$
+\mathcal{P}[\vec{m}(\mathbf{x})] \propto \exp \left\{ -\int d^d \mathbf{x} \left[  
+\frac{K}{2} (\nabla m)^2 + \frac{t}{2} m^2 + u m^4
+\right] \right\}.
+$$
+正如之前所讨论的，最可能的构型是*均匀*的，$\vec{m}(\mathbf{x})=\overhat{m} \hat{e}_1$
