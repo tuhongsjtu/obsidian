@@ -57,7 +57,7 @@ $$
 \langle \phi_{\alpha, \mathbf{q}} \phi_{\beta, \mathbf{q}'} \rangle = \frac{\delta_{\alpha, \beta} \delta_{\mathbf{q}, -\mathbf{q}'}}{K(q^2 + \xi_{\alpha}^{-2})}, 
 \tag{3.9}
 $$
-其中下标指的是纵向分量或任何横向分量. 通过使用自旋极化中子源，可以调整相对方向以探测纵向或横向关联. *洛伦兹形式*$S(\mathbf{q}) \propto 1/(q^2 + \xi^{-2})$通常非常适合远离临界点的散射线形状. (3.9)式表明，在有序相中，纵向散射仍然呈现洛伦兹形式（由于自发磁化，在$\mathbf{q} = \mathbf{0}$处的$\delta$函数之上），而横向散射始终以$1/q^2$增长. 同样的幂律衰减预计也会在临界点 t = 0 处成立。实际实验拟合产生以下形式的幂律：
+其中下标指的是纵向分量或任何横向分量. 通过使用自旋极化中子源，可以调整相对方向以探测纵向或横向关联. *洛伦兹形式*$S(\mathbf{q}) \propto 1/(q^2 + \xi^{-2})$通常非常适合远离临界点的散射线形状. (3.9)式表明，在有序相中，纵向散射仍然呈现洛伦兹形式（由于自发磁化，在$\mathbf{q} = \mathbf{0}$处的$\delta$函数之上），而横向散射始终以$1/q^2$增长. 同样的幂律衰减预计也会在临界点$t = 0$处成立. 实际实验拟合产生以下形式的幂律：
 $$
 S(\mathbf{q}, T=T_c) \propto \frac{1}{q^{2 - \eta}}
 $$
@@ -65,4 +65,25 @@ $\eta$是一个小的正值.
 
 ![[Pasted image 20240318205144.png]]
 
+## 3.2    Correlation functions and susceptibilities
+我们还可以得到时空间的涨落. 涨落的平均值$\langle \phi_{\alpha}(\mathbf{x}) \rangle = \langle m_{\alpha}(\mathbf{x}) - \overline{m}_{\alpha} \rangle$显然是$0$，连接关联函数（connected correlation function）为：
+$$
+\begin{align}
+G^c_{\alpha, \beta}(\mathbf{x}, \mathbf{x}')
+& \equiv \langle ( m_{\alpha}(\mathbf{x}) - \overline{m}_{\alpha}) (m_{\beta}(\mathbf{x}') - \overline{m}_{\beta}) \rangle  \\
+& = \langle \phi_{\alpha}(\mathbf{x}) \phi_{\beta}(\mathbf{x}') \rangle = \frac{1}{V} \sum_{\mathbf{q}, \mathbf{q}'} e^{i \mathbf{q} \cdot \mathbf{x} + i \mathbf{q}' \cdot \mathbf{x}'} \langle \phi_{\alpha, \mathbf{q}} \phi_{\beta, \mathbf{q}'} \rangle .
+\end{align}
+$$
+在连续极限下
+$$
+I_d(\mathbf{x}, \xi) = - \int \frac{d^d \mathbf{q}}{(2 \pi)^d} \frac{e^{i \mathbf{q} \cdot \mathbf{x}}}{q^2 + \xi^{-2}}.
+$$
+或者，$I_d$是以下微分方程的解:
+$$
+\nabla^2 I_d(x) = \int \frac{d^d \mathbf{q}}{(2\pi)^d} \frac{q^2 e^{i \mathbf{q} \cdot \mathbf{x}}}{q^2 + \xi^{-2}} = \int \frac{d^d \mathbf{q}}{(2\pi)^d} \left[ 1 - \frac{\xi^{-2} }{q^2 + \xi^{-2}} \right] e^{i \mathbf{q} \cdot \mathbf{x}} = \delta^d(\mathbf{x}) + \frac{I_d(\mathbf{x})}{\xi^2}.
+$$
+这个解是球对称的，满足下面的方程：
+$$
+
+$$
 
