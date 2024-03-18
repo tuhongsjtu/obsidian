@@ -41,9 +41,11 @@ $$
 对于均匀变形，纵向和横向恢复势（*restoring potentials*，类似于谐振子的弹性势能）具有由下式给出的“刚度常数”：
 $$
 \frac{K}{\xi_{\ell}^2} \equiv t+12 u \overline{m}^2=\left.\frac{\partial^2 \Psi(m)}{\partial \phi_{\ell}^2}\right|_{\overline{m}}= \begin{cases}t & \text { for } t>0 \\ -2 t & \text { for } t<0\end{cases}
+\tag{3.6}
 $$
 $$
 \frac{K}{\xi_{t}^2} \equiv t+4 u \overline{m}^2=\left.\frac{\partial^2 \Psi(m)}{\partial \phi_{t}^2}\right|_{\overline{m}}= \begin{cases}t & \text { for } t>0 \\ 0 & \text { for } t<0\end{cases}
+\tag{3.7}
 $$
 长度尺度$\xi_{\ell}$和$\xi_{t}$的物理意义很快就会变得显而易见. 注意顺磁体的纵向分量和横向分量之间没有区别$(t \gt 0)$. 对于$t \lt 0$时的有序磁体，横向涨落没有恢复力，这对应于上一章中讨论的Goldstone模式. 
 
@@ -60,6 +62,7 @@ $$
 其中下标指的是纵向分量或任何横向分量. 通过使用自旋极化中子源，可以调整相对方向以探测纵向或横向关联. *洛伦兹形式*$S(\mathbf{q}) \propto 1/(q^2 + \xi^{-2})$通常非常适合远离临界点的散射线形状. (3.9)式表明，在有序相中，纵向散射仍然呈现洛伦兹形式（由于自发磁化，在$\mathbf{q} = \mathbf{0}$处的$\delta$函数之上），而横向散射始终以$1/q^2$增长. 同样的幂律衰减预计也会在临界点$t = 0$处成立. 实际实验拟合产生以下形式的幂律：
 $$
 S(\mathbf{q}, T=T_c) \propto \frac{1}{q^{2 - \eta}}
+\tag{3.10}
 $$
 $\eta$是一个小的正值. 
 
@@ -77,6 +80,7 @@ $$
 使用(3.9)式我们得到
 $$
 G^c_{\alpha, \beta}(\mathbf{x}, \mathbf{x}') = \frac{\delta_{\alpha,\beta}}{V} \sum_{\mathbf{q}} \frac{e^{i \mathbf{q} \cdot (\mathbf{x} - \mathbf{x}')}}{K(q^2 + \xi_{\alpha}^{-2})} \equiv - \frac{\delta_{\alpha, \beta}}{K} I_d(\mathbf{x} - \mathbf{x}', \xi_{\alpha}),
+\tag{3.12}
 $$
 在连续极限下
 $$
@@ -111,6 +115,23 @@ $$
 选择$\xi$作为衰减长度保证了上面方程中常数项的消去. 指数$p$通过要求消去下一个最大项来确定. 对于$x \ll \xi$，$1/x^2$项是次重要的，所以我们设置$p(p+1) = p(d-1)$，得到$p = d-2$. 这是与库仑相互作用相似的指数，事实上在这个长度范围内，关联感受不到$\xi$的存在. 如下一节所示，这个极限的合适的归一化结果为：
 $$
 I_d(x) \simeq C_d(x)=\frac{x^{2-d}}{(2-d) S_d} \quad(x \ll \xi)
+\tag{3.19}
 $$
-（请注意，始终可以将常数项添加到解中以满足所研究的相关函数的适当限制. ）在大距离$x \gg \xi$时，$1/(x \xi)$项主导了(3.18)，我们可以得到$p = (d - 1) / 2$. 匹配fang chen
+（请注意，始终可以将常数项添加到解中以满足所研究的相关函数的适当限制. ）在大距离$x \gg \xi$时，$1/(x \xi)$项主导了(3.18)，我们可以得到$p = (d - 1) / 2$. 匹配(3.19)在$x\approx \xi$的连续性可以得到可以得到
+$$
+I_d(x) \simeq \frac{\xi^{(3-d)/2}}{(2-d)S_d x^{(d-1)/2}} \exp(-x / \xi) \quad(x \gg \xi).
+\tag{3.20}
+$$
 ![[Pasted image 20240318221345.png]]
+对于式(3.12)我们观察到横向和纵向关联表现不同. 靠近相变点时，纵向相关长度(3.6)的表现为：
+$$
+\xi_{\ell}= \begin{cases}t^{-1 / 2} / \sqrt{K} & \text { for } \mathrm{t}>0 \\ (-2 t)^{-1 / 2} / \sqrt{K} & \text { for } \mathrm{t}<0 .\end{cases}
+$$
+奇异性可以被描述为$\xi_{\pm} \simeq \xi_0 B_{\pm} |t|^{-\nu_{\pm}}$，$\nu = 1/2$以及$B_+ / B_- = \sqrt{2}$是普适的，而$\xi_0 \propto 1/\sqrt{K}$并不是. 横场关联长度在$t \gt 0$时等于$\xi_{\ell}$，在$t \lt 0$时为无穷. 方程(3.19)表明在$T_c$处，关联按照$1/x^{d-2}$衰减. 事实上衰减指数通常用$1/x^{d-2+\eta}$来表示，其中$\eta$是和(3.10)式中相同的指数. 对连接关联函数进行积分会产生bulk磁化率. 比如纵向磁化率的发散性也可以从以下公式获得：
+$$
+\chi_{\ell} \propto \int \mathrm{d}^d \mathbf{x} G_{\ell}^c(\mathbf{x}) \propto \int_0^{\xi_{\ell}} \frac{\mathrm{d}^d x}{x^{d-2}} \propto \xi_{\ell}^2 \simeq A_{ \pm} t^{-1} .
+$$
+再次从上式中恢复通用指数和振幅. 对于$T \lt T_c$，横向关联没有上截止长度，横向磁化率的发散可以与系统尺寸$L$相关，如
+$$
+\chi_t \propto \int \mathrm{d}^d \mathbf{x} G_t^c(\mathbf{x}) \propto \int_0^L \frac{\mathrm{d}^d x}{x^{d-2}} \propto L^2.
+$$
