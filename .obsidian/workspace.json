@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Many-Body/Fermi Liquid Theory/Green's Function of FL.md"
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "5d551f5786ba838e",
   "lastOpenFiles": [
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Many-Body/Fermi Liquid Theory/Fermi Liquid Theory.md",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/Appendix B Linear Response and Generating Functionals.pdf",
