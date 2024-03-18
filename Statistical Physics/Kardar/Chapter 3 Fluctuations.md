@@ -17,4 +17,34 @@ $$
 \frac{K}{2} (\nabla m)^2 + \frac{t}{2} m^2 + u m^4
 \right] \right\}.
 $$
-正如之前所讨论的，最可能的构型是*均匀*的，$\vec{m}(\mathbf{x})=\overhat{m} \hat{e}_1$
+正如之前所讨论的，最可能的构型是*均匀*的，$\vec{m}(\mathbf{x})=\overline{m} \hat{e}_1$，其中$\hat{e}_1$是一个单位矢量（当$t \gt 0$时$\overline{m}=0$，当$t \lt 0$时$\overline{m}=\sqrt{-t/4u}$）. 我们可以设置以下形式来检查这种构型附近的小涨落：
+$$
+\vec{m}(\mathbf{x}) = [\overline{m} + \phi_l(\mathbf{x})] \hat{e}_1 + \sum_{\alpha=2}^n \phi_{t, \alpha}(\mathbf{x}) \hat{e}_{\alpha}
+\tag{3.4}
+$$
+其中$\phi_l$和$\phi_t$分别表示*纵向*和*横向*涨落. 后者可以沿着垂直于平均磁化强度的任何$n-1$各方向发生.
+在替换掉式(3.4)后，展开到二阶的Landau-Ginzburg哈密顿量中的项为：
+$$
+\begin{align}
+(\nabla m)^2 &= (\nabla \phi_l)^2 + (\nabla \phi_t)^2, \\
+m^2 &= \overline{m}^2 + 2 \overline{m} \phi_l + \phi_l^2 + \phi_t^2, \\
+m^4 &= \overline{m}^4 + 4 \overline{m}^3 \phi_l + 6 \overline{m}^2 \phi_l^2 + 2 \overline{m}^2 \phi_t^2 + \mathcal{O}(\phi_l^3, \phi_t^3),
+\end{align}
+$$
+这导致了一个二次的能量损失
+$$
+\begin{align}
+\beta \mathcal{H} \equiv -\ln \mathcal{P} = V \left( \frac{t}{2} \overline{m}^2 + u \overline{m}^4 \right) + \int d^d \mathbf{x} \left[ \frac{K}{2} (\nabla \phi_l)^2 + \frac{t + 12 u\overline{m}^2}{2} \phi_l^2 \right] \\
++ \int d^d \mathbf{x} \left[ \frac{K}{2} (\nabla \phi_t)^2 + \frac{t + 4u \overline{m}^2}{2} \phi_t^2 \right] + \mathcal{O}(\phi_l^3, \phi_t^3).
+\end{align}
+$$
+对于均匀变形，纵向和横向恢复势（*restoring potentials*，类似于谐振子的弹性势能）具有由下式给出的“刚度常数”：
+$$
+\frac{K}{\xi_{\ell}^2} \equiv t+12 u \overline{m}^2=\left.\frac{\partial^2 \Psi(m)}{\partial \phi_{\ell}^2}\right|_{\overline{m}}= \begin{cases}t & \text { for } t>0 \\ -2 t & \text { for } t<0\end{cases}
+$$
+$$
+\frac{K}{\xi_{t}^2} \equiv t+4 u \overline{m}^2=\left.\frac{\partial^2 \Psi(m)}{\partial \phi_{t}^2}\right|_{\overline{m}}= \begin{cases}t & \text { for } t>0 \\ 0 & \text { for } t<0\end{cases}
+$$
+长度尺度$\xi_{\ell}$和$\xi_{t}$的物理意义很快就会变得显而易见. 注意顺磁体的纵向分量和横向分量之间没有区别$(t \gt 0)$. 对于$t \lt 0$时的有序磁体，横向涨落没有恢复力，这对应于上一章中讨论的Goldstone模式. 
+
+下面我们将其推至傅立叶空间中. $\phi(\mathbf{x}) = \sum_{\mathbf{q}} \phi_{\mathbf{q}} e^{i \mathbf{q} \cdot \mathbf{x}}$
