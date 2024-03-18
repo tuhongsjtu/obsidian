@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5b52afee61713e2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/Complex Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -158,8 +170,9 @@
   },
   "active": "5d551f5786ba838e",
   "lastOpenFiles": [
-    "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
+    "math/Complex Analysis.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+    "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Many-Body/Fermi Liquid Theory/Fermi Liquid Theory.md",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",
@@ -192,7 +205,6 @@
     "code/未命名.md",
     "Many-Body/Topological/边界态.md",
     "DQMC/New Code.md",
-    "math/Complex Analysis.md",
     "Task_plugin.md",
     "Pic/Pasted image 20240312153856.png",
     "Pic/Pasted image 20240312151849.png",

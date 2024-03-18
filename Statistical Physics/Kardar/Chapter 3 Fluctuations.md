@@ -47,4 +47,13 @@ $$
 $$
 长度尺度$\xi_{\ell}$和$\xi_{t}$的物理意义很快就会变得显而易见. 注意顺磁体的纵向分量和横向分量之间没有区别$(t \gt 0)$. 对于$t \lt 0$时的有序磁体，横向涨落没有恢复力，这对应于上一章中讨论的Goldstone模式. 
 
-下面我们将其推至傅立叶空间中. $\phi(\mathbf{x}) = \sum_{\mathbf{q}} \phi_{\mathbf{q}} e^{i \mathbf{q} \cdot \mathbf{x}}$
+下面我们将其推至傅立叶空间中. $\phi(\mathbf{x}) = \sum_{\mathbf{q}} \phi_{\mathbf{q}} e^{i \mathbf{q} \cdot \mathbf{x}} / \sqrt{V}$，一个特定构型的概率为：
+$$
+\mathcal{P}[\{ \phi_{\ell, \mathbf{q}}; \phi_{t, \mathbf{q}} \}]
+\propto \prod_{\mathbf{q}} \exp \left\{ -\frac{K}{2} (q^2 + \xi^{-2}_{\ell}) |\phi_{\ell, \mathbf{q}}|^2  \right\} \cdot \exp \left\{ -\frac{K}{2} (q^2 + \xi^{-2}_{t}) |\phi_{t, \mathbf{q}}|^2 \right\}.
+$$
+显然每个模式表现为均值为$0$的高斯型随机变量，因此两点关联函数为：
+$$
+\langle \phi_{\alpha, \mathbf{q}} \phi_{\beta, \mathbf{q}'} \rangle = \frac{\delta_{\alpha, \beta} \delta_{\mathbf{q}, -\mathbf{q}'}}{K(q^2 + \xi_{\alpha}^{-2})}, 
+$$
+其中下标指的是纵向分量或任何横向分量. 通过使用自旋极化中子源，可以调整相对方向以探测纵向或横向关联. *洛伦兹形式*$S(\mathbf{q}) \propto 1/(q^2 + \xi^{-2})$通常非常适合远离临界点的散射线xing zhua
