@@ -74,6 +74,10 @@ G^c_{\alpha, \beta}(\mathbf{x}, \mathbf{x}')
 & = \langle \phi_{\alpha}(\mathbf{x}) \phi_{\beta}(\mathbf{x}') \rangle = \frac{1}{V} \sum_{\mathbf{q}, \mathbf{q}'} e^{i \mathbf{q} \cdot \mathbf{x} + i \mathbf{q}' \cdot \mathbf{x}'} \langle \phi_{\alpha, \mathbf{q}} \phi_{\beta, \mathbf{q}'} \rangle .
 \end{align}
 $$
+使用(3.9)式我们得到
+$$
+G^c_{\alpha, \beta}(\mathbf{x}, \mathbf{x}') = \frac{\delta_{\alpha,\beta}}{V} \sum_{\mathbf{q}} \frac{e^{i \mathbf{q} \cdot (\mathbf{x} - \mathbf{x}')}}{K(q^2 + \xi_{\alpha}^{-2})} \equiv - \frac{\delta_{\alpha, \beta}}{K} I_d(\mathbf{x} - \mathbf{x}', \xi_{\alpha}),
+$$
 在连续极限下
 $$
 I_d(\mathbf{x}, \xi) = - \int \frac{d^d \mathbf{q}}{(2 \pi)^d} \frac{e^{i \mathbf{q} \cdot \mathbf{x}}}{q^2 + \xi^{-2}}.
@@ -84,6 +88,29 @@ $$
 $$
 这个解是球对称的，满足下面的方程：
 $$
-
+\frac{d^2 I_d}{dx^2} + \frac{d-1}{x} \frac{d I_d}{dx} = \frac{I_d}{\xi^2} + \delta^d(\mathbf{x}).
+\tag{3.15}
 $$
-
+我们可以尝试使用一个在远距离指数衰减的函数作为试探解：
+$$
+I_d(x) \propto \frac{\exp(-x / \xi)}{x^p}.
+\tag{3.16}
+$$
+（我们预计存在次主导幂律）于是$I_d$的导数为：
+$$
+\begin{align}
+\frac{d I_d}{dx} &= - \left( \frac{p}{x} + \frac{1}{\xi} \right) I_d, \\
+\frac{d^2 I_d}{dx^2} &= \left( \frac{p(p+1)}{x^2} + \frac{2p}{x\xi} + \frac{1}{\xi^2} \right) I_d.
+\end{align}
+$$
+对于$x \neq 0$，(3.15)和(3.16)给出：
+$$
+\frac{p(p+1)}{x^2} + \frac{2p}{x\xi} + \frac{1}{\xi^2} - \frac{p(d-1)}{x^2} - \frac{(d-1)}{x\xi} = \frac{1}{\xi^2}.
+\tag{3.18}
+$$
+选择$\xi$作为衰减长度保证了上面方程中常数项的消去. 指数$p$通过要求消去下一个最大项来确定. 对于$x \ll \xi$，$1/x^2$项是次重要的，所以我们设置$p(p+1) = p(d-1)$，得到$p = d-2$. 这是与库仑相互作用相似的指数，事实上在这个长度范围内，关联感受不到$\xi$的存在. 如下一节所示，这个极限的合适的归一化结果为：
+$$
+I_d(x) \simeq C_d(x)=\frac{x^{2-d}}{(2-d) S_d} \quad(x \ll \xi)
+$$
+（请注意，始终可以将常数项添加到解中以满足所研究的相关函数的适当限制. ）在大距离$x \gg \xi$时，$1/(x \xi)$项主导了(3.18)，我们可以得到$p = (d - 1) / 2$. 匹配fang chen
+![[Pasted image 20240318221345.png]]
