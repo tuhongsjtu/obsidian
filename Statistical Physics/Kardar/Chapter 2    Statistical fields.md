@@ -1,6 +1,6 @@
 - [[#2.1 Introduction|2.1 Introduction]]
 - [[#2.2 The Landau-Ginzburg Hamiltonian|2.2 The Landau-Ginzburg Hamiltonian]]
-- [[#2.3 Saddle point approximation, and mean-field theory|2.3 Saddle point approximation, and mean-field theory]]
+- [[#2.3 Saddle point approximation，and mean-field theory|2.3 Saddle point approximation，and mean-field theory]]
 
 ## 2.1 Introduction			
 
@@ -80,7 +80,7 @@ $$
 Landau-Ginzburg哈密顿量依赖于一系列的唯象参数$\{ t，u，K，\cdots \}$，这些参数是微观相互作用以及外部参数如温度、压强的非普适函数.  必须充分理解这一点，这可能是造成混乱的根源.  虽然场的特定构型的概率由玻尔兹曼权重$\exp\{ -\beta \mathcal{H}[\vec{m}(\mathbf{x})] \}$给出，但这并不意味着指数中的所有项都与$(k_BT)^{-1}$成比例.  这种依赖性仅适用于真正的微观哈密顿量.  更准确地说，Landau-Ginzburg哈密顿量是通过对微观自由度进行积分（粗粒化）而获得的有效自由能，同时将其平均值限制为$\vec{m}(\mathbf{x})$.  正是由于执行这样的第一性原理程序的困难，我们才仅在对称性的基础上假设所产生的有效自由能的形式.  付出的代价是唯象参数对原始微观参数以及温度等外部约束具有未知的函数依赖性（因为我们必须考虑粗粒度过程中丢失的短程涨落的熵）.  对这些函数形式的约束来自对称性、解析性和稳定性，正如在构造$\Phi[\vec{m}]$的函数形式的上下文中所讨论的那样.  值得注意的是，这些介观系数将是外部参数的解析函数，例如可表示为温度$T$的幂级数.  
 
 
-## 2.3 Saddle point approximation, and mean-field theory
+## 2.3 Saddle point approximation，and mean-field theory
 
 通过仅关注粗粒化场，我们大大简化了原始问题.  现在应该从配分函数中获得各种热力学函数以及奇异行为
 $$
@@ -170,13 +170,79 @@ $$
 
 ## 2.4    Continuous symmetry breaking and Goldstone modes
 
-对于零外场的情况，虽然微观哈密顿量具有完全的旋转对称性，但是低温相却没有. 当 $n$ 空间中一个特定方向被选作净磁化 $\vec{M}$ 的方向时，*自发对称性破缺*就发生了，同时对应的*长程序*也建立起来，其中系统的大多数自旋沿 $\vec{M}$ 方向. 原始的对称性在全局范围内仍然存在，在某种意义上，如果所有的局域自旋同时旋转（即场变换为 $\vec{m}(\mathbf{x}) \mapsto \mathfrak{R} \vec{m}(\mathbf{x})$ )，能量不会改变. 这样的旋转将一个有序态转化为另一个等价的态. 
-由于均匀的旋转不耗费能量，因此通过连续性，我们期望一个在空间中缓慢变化的旋转（即 $\vec{m}(\mathbf{x}) \mapsto \Re(\mathbf{x}) \vec{m}(\mathbf{x})$ ，其中 $\Re(\mathbf{x})$ 仅有长波长的变化）耗费很小的能量. 这样的低能激发称为 Goldstone 模式. 这样的集体模式出现在任何连续对称破缺的系统中.  ${ }^5$ 固体中的声子提供一个 Goldstone 模式熟悉的例子，此时由于晶体结构的存在，平移对称性和旋转对称性被破坏. 
-${ }^5$ 打破离散对称性不会产生 Goldstone 模式，因为此时不可能产生从一个态到另一个等价态缓慢变化的变换. 
+对于零外场的情况，虽然微观哈密顿量具有完全的旋转对称性，但是低温相却没有. 当 $n$ 空间中一个特定方向被选作净磁化 $\vec{M}$ 的方向时，*自发对称性破缺*就发生了，同时对应的*长程序*也建立起来，其中系统的大多数自旋沿 $\vec{M}$ 方向. 原始的对称性在全局范围内仍然存在，在某种意义上，如果所有的局域自旋同时旋转（即场变换为 $\vec{m}(\mathbf{x}) \mapsto \mathfrak{R} \vec{m}(\mathbf{x})$ )，能量不会改变. 这样的旋转将一个有序态转化为另一个等价的态.
 
-出现在不同系统中堵塞 Goldstone 模式有某些共同的特征. 下面我们探讨超流中 Goldstone 模式的起源和行为. 类似于 Bose 凝聚，超流相在单个量子基态上有着宏观量级的占据数，序参量 :
+由于均匀的旋转不耗费能量，因此通过连续性，我们期望一个在空间中缓慢变化的旋转（即 $\vec{m}(\mathbf{x}) \mapsto \Re(\mathbf{x}) \vec{m}(\mathbf{x})$ ，其中 $\Re(\mathbf{x})$ 仅有长波长的变化）耗费很小的能量. 这样的低能激发称为Goldstone模式. 这样的集体模式出现在任何连续对称破缺的系统中. $^5$ 固体中的声子提供一个 Goldstone 模式熟悉的例子，此时由于晶体结构的存在，平移对称性和旋转对称性被破坏. 
+
+出现在不同系统中堵塞Goldstone模式有某些共同的特征. 下面我们探讨*超流*中Goldstone模式的起源和行为. 类似于玻色凝聚，超流相在单个量子基态上有着宏观量级的占据数，序参量 :
 $$
 \psi(\mathbf{x}) \equiv \psi_{\Re}(\mathbf{x})+\mathrm{i} \psi_{\Im}(\mathbf{x}) \equiv|\psi(\mathbf{x})| \mathrm{e}^{\mathrm{i} \theta(\mathbf{x})}
 $$
+可以粗略地视为在$\mathbf{x}$附近真实波函数的基态分量.$^6$ 波函数的相位不是可观测量，不应该出现在物理可测概率中. 这一观察限制了有效粗粒化哈密顿量的形式，给出展开
+$$
+\beta \mathcal{H}=\beta F_0+\int \mathrm{d}^d \mathbf{x}\left[\frac{K}{2}|\nabla \psi|^2+\frac{t}{2}|\psi|^2+u|\psi|^4+\cdots\right] .
+$$
 
-可以粗略地视为在 $\mathbf{x}$ 附近真实波函数的基态分量.  ${ }^6$ 波函数的相位不是可观测量，不应该出现在物理可测概率中. 
+> $^5$打破离散对称性不会产生 Goldstone 模式，因为此时不可能产生从一个态到另一个等价态缓慢变化的变换. 
+> $^6$一个更严格的推导通过相互作用玻色子哈密顿量的二次量子化形式进行，这超出了我们目前的范围.
+
+方程 $(2.22)$ 事实上等价于 $n=2$ 的 Landau-Ginzburg Hamiltonian，这可以通过将变量转化为两分量场 $\vec{m}(\mathbf{x}) \equiv\left(\psi_{\Re}(\mathbf{x})，\psi_{\Im}(\mathbf{x})\right)$ 看出.  $t<0$ 时有限大小 $\psi$ 的出现标志着超流相变的发生.  $t<0 \psi$ 均匀时的 Landau-Ginzburg Hamiltonian 呈酒瓶或墨西哥帽的形状. 
+最小化这个函数给出了 $\psi$ 的大小，但并不限制其相位 $\theta$ . 现在，考虑一个相位缓慢变化的态 $\psi(\mathbf{x})=$ $\bar{\psi} \mathrm{e}^{\mathrm{i} \theta(\mathrm{x})}$，代入 Hamiltonian 给出 :
+$$
+\beta \mathcal{H}=\beta \mathcal{H}_0+\frac{\bar{K}}{2} \int \mathrm{d}^d \mathbf{x}|\nabla \theta|^2
+$$
+- $\beta H_0=\beta F_0+\int d^d \mathbf{x}\left[\frac{t}{2} \bar{\psi}^2+u \bar{\psi}^4\right]$
+- $\bar{K}=K \bar{\psi}^2$
+
+就像声子的情况一样，我们能通过能量函数在均匀旋转下的不变性猜测: 因为变换 $\theta(\mathbf{x}) \mapsto \theta(\mathbf{x})+\theta_0$ 不改变能量，能量密度只能依赖于 $\theta(\mathbf{x})$ 的导数，展开式的第一项给出 $(2.23)$ 式. 基于对称性的推理并没有给出参数的值. 从包含正常相和超流相的 Landau-Ginzburg 形式出发，我们发现 $\bar{K}$ 正比于序参量的平方，即 $\bar{K} \propto \bar{\psi}^2 \propto t ，$ 并在临界点消失. 
+我们可以将序参量相位的变化分解为独立的简正模式（在一个体积为 $V$ 的区域内）：
+$$
+\theta(\mathbf{x})=\frac{1}{\sqrt{V}} \sum_{\mathbf{q}} \mathrm{e}^{\mathrm{i} \mathbf{q} \cdot \mathbf{x}} \theta_{\mathbf{q}}
+$$
+
+利用平移对称性，(2.23) 给出
+
+
+_我们可以看到，与声子的情况类似，波数为 ﻿ 的 Goldstone 模式的能量正比于 ﻿，在长波处变得非常_
+
+_小. _
+
+对单分量的场 (标量场)，有序相的磁化强度有两个可能的取值. 虽然这两个可能的态有相同的能量，但是将一个态连续形变为另一个态是不可能的. 在这种情况，以及其他离散对称性破缺的系统，同一样品中不同的态被清晰的畴壁分隔. 为证明这一点，考虑 Landau-Ginzburg Hamiltonian $t<0，h=0$ 的标量场. 强制让系统两侧处于不同的状态可以引入畴壁，例如，要求 $m(x \rightarrow-\infty)=-\bar{m}，m(x \rightarrow$ $+\infty)=+\bar{m}_{\text {.  }}$ 其中，通过最小化能量可以得到最可能的场构型 :
+$$
+\frac{\mathrm{d}^2 m_w(x)}{\mathrm{d} x^2}=t m_w(x)+4 u m_w(x)^3
+$$
+$\frac{\mathrm{d}^2 m_w(x)}{\mathrm{d} x^2} \rightarrow K \frac{d^2 m_\omega(x)}{d x^2}$ 应为原文笔误
+$\nabla$ 说明:
+上述方程可通过对
+$$
+\begin{aligned}
+H & =\int d^d \mathbf{x}\left(\frac{t}{2} m^2+u m^4+\frac{K}{2}\left(\frac{d m}{d x}\right)^2\right) \\
+& =\mathcal{A} \int d x\left(\frac{t}{2} m^2+u m^4+\frac{K}{2}\left(\frac{d m}{d x}\right)^2\right)
+\end{aligned}
+$$
+- 考虑系统在垂直 $x$ 轴方向上的平移不变性，即 $m$ 仅依赖于 $x$
+- $\mathcal{A}$ 为垂直 $x$ 轴方向上截面的大小
+- 上述 $d$ 重积分可转化为一维积分
+
+求泛函极值得到 :
+$$
+t m+4 u m^3=\frac{K}{2} \frac{d}{d x}\left(2 \frac{d m}{d x}\right)=K \frac{d^2 m}{d x^2}
+$$
+
+利用恒等式 $\frac{d^2 \tanh (a x)}{\mathrm{d} x^2}=2 a^2 \tanh (a x)\left[1-\tanh ^2(a x)\right]$，可以很轻松地验证
+$$
+m_w(x)=\bar{m} \tanh \left[\frac{x-x_0}{w}\right]，$$
+
+是上述非线性方程的解，其中
+$$
+w=\sqrt{\frac{2 K}{-t}}，\quad \text { and } \quad \bar{m}=\sqrt{\frac{-t}{4 u}} .
+$$
+上述解将磁化率接近 $\pm \bar{m}$ 两个可能取值的区域分开. 两个区域间的畴壁位于任意位置 $x_0$，宽度为 $\omega_{\circ}$ 在接近相变点 $t=0$ 时，畴壁宽度以 $\left(T_c-T\right)^{-1 / 2}$ 的方式发散. 宽度 $\omega$ 实际上正比于系统的关联长度，关联长度的计算将在下章进行. 
+系统产生畴壁所耗费的自由能可通过计算与均匀磁化下自由能的差值得到：
+$$
+\begin{aligned}
+\beta F_w & =\int \mathrm{d}^d \mathbf{x}\left[\frac{K}{2}\left(\frac{\mathrm{d} m_w}{\mathrm{~d} x}\right)^2+\frac{t}{2}\left(m_w^2-\bar{m}^2\right)+u\left(m_w^4-\bar{m}^4\right)\right] \\
+& =-\frac{2}{3} t \bar{m}^2 \omega \mathcal{A}
+\end{aligned}
+$$
+- $\mathcal{A}$ 为系统垂直于 $x$ 方向的截面积
