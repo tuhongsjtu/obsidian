@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "6dc0ac22dd8f78ba",
+            "id": "00507d48d4f40119",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -181,14 +181,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6dc0ac22dd8f78ba",
+  "active": "00507d48d4f40119",
   "lastOpenFiles": [
+    "Task_plugin.md",
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+    "math/变分法.md",
     "Pasted image 20240318221345.png",
     "Pasted image 20240318205144.png",
     "math/Complex Analysis.md",
     "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Many-Body/Fermi Liquid Theory/Fermi Liquid Theory.md",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/Appendix B Linear Response and Generating Functionals.pdf",
@@ -219,7 +221,6 @@
     "QMC/辅助场量子蒙特卡洛方法.md",
     "code/未命名.md",
     "Many-Body/Topological/边界态.md",
-    "DQMC/New Code.md",
     "Pic/Pasted image 20240312153856.png",
     "Pic/Pasted image 20240312151849.png",
     "Pic/Pasted image 20240312151749.png",
