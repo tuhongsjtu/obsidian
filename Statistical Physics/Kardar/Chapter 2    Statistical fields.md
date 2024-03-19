@@ -181,38 +181,45 @@ $$
 可以粗略地视为在$\mathbf{x}$附近真实波函数的基态分量.$^6$ 波函数的相位不是可观测量，不应该出现在物理可测概率中. 这一观察限制了有效粗粒化哈密顿量的形式，给出展开
 $$
 \beta \mathcal{H}=\beta F_0+\int \mathrm{d}^d \mathbf{x}\left[\frac{K}{2}|\nabla \psi|^2+\frac{t}{2}|\psi|^2+u|\psi|^4+\cdots\right] .
+\tag{2.22}
 $$
 
 > $^5$打破离散对称性不会产生 Goldstone 模式，因为此时不可能产生从一个态到另一个等价态缓慢变化的变换. 
 > $^6$一个更严格的推导通过相互作用玻色子哈密顿量的二次量子化形式进行，这超出了我们目前的范围.
 
-方程 $(2.22)$ 事实上等价于 $n=2$ 的 Landau-Ginzburg Hamiltonian，这可以通过将变量转化为两分量场 $\vec{m}(\mathbf{x}) \equiv\left(\psi_{\Re}(\mathbf{x})，\psi_{\Im}(\mathbf{x})\right)$ 看出.  $t<0$ 时有限大小 $\psi$ 的出现标志着超流相变的发生.  $t<0 \psi$ 均匀时的 Landau-Ginzburg Hamiltonian 呈酒瓶或墨西哥帽的形状. 
-最小化这个函数给出了 $\psi$ 的大小，但并不限制其相位 $\theta$ . 现在，考虑一个相位缓慢变化的态 $\psi(\mathbf{x})=$ $\bar{\psi} \mathrm{e}^{\mathrm{i} \theta(\mathrm{x})}$，代入 Hamiltonian 给出 :
+方程$(2.22)$事实上等价于$n=2$的Landau-Ginzburg哈密顿量，这可以通过将变量转化为两分量场$\vec{m}(\mathbf{x}) \equiv\left(\psi_{\Re}(\mathbf{x})，\psi_{\Im}(\mathbf{x})\right)$看出. $t<0$时有限大小$\psi$的出现标志着超流相变的发生. $t<0$时均匀$\psi$对应的Landau-Ginzburg哈密顿量呈酒瓶或墨西哥帽的形状. 
+
+最小化这个函数给出了$\psi$的大小，但并不限制其相位$\theta$. 现在，考虑一个相位缓慢变化的态$\psi(\mathbf{x}) = \bar{\psi} \mathrm{e}^{\mathrm{i} \theta(\mathrm{x})}$，代入哈密顿量给出：
 $$
-\beta \mathcal{H}=\beta \mathcal{H}_0+\frac{\bar{K}}{2} \int \mathrm{d}^d \mathbf{x}|\nabla \theta|^2
+\beta \mathcal{H}=\beta \mathcal{H}_0+\frac{\bar{K}}{2} \int \mathrm{d}^d \mathbf{x}(\nabla \theta)^2,
+\tag{2.23}
 $$
 - $\beta H_0=\beta F_0+\int d^d \mathbf{x}\left[\frac{t}{2} \bar{\psi}^2+u \bar{\psi}^4\right]$
 - $\bar{K}=K \bar{\psi}^2$
+就像声子的情况一样，我们能通过能量函数在均匀旋转下的不变性猜测：因为变换 $\theta(\mathbf{x}) \mapsto \theta(\mathbf{x})+\theta_0$ 不改变能量，能量密度只能依赖于 $\theta(\mathbf{x})$ 的导数，展开式的第一项给出 $(2.23)$ 式. 基于对称性的推理并没有给出*stiffness参数*的值. 从包含正常相和超流相的Landau-Ginzburg形式出发，我们发现 $\bar{K}$ 正比于序参量的平方，即 $\bar{K} \propto \bar{\psi}^2 \propto t ，$ 并在临界点消失. 
 
-就像声子的情况一样，我们能通过能量函数在均匀旋转下的不变性猜测: 因为变换 $\theta(\mathbf{x}) \mapsto \theta(\mathbf{x})+\theta_0$ 不改变能量，能量密度只能依赖于 $\theta(\mathbf{x})$ 的导数，展开式的第一项给出 $(2.23)$ 式. 基于对称性的推理并没有给出参数的值. 从包含正常相和超流相的 Landau-Ginzburg 形式出发，我们发现 $\bar{K}$ 正比于序参量的平方，即 $\bar{K} \propto \bar{\psi}^2 \propto t ，$ 并在临界点消失. 
 我们可以将序参量相位的变化分解为独立的简正模式（在一个体积为 $V$ 的区域内）：
 $$
-\theta(\mathbf{x})=\frac{1}{\sqrt{V}} \sum_{\mathbf{q}} \mathrm{e}^{\mathrm{i} \mathbf{q} \cdot \mathbf{x}} \theta_{\mathbf{q}}
+\theta(\mathbf{x})=\frac{1}{\sqrt{V}} \sum_{\mathbf{q}} \mathrm{e}^{\mathrm{i} \mathbf{q} \cdot \mathbf{x}} \theta_{\mathbf{q}}.
+\tag{2.24}
 $$
+利用平移对称性，(2.23)给出
+$$
+\beta \mathcal{H} = \beta \mathcal{H}_0 + \frac{\overline{K}}{2} \sum_{\mathbf{q}} q^2 |\theta(\mathbf{q})|^2.
+$$
+我们可以看到，与声子的情况类似，波数为$\mathbf{q}$的Goldstone模式的能量正比于$q^2$，在长波处变得非常小. 
 
-利用平移对称性，(2.23) 给出
 
+## 2.5    Discrete symmetry breaking and domain walls
 
-_我们可以看到，与声子的情况类似，波数为 ﻿ 的 Goldstone 模式的能量正比于 ﻿，在长波处变得非常_
-
-_小. _
-
-对单分量的场 (标量场)，有序相的磁化强度有两个可能的取值. 虽然这两个可能的态有相同的能量，但是将一个态连续形变为另一个态是不可能的. 在这种情况，以及其他离散对称性破缺的系统，同一样品中不同的态被清晰的畴壁分隔. 为证明这一点，考虑 Landau-Ginzburg Hamiltonian $t<0，h=0$ 的标量场. 强制让系统两侧处于不同的状态可以引入畴壁，例如，要求 $m(x \rightarrow-\infty)=-\bar{m}，m(x \rightarrow$ $+\infty)=+\bar{m}_{\text {.  }}$ 其中，通过最小化能量可以得到最可能的场构型 :
+对单分量的场 (标量场)，有序相的磁化强度有两个可能的取值. 虽然这两个可能的态有相同的能量，但是将一个态连续形变为另一个态是不可能的. 在这种情况，以及其他离散对称性破缺的系统，同一样品中不同的态被清晰的畴壁分隔. 为证明这一点，考虑 Landau-Ginzburg哈密顿量在$t<0$，$h=0$时的标量场. 强制让系统两侧处于不同的状态可以引入畴壁，例如，要求 $m(x \rightarrow-\infty)=-\bar{m}，m(x \rightarrow$ $+\infty)=+\bar{m}_{\text {.  }}$ 其中，通过最小化能量可以得到最可能的场构型 :
 $$
 \frac{\mathrm{d}^2 m_w(x)}{\mathrm{d} x^2}=t m_w(x)+4 u m_w(x)^3
 $$
-$\frac{\mathrm{d}^2 m_w(x)}{\mathrm{d} x^2} \rightarrow K \frac{d^2 m_\omega(x)}{d x^2}$ 应为原文笔误
-$\nabla$ 说明:
+
+> [!NOTE]
+> $\frac{\mathrm{d}^2 m_w(x)}{\mathrm{d} x^2} \rightarrow K \frac{d^2 m_\omega(x)}{d x^2}$ 应为原文笔误
+
 上述方程可通过对
 $$
 \begin{aligned}
@@ -223,16 +230,13 @@ $$
 - 考虑系统在垂直 $x$ 轴方向上的平移不变性，即 $m$ 仅依赖于 $x$
 - $\mathcal{A}$ 为垂直 $x$ 轴方向上截面的大小
 - 上述 $d$ 重积分可转化为一维积分
-
 求泛函极值得到 :
 $$
 t m+4 u m^3=\frac{K}{2} \frac{d}{d x}\left(2 \frac{d m}{d x}\right)=K \frac{d^2 m}{d x^2}
 $$
-
 利用恒等式 $\frac{d^2 \tanh (a x)}{\mathrm{d} x^2}=2 a^2 \tanh (a x)\left[1-\tanh ^2(a x)\right]$，可以很轻松地验证
 $$
 m_w(x)=\bar{m} \tanh \left[\frac{x-x_0}{w}\right]，$$
-
 是上述非线性方程的解，其中
 $$
 w=\sqrt{\frac{2 K}{-t}}，\quad \text { and } \quad \bar{m}=\sqrt{\frac{-t}{4 u}} .
