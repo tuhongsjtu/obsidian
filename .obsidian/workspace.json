@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "6dc0ac22dd8f78ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5b52afee61713e2b",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md"
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md"
               }
             }
           },
@@ -168,12 +181,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5d551f5786ba838e",
+  "active": "6dc0ac22dd8f78ba",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Pasted image 20240318221345.png",
     "Pasted image 20240318205144.png",
     "math/Complex Analysis.md",
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Many-Body/Fermi Liquid Theory/Fermi Liquid Theory.md",
@@ -215,7 +228,6 @@
     "Pic/Pasted image 20240312134209.png",
     "Pic/Pasted image 20240311224843.png",
     "Pic/Pasted image 20240311224807.png",
-    "Pic/Pasted image 20240311223154.png",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
