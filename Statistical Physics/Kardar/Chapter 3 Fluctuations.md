@@ -205,12 +205,28 @@ $$
 $$
 \langle \psi(\mathbf{x}) \psi^*(\mathbf{0}) \rangle = \overline{\psi}^2 \langle e^{i[\theta(\mathbf{x}) - \theta(\mathbf{0})]} \rangle.
 $$
-由于忽略了振幅涨落，我们实际上正在研究横向关联函数. 稍后我们将证明对于任何高斯分布变量的集合，有：
+由于忽略了振幅涨落，我们实际上正在研究横向关联函数（此时的自由度只有两个，振幅与幅角，现在固定了振幅不变，因此幅角的变化此时为横向涨落）. 稍后我们将证明对于任何高斯分布变量的集合，有：
 $$
 \langle \exp(\alpha \theta) \rangle = \exp \left( \frac{\alpha^2}{2} \langle \theta^2 \rangle \right).
 $$
 现在我们先假设这个结果是理所当然的，我们可以得到：
 $$
-\langle \psi(\mathbf{x}) \psi^*(\mathbf{0})\rangle = \overline{\psi}^2 \exp \left[ -\frac{1}{2} \langle [ \theta(\mathbf{x}) - \theta(\mathbf{0})]^2 \rangle \right] = \overline{\psi}^2 \exp \left[ -\frac{x^{2-d} - a^{2-d}}{\overli} \right]
+\langle \psi(\mathbf{x}) \psi^*(\mathbf{0})\rangle = \overline{\psi}^2 \exp \left[ -\frac{1}{2} \langle [ \theta(\mathbf{x}) - \theta(\mathbf{0})]^2 \rangle \right] = \overline{\psi}^2 \exp \left[ -\frac{x^{2-d} - a^{2-d}}{\overline{K}(2-d) S_d} \right],
+$$
+渐进的可以得到：
+$$
+\lim_{x \rightarrow \infty} \langle \psi(\mathbf{x}) \psi^*(\mathbf{0}) \rangle = 
+\begin{cases}\overline{\psi'}^2 & d\gt2 \\ 0 & d\le2 .\end{cases}
 $$
 
+上面的例子代表了一个更普遍的结果，称为*Mermin-Wagner*定理. 该定理指出，在维度$d \le 2$的短程相互作用系统中，连续对称性不会自发破缺. 该定理的一些推论是：
+(1) 必须仔细对待二维的边界维度，称为*下临界维度*. 正如我们稍后将在课程中演示的那样，尽管不存在真正的长程有序，但二维超流体实际上存在相变.
+(2) 当破缺的对称性是离散的（例如$n = 1$）时，不存在Goldstone模式. 在这种情况下，长程有序可以降低至下临界尺寸$d = 1$.
+
+
+## 3.4    Comparison to experiments
+
+
+## 3.5    Gaussian integrals
+
+在之前的章节中，涨落的能量损失计算到了二阶. 涨落也会改变鞍点自由能. 在计算这个修正之前，我们
