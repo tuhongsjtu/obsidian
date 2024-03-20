@@ -135,3 +135,30 @@ $$
 $$
 \chi_t \propto \int \mathrm{d}^d \mathbf{x} G_t^c(\mathbf{x}) \propto \int_0^L \frac{\mathrm{d}^d x}{x^{d-2}} \propto L^2.
 $$
+
+
+## 3.3    Lower critical dimension
+
+在第二章中我们讨论了连续对称性的破缺如何伴随着低能激发（Goldstone模式）出现的. 这些模式可以被热力学涨落简单地激发，我们可以提问这种涨落对有序相的影响.
+
+我们首先考虑超流有序相的情况，其局部序参量为$\psi(\mathbf{x})=|\psi(\mathbf{x})| e^{i \theta(\mathbf{x})}$. 假设序参量的振幅时均匀的，一个特定构型的概率为：
+$$
+\mathcal{P}[\theta(\mathbf{x})] \propto \exp \left[ -\frac{\overline{K}}{2} \int d^d \mathbf{x} (\nabla \theta)^2 \right].
+\tag{3.24}
+$$
+我们抄袭第二章的处理可以将能量密度函数通过傅立叶变换转换成对动量的求和：
+$$
+\mathcal{P}[\theta(\mathbf{q})] \propto \exp \left[ -\frac{\overline{K}}{2} \sum_{\mathbf{q}} q^2 |\theta(\mathbf{q})|^2 \right] \propto \prod_{\mathbf{q}} p(\theta_{\mathbf{q}}).
+$$
+每一个$\theta_{\mathbf{q}}$都是一个均值为零的高斯分布独立变量，因此可以得到关联为：
+$$
+\langle \theta_{\mathbf{q}} \theta_{\mathbf{q}'} \rangle = \frac{\delta_{\mathbf{q}, -\mathbf{q}'}}{\overline{K} q^2}.
+$$
+同样的我们可以按照上式得到实空间中相位$\theta(\mathbf{x})$的关联. 显然由于对称性$\langle \theta(\mathbf{x}) \rangle = 0$，
+$$
+\langle \theta(\mathbf{x}) \theta(\mathbf{x}') \rangle = \frac{1}{V} \sum_{\mathbf{q}, \mathbf{q}'} e^{i\mathbf{q}\cdot\mathbf{x} + i\mathbf{q}'\cdot\mathbf{x}'} \langle \theta_{\mathbf{q}} \theta_{\mathbf{q}'} \rangle = \frac{1}{V} \sum_{\mathbf{q}} \frac{e^{i \mathbf{q} \cdot (\mathbf{x} - \mathbf{x}')}}{\overline{K} q^2}.
+$$
+在连续行极限下，我们可以将求和$\sum_{\mathbf{q}}$转化为积分$V \int d^d \mathbf{q} / (2\pi)^d$，因此我们得到：
+$$
+\langle \theta(\mathbf)
+$$
