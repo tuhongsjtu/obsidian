@@ -165,9 +165,52 @@ $$
 $$
 方程$C_d(\mathbf{x})$是d维空间在原点的单位电荷产生的库仑势，这是因为如果我们对其作用拉普拉斯算符可以得到：
 $$
+C_d(\mathbf{x}) = - \int \frac{d^d \mathbf{q}}{(2\pi)^d} \frac{e^{i\mathbf{q} \cdot \mathbf{x}}}{q^2}.
+$$
+$$
 \nabla^2 C_d(\mathbf{x}) = \int \frac{d^d \mathbf{q}}{(2\pi)^d} \frac{q^2}{q^2} e^{i \mathbf{q} \cdot \mathbf{x}} = \delta^d(\mathbf{x}).
 $$
 我们可以通过高斯定理轻易的得到一个解：
 $$
-\nabla^2 C_d(\mathbf{x}) = \int \frac{d^d \mathbf{q}}{}
+\int d^d x \nabla^2 C_d = \oint dS \cdot \nabla C_d.
 $$
+对于球对称的解$\nabla C_d = (dC_d / dx) \vec{x}$，上面的方程简化为：
+$$
+1 = S_d x^{d-1} \frac{dC_d}{dx},
+$$
+其中$S_d$是$d$维空间总立体角
+$$
+S_d = \frac{2\pi^{d/2}}{(d/2 - 1)!}
+$$
+因此我们可以得到：
+$$
+\frac{dC_d}{dx} = \frac{1}{S_d x^{d-1}} \Rightarrow C_d(x) = \frac{x^{2-d}}{(2-d) S_d} + c_0,
+$$
+
+$C_d(x)$的长距行为在$d=2$时发生巨大变化：
+$$
+\lim _{x \rightarrow \infty} C_d(x)= \begin{cases}c_0 & d>2 \\ \frac{x^{2-d}}{(2-d) S_d} & d<2 \\ \frac{\ln (x)}{2 \pi} & d=2 .\end{cases}
+$$
+积分的常数可以通过观察以下式子来得到：
+$$
+\langle[\theta(\mathbf{x}) - \theta(\mathbf{x}')]^2\rangle = 2 \langle \theta(\mathbf{x})^2 \rangle - 2\langle \theta(\mathbf{x}) \theta(\mathbf{x}') \rangle,
+$$
+当$\mathbf{x} \rightarrow \mathbf{x}'$时上式变为$0$，因此
+$$
+\langle [\theta(\mathbf{x}) - \theta(\mathbf{x}')]^2 \rangle = \frac{2(|\mathbf{x} - \mathbf{x}'|^{2-d} - a^{2-d})}{\overline{K}(2-d)S_d},
+$$
+其中$a$的量级是晶格间距.
+
+对于$d \gt 2$，相位涨落是有限的，而对于$d \le 2$，相位涨落变得渐进大. 由于相位以$2 \pi$为界，因此这意味着相位中的长程有序被破坏（远处相位的关联涨落为无穷大，不具有长程序）. 通过检查相位涨落对两点关联函数的影响，结果更加明显.
+$$
+\langle \psi(\mathbf{x}) \psi^*(\mathbf{0}) \rangle = \overline{\psi}^2 \langle e^{i[\theta(\mathbf{x}) - \theta(\mathbf{0})]} \rangle.
+$$
+由于忽略了振幅涨落，我们实际上正在研究横向关联函数. 稍后我们将证明对于任何高斯分布变量的集合，有：
+$$
+\langle \exp(\alpha \theta) \rangle = \exp \left( \frac{\alpha^2}{2} \langle \theta^2 \rangle \right).
+$$
+现在我们先假设这个结果是理所当然的，我们可以得到：
+$$
+\langle \psi(\mathbf{x}) \psi^*(\mathbf{0})\rangle = \overline{\psi}^2 \exp \left[ -\frac{1}{2} \langle [ \theta(\mathbf{x}) - \theta(\mathbf{0})]^2 \rangle \right] = \overline{\psi}^2 \exp \left[ -\frac{x^{2-d} - a^{2-d}}{\overli} \right]
+$$
+
