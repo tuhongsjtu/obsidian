@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "0c7f4e2812a47d67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project/Log.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5b52afee61713e2b",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+                "file": "Project/Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+                "file": "Project/Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md"
+                "file": "Project/Log.md"
               }
             }
           },
@@ -181,10 +193,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "00507d48d4f40119",
+  "active": "0c7f4e2812a47d67",
   "lastOpenFiles": [
-    "Task_plugin.md",
+    "Pasted image 20240320143536.png",
+    "Pasted image 20240320143329.png",
+    "Pasted image 20240320143203.png",
+    "Pasted image 20240320142354.png",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+    "Task_plugin.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "math/变分法.md",
     "Pasted image 20240318221345.png",
@@ -220,15 +236,11 @@
     "code/sldqmc-afm-qcp/pre_for_dqmc.md",
     "QMC/辅助场量子蒙特卡洛方法.md",
     "code/未命名.md",
-    "Many-Body/Topological/边界态.md",
     "Pic/Pasted image 20240312153856.png",
     "Pic/Pasted image 20240312151849.png",
     "Pic/Pasted image 20240312151749.png",
     "Pic/Pasted image 20240312141733.png",
     "Pic/Pasted image 20240312141129.png",
-    "Pic/Pasted image 20240312134209.png",
-    "Pic/Pasted image 20240311224843.png",
-    "Pic/Pasted image 20240311224807.png",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
