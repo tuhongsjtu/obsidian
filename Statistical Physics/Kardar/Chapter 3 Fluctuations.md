@@ -160,5 +160,14 @@ $$
 $$
 在连续行极限下，我们可以将求和$\sum_{\mathbf{q}}$转化为积分$V \int d^d \mathbf{q} / (2\pi)^d$，因此我们得到：
 $$
-\langle \theta(\mathbf)
+\langle \theta(\mathbf{x}) \theta(\mathbf{x'}) \rangle = \int \frac{d^d \mathbf{q}}{(2\pi)^d} \frac{e^{i \mathbf{q} \cdot (\mathbf{x} - \mathbf{x}')}}{\overline{K}q^2}
+= - \frac{C_d(\mathbf{x} - \mathbf{x}')}{\overline{K}}.
+$$
+方程$C_d(\mathbf{x})$是d维空间在原点的单位电荷产生的库仑势，这是因为如果我们对其作用拉普拉斯算符可以得到：
+$$
+\nabla^2 C_d(\mathbf{x}) = \int \frac{d^d \mathbf{q}}{(2\pi)^d} \frac{q^2}{q^2} e^{i \mathbf{q} \cdot \mathbf{x}} = \delta^d(\mathbf{x}).
+$$
+我们可以通过高斯定理轻易的得到一个解：
+$$
+\nabla^2 C_d(\mathbf{x}) = \int \frac{d^d \mathbf{q}}{}
 $$
