@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "25083b74b027c5f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Task_plugin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5b52afee61713e2b",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Task_plugin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Task_plugin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Log.md"
+                "file": "Task_plugin.md"
               }
             }
           },
@@ -193,11 +205,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0c7f4e2812a47d67",
+  "active": "25083b74b027c5f3",
   "lastOpenFiles": [
+    "Project/Log.md",
     "Pasted image 20240320145752.png",
     "Pasted image 20240320145752的副本.png",
-    "Project/Log.md",
     "Pasted image 20240321105637.png",
     "Pasted image 20240321105627.png",
     "Pasted image 20240321105504.png",
@@ -208,7 +220,6 @@
     "Pasted image 20240320150127.png",
     "Pasted image 20240320150119.png",
     "Pasted image 20240320145743.png",
-    "Pasted image 20240320144957.png",
     "Task_plugin.md",
     "math/变分法.md",
     "math/Complex Analysis.md",
