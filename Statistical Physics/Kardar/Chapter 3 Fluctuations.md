@@ -247,7 +247,8 @@ $$
 \langle e^{-ik\phi} \rangle \equiv \exp \left[ \sum_{l = 1}^{\infty} \frac{(-ik)^l}{l!} \langle \phi^l \rangle_c \right] = \exp \left[ -ikh - \frac{k^2}{2K} \right].
 $$
 > [!Q] 
-> 这里似乎应该没有$\exp$才对
+> 这里似乎应该没有$\exp$才对 \
+> 为什么不能认为高阶项是抵消的
 
 下面我们考虑一个$N$变量的高斯积分：
 $$
