@@ -264,6 +264,7 @@ $$
 最终的表达式可以通过逆矩阵$\mathbf{K}^{-1}$以原始坐标表达. 由于矩阵的行列式不依赖于基矢的选取，所以$\det \mathbf{K} = \prod_q K_q$，得到
 $$
 \mathcal{J}_N = \sqrt{\frac{(2\pi)^N}{\det \mathbf{K}}} \exp \left[ \sum_{i, j} \frac{K^{-1}_{i, j}}{2} h_i h_j \right].
+\tag{3.45}
 $$
 将$\left\{ \phi_i \right\}$视为高斯随机变量，其联合概率分布正比于积分(3.43)，*联合特征函数*为：
 $$
@@ -278,11 +279,25 @@ $$
 \end{cases}
 $$
 
-> [!Derive] Title
+> [!NOTE] Derive
 > Contents
 
 (3.46)的另一个有用的形式是：
 $$
 \langle \exp(A) \rangle = \exp \left[ \langle A \rangle_c + \frac{1}{2} \langle A^2 \rangle_c \right],
 $$
-其中$A = \sum_i a_i \phi_i$是高斯分布变量的任意线性组合. 在上一节中我们已经使用过这个公式计算
+其中$A = \sum_i a_i \phi_i$是高斯分布变量的任意线性组合. 在上一节中我们已经使用这个公式计算存在相位涨落时超流中序参量的关联. 
+
+高斯*泛函积分*是上述多变量积分的极限情况. 将点$i$视为$d$维晶格的位置，并让间距为零. 在连续极限下，$\{\phi_i\}$转化为函数$\phi(\mathbf{x})$，矩阵$K_{ij}$被替换为*核函数*$K(\mathbf{x}, \mathbf{x}')$. $(3.45)$的一个自然的推广为：
+$$
+\begin{align}
+\int_{-\infty}^{\infty} &\mathcal{D}\phi(\mathbf{x}) \exp \left[ -\int d^d\mathbf{x}  d^d \mathbf{x}' \frac{K(\mathbf{x}, \mathbf{x}')}{2} \phi(\mathbf{x}) \phi(\mathbf{x}') + \int d^d \mathbf{x} h(\mathbf{x}) \phi(\mathbf{x}) \right] \\
+& \propto (\det \mathbf{K})^{-1/2} \exp \left[ \int d^d \mathbf{x} d^d \mathbf{x}' \frac{K^{-1}(\mathbf{x}, \mathbf{x}')}{2} h(\mathbf{x}) h(\mathbf{x}') \right],
+\end{align}
+\tag{3.49}
+$$
+其中逆核函数$K^{-1}(\mathbf{x}, \mathbf{x}')$满足：
+$$
+\int d^d \mathbf{x}' K(\mathbf{x}, \mathbf{x}') K^{-1}(\mathbf{x}', \mathbf{x}'') = \delta^d(\mathbf{x} - \mathbf{x}'').
+$$
+符号$\mathcal{D}\phi(\mathbf{x})$用于代表泛函积分. 
