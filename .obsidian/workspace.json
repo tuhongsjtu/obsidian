@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Task_plugin.md",
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Task_plugin.md",
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Task_plugin.md"
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md"
               }
             }
           },
@@ -205,8 +204,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "25083b74b027c5f3",
+  "active": "5d551f5786ba838e",
   "lastOpenFiles": [
+    "Task_plugin.md",
     "Project/Log.md",
     "Pasted image 20240320145752.png",
     "Pasted image 20240320145752的副本.png",
@@ -220,7 +220,6 @@
     "Pasted image 20240320150127.png",
     "Pasted image 20240320150119.png",
     "Pasted image 20240320145743.png",
-    "Task_plugin.md",
     "math/变分法.md",
     "math/Complex Analysis.md",
     "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
