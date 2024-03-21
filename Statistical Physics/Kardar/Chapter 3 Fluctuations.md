@@ -321,9 +321,30 @@ K(\mathbf{x}, \mathbf{x}') = K \delta^d(\mathbf{x} - \mathbf{x}') (-\nabla^2 + \
 $$
 按照(3.50)式逆核函数满足：
 $$
-K \int d^d \mathbf{x}'' \delta^d(\mathbf{x}-\mathbf{x}'')(-\nabla^2+\xi^{-2}) (-\nabla^2+\xi^{-2}) K^{-1}(\mathbf{x}''-\mathbf{x}') = \delta^d(\mathbf{x}'-\mathbf{x}),
+K \int d^d \mathbf{x}'' \delta^d(\mathbf{x}-\mathbf{x}'')(-\nabla^2+\xi^{-2}) K^{-1}(\mathbf{x}''-\mathbf{x}') = \delta^d(\mathbf{x}'-\mathbf{x}),
 $$
 上式表明微分方程
 $$
-K(-\nabla^2 + \xi^{-2}) K^{-1}(\mathbf{x}) = \delta^d(\,at)
+K(-\nabla^2 + \xi^{-2}) K^{-1}(\mathbf{x}) = \delta^d(\mathbf{x}).
+$$
+与等式(3.14)对比得到$K^{-1}(\mathbf{x}) = \langle \phi(\mathbf{x}) \phi(\mathbf{0}) \rangle = -I_d(\mathbf{x})/K$.
+
+
+## 3.6    Fluctuation corrections to the saddle point
+
+我们现在检查鞍点解附近的涨落如何修正自由能以及宏观性质. 从(3.5)开始，包含了小涨落的配分函数为：
+$$
+\begin{align}
+Z \approx \exp \left[ -V \left( \frac{t}{2}\overline{m}^2 + u\overline{m}^4 \right) \right] 
+& \int \mathcal{D}\phi_l(\mathbf{x}) \exp \left\{ -\frac{K}{2} \int d^d\mathbf{x} \left[ (\nabla\phi_l)^2 + \frac{\phi^2_l}{\xi^2_l} \right] \right\} \\
+& \cdot \int \mathcal{D}\phi_t(\mathbf{x}) \exp \left\{ -\frac{K}{2} \int d^d\mathbf{x} \left[ (\nabla\phi_t)^2 + \frac{\phi^2_t}{\xi^2_t} \right] \right\}.
+\end{align}
+$$
+每个高斯核函数可以通过傅立叶变换对角化：
+$$
+\tilde{\phi}(\mathbf{q}) = \int d^d\mathbf{x} \exp(-i \mathbf{q}\cdot\mathbf{x}) \phi(\mathbf{x}) / \sqrt{V},
+$$
+相应的本征值为$K(\mathbf{q})=K(q^2+\xi^{-2})$. $\mathbf{K}$的行列式是这些本征值的乘积，因此：
+$$
+\ln \det \mathbf{K} = \sum_{\mathbf{q}} \ln K(\mathbf{q}) = V \int \frac{d^d \mathbf{q}}{(2\pi)^d} \ln [K(q^2 + \xi^{-2})].
 $$
