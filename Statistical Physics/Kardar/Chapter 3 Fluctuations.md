@@ -253,8 +253,36 @@ $$
 下面我们考虑一个$N$变量的高斯积分：
 $$
 \mathcal{J}_N = \int_{-\infty}^{\infty} \prod_{i=1}^N d\phi_i \exp \left[ -\sum_{i, j} \frac{K_{i, j}}{2} \phi_i \phi_j + \sum_i h_i \phi_i \right].
+\tag{3.43}
 $$
 这个积分可以通过对角化矩阵$\mathbf{K} \equiv K_{i, j}$来约化为$N$个单变量高斯积分的乘积. 因为我们只需要考虑*对称矩阵*（$K_{i, j} = K_{j, i}$），其本征值是实的，并且本征向量可以正交化. 让我们用$\vec{q}$和$K_q$分别表示$\mathbf{K}$的本征向量和本征值， 即$\mathbf{K} \vec{q} = K_{q} \vec{q}$. 向量$\{\vec{q}\}$在原来的$N$维空间中形成了一组新的坐标基矢，空间中的任意一点可以通过坐标$\{\phi_i\}$或者$\left\{ \tilde{\phi}_{q} \right\}$表示，其中$\phi_i = \sum_q \tilde{\phi}_q \vec{q}_i$. 我们现在可以将积分变量从$\{ \phi_i \}$转换为$\left\{ \tilde{\phi}_q \right\}$，与这个幺正变换相关的Jacobian是单位矩阵，所以原来的高斯积分变为：
 $$
-\mathcal{J}_N = \prod
+\mathcal{J}_N = \prod_{q=1}^N \int_{-\infty}^{\infty} d\tilde{\phi}_q 
+\exp \left[ -\frac{K_q}{2} \tilde{\phi}_q^2 + \tilde{h}_q \tilde{\phi}_q \right]
+= \prod_{q=1}^N \sqrt{\frac{2\pi}{K_q}} \exp \left[ \frac{\tilde{h}_q K_q^{-1} \tilde{h}_q}{2} \right].
 $$
+最终的表达式可以通过逆矩阵$\mathbf{K}^{-1}$以原始坐标表达. 由于矩阵的行列式不依赖于基矢的选取，所以$\det \mathbf{K} = \prod_q K_q$，得到
+$$
+\mathcal{J}_N = \sqrt{\frac{(2\pi)^N}{\det \mathbf{K}}} \exp \left[ \sum_{i, j} \frac{K^{-1}_{i, j}}{2} h_i h_j \right].
+$$
+将$\left\{ \phi_i \right\}$视为高斯随机变量，其联合概率分布正比于积分(3.43)，*联合特征函数*为：
+$$
+\langle e^{-i \sum_j k_j \phi_j} \rangle = \exp \left[ -i \sum_{i, j} K^{-1}_{i, j} h_i h_j - \sum_{i, j} \frac{K^{-1}_{i,j}}{2} k_i k_j \right].
+\tag{3.46}
+$$
+分布的*矩*由特征函数对$k_i$的导数获得，*累积量*由其对数的导数得到. 因此(3.46)意味着
+$$
+\begin{cases}
+\langle \phi_i \rangle_c = \sum_{j} K^{-1}_{i, j} h_j \\
+\langle \phi_i \phi_j \rangle_c = K_{i, j}^{-1}.
+\end{cases}
+$$
+
+> [!Derive] Title
+> Contents
+
+(3.46)的另一个有用的形式是：
+$$
+\langle \exp(A) \rangle = \exp \left[ \langle A \rangle_c + \frac{1}{2} \langle A^2 \rangle_c \right],
+$$
+其中$A = \sum_i a_i \phi_i$是高斯分布变量的任意线性组合. 在上一节中我们已经使用过这个公式计算
