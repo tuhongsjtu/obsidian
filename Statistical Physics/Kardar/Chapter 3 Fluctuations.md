@@ -229,4 +229,28 @@ $$
 
 ## 3.5    Gaussian integrals
 
-在之前的章节中，涨落的能量损失计算到了二阶. 涨落也会改变鞍点自由能. 在计算这个修正之前，我们
+在之前的章节中，涨落的能量损失计算到了二阶. 涨落也会改变鞍点自由能. 在计算这个修正之前，我们对计算高斯积分进行一个简短但必要的数学转换.
+
+最简单的高斯积分包含一个变量$\phi$，
+$$
+\mathcal{J}_1 = \int_{-\infty}^{\infty} d \phi e^{-\frac{K}{2} \phi^2 + h\phi} = \sqrt{\frac{2 \pi}{K}} e^{\frac{h^2}{2K}}.
+$$
+通过上述表达式对$h$求道，包含$\phi$的幂次的积分产生了，即：
+$$
+\begin{align}
+\frac{d}{dh}: \int_{-\infty}^{\infty} d\phi \phi e^{-\frac{K}{2}\phi^2 + h\phi} &= \sqrt{\frac{2\pi}{K}} e^{\frac{h^2}{2K}} \cdot \frac{h}{K}, \\
+\frac{d^2}{dh^2}: \int_{-\infty}^{\infty} d\phi \phi^2 e^{-\frac{K}{2}\phi^2 + h\phi} &= \sqrt{\frac{2\pi}{K}} e^{\frac{h^2}{2K}} \cdot \left[ \frac{1}{K} + \frac{h^2}{K^2} \right].
+\end{align}
+$$
+如果被积函数表示随机变量的概率密度，则上述积分意味着$\langle \phi \rangle = h/K$以及$\langle \phi^2 \rangle = h^2/K^2 + 1/K$. 相应的累积量为$\langle \phi \rangle_c = \langle \phi \rangle = h/K$以及$\langle \phi^2 \rangle_c = \langle \phi^2 \rangle - \langle \phi \rangle^2 = 1/K$. 事实上高斯分布的所有高阶累积量都为$0$，因为：
+$$
+\langle e^{-ik\phi} \rangle \equiv \exp \left[ \sum_{l = 1}^{\infty} \frac{(-ik)^l}{l!} \langle \phi^l \rangle_c \right] = \exp \left[ -ikh - \frac{k^2}{2K} \right].
+$$
+> [!Q] 
+> 这里似乎应该没有$\exp$才对
+
+下面我们考虑一个$N$变量的高斯积分：
+$$
+\mathcal{J}_N = \int_{-\infty}^{\infty} \prod_{i=1}^N d\phi_i \exp \left[ -\sum_{i, j} \frac{K_{i, j}}{2} \phi_i \phi_j + \sum_i h_i \phi_i \right].
+$$
+这个积分可以通过对角化矩阵$\mathbf{K} \equiv K_{i, j}$来约化为$N$个单变量高斯积分的乘积. 因为我们只需要考虑*对称矩阵*（$K_{i, j} = K_{j, i}$），其本征值是实的，并且本征向量可以正交化. 
