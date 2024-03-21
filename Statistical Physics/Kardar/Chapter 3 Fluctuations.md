@@ -277,6 +277,7 @@ $$
 \langle \phi_i \rangle_c = \sum_{j} K^{-1}_{i, j} h_j \\
 \langle \phi_i \phi_j \rangle_c = K_{i, j}^{-1}.
 \end{cases}
+\tag{3.47}
 $$
 
 > [!NOTE] Derive
@@ -299,5 +300,30 @@ $$
 其中逆核函数$K^{-1}(\mathbf{x}, \mathbf{x}')$满足：
 $$
 \int d^d \mathbf{x}' K(\mathbf{x}, \mathbf{x}') K^{-1}(\mathbf{x}', \mathbf{x}'') = \delta^d(\mathbf{x} - \mathbf{x}'').
+\tag{3.50}
 $$
-符号$\mathcal{D}\phi(\mathbf{x})$用于代表泛函积分. 
+符号$\mathcal{D}\phi(\mathbf{x})$用于代表泛函积分. 这里有一个比例常数$(2\pi)^{N/2}$被排除在(3.49)之外. 虽然$N \rightarrow \infty$的连续极限在形式上是无限的，但它不会影响通过对积分求导得到的平均值. 特别是，(3.47)推广为：
+$$
+\begin{cases}
+\langle \phi(\mathbf{x}) \rangle_c = \int d^d \mathbf{x}' K^{-1}(\mathbf{x}, \mathbf{x}') h(\mathbf{x}') \\
+\langle \phi(\mathbf{x}) \phi(\mathbf{x}') \rangle_c = K^{-1}(\mathbf{x}, \mathbf{x}').
+\end{cases}
+$$
+
+在Landau-Ginzburg哈密顿量处理小涨落时，我们遇到二次型：
+$$
+\int d^d \mathbf{x} [ (\nabla \phi)^2 + \phi^2 / \xi^2 ] 
+\equiv \int d^d\mathbf{x} d^d\mathbf{x}' \phi(\mathbf{x}') \delta^d(\mathbf{x} - \mathbf{x}') (-\nabla^2 + \xi^{-2}) \phi(\mathbf{x}),
+$$
+这个例子中核函数为：
+$$
+K(\mathbf{x}, \mathbf{x}') = K \delta^d(\mathbf{x} - \mathbf{x}') (-\nabla^2 + \xi^{-2}).
+$$
+按照(3.50)式逆核函数满足：
+$$
+K \int d^d \mathbf{x}'' \delta^d(\mathbf{x}-\mathbf{x}'')(-\nabla^2+\xi^{-2}) (-\nabla^2+\xi^{-2}) K^{-1}(\mathbf{x}''-\mathbf{x}') = \delta^d(\mathbf{x}'-\mathbf{x}),
+$$
+上式表明微分方程
+$$
+K(-\nabla^2 + \xi^{-2}) K^{-1}(\mathbf{x}) = \delta^d(\,at)
+$$
