@@ -254,4 +254,7 @@ $$
 $$
 \mathcal{J}_N = \int_{-\infty}^{\infty} \prod_{i=1}^N d\phi_i \exp \left[ -\sum_{i, j} \frac{K_{i, j}}{2} \phi_i \phi_j + \sum_i h_i \phi_i \right].
 $$
-这个积分可以通过对角化矩阵$\mathbf{K} \equiv K_{i, j}$来约化为$N$个单变量高斯积分的乘积. 因为我们只需要考虑*对称矩阵*（$K_{i, j} = K_{j, i}$），其本征值是实的，并且本征向量可以正交化. 
+这个积分可以通过对角化矩阵$\mathbf{K} \equiv K_{i, j}$来约化为$N$个单变量高斯积分的乘积. 因为我们只需要考虑*对称矩阵*（$K_{i, j} = K_{j, i}$），其本征值是实的，并且本征向量可以正交化. 让我们用$\vec{q}$和$K_q$分别表示$\mathbf{K}$的本征向量和本征值， 即$\mathbf{K} \vec{q} = K_{q} \vec{q}$. 向量$\{\vec{q}\}$在原来的$N$维空间中形成了一组新的坐标基矢，空间中的任意一点可以通过坐标$\{\phi_i\}$或者$\left\{ \tilde{\phi}_{q} \right\}$表示，其中$\phi_i = \sum_q \tilde{\phi}_q \vec{q}_i$. 我们现在可以将积分变量从$\{ \phi_i \}$转换为$\left\{ \tilde{\phi}_q \right\}$，与这个幺正变换相关的Jacobian是单位矩阵，所以原来的高斯积分变为：
+$$
+\mathcal{J}_N = \prod
+$$
