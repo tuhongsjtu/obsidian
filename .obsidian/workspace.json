@@ -35,9 +35,11 @@
             "id": "0c7f4e2812a47d67",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240320145752.png"
+                "file": "Project/Log.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -104,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.51103591918945
+    "width": 335.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -120,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240320145752.png",
+                "file": "Project/Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240320145752.png",
+                "file": "Project/Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240320145752.png"
+                "file": "Project/Log.md"
               }
             }
           },
@@ -190,8 +193,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2f8f6a61c23f575d",
+  "active": "0c7f4e2812a47d67",
   "lastOpenFiles": [
+    "Pasted image 20240320145752.png",
     "Pasted image 20240320145752的副本.png",
     "Project/Log.md",
     "Pasted image 20240321105637.png",
@@ -203,7 +207,6 @@
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Pasted image 20240320150127.png",
     "Pasted image 20240320150119.png",
-    "Pasted image 20240320145752.png",
     "Pasted image 20240320145743.png",
     "Pasted image 20240320144957.png",
     "Task_plugin.md",
