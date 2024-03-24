@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md"
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md"
               }
             }
           },
@@ -205,16 +204,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "25083b74b027c5f3",
+  "active": "5d551f5786ba838e",
   "lastOpenFiles": [
+    "math/Complex Analysis.md",
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+    "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "Pasted image 20240324163334.png",
     "Pasted image 20240324162903.png",
     "Pasted image 20240324152252.png",
     "Task_plugin.md",
-    "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure/Search.md",
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "code/Data Structure",
     "Project/Log.md",
     "Pic/Pasted image 20240321105637.png",
@@ -224,10 +225,7 @@
     "Pic/Pasted image 20240321105357.png",
     "Pic/Pasted image 20240320150127.png",
     "Pic/Pasted image 20240320150119.png",
-    "Pic/Pasted image 20240320145752的副本.png",
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "math/变分法.md",
-    "math/Complex Analysis.md",
     "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
     "Many-Body/Fermi Liquid Theory/Fermi Liquid Theory.md",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",

@@ -349,4 +349,4 @@ $$
 \ln \det \mathbf{K} = \sum_{\mathbf{q}} \ln K(\mathbf{q}) = V \int \frac{d^d \mathbf{q}}{(2\pi)^d} \ln [K(q^2 + \xi^{-2})].
 $$
 
-耶耶耶耶耶
+
