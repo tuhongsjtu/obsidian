@@ -45,3 +45,12 @@ Greedy Ascent Algotithm
 选择起始格点，朝着一个方向不断前进直到数字不再变大或者到达边界，之后换一个方向重复上述过程，直到四个方向都遍历完毕即可找到peak
 complexity: $\mathcal{O}(nm)$
 
+Attempt 2: 选择列$j=m/2$，找到列的最大值$(i,j)$，之后比较$(i, j);(i-1, j);(i+1, j)$，如果$(i, j) < (i+1, j)$，则关注$i + 1, \cdots, m$的区域，如果$(i, j) > (i+1, j)$，进行相似的操作，反之则找到peak。之后对划分出的子区域再次执行上述算法直到找到peak。
+$$
+\begin{aligned}
+T(n, m) &= T(n, m/2) + \theta(n) \\
+T(n, 1) &= \theta(n) \\
+T(n, m) &= \theta(n\log_2m)
+\end{aligned}
+$$
+Complexity: $\theta(n \log_2 m)$
