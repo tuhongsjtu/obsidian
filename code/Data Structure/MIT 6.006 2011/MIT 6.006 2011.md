@@ -28,5 +28,20 @@ if $a[n/2 - 1] \gt a[n/2]$, then $1, 2, \cdots, n/2-1$ for a peak
 else if $a[n/2] < a[n/2 + 1]$, then $n/2+1, \cdots, n$ for a peak
 else $n/2$ position is a peak
 complexity: $\mathcal{O}(\log(n))$
+$$
+\begin{aligned}
+T(n) &= T(n/2) + \theta(1) \\
+T(1) &= \theta(1) \quad ? \\
+T(n) &= \theta(1) + \cdots + \theta(1) =\theta(\log_2 n)
+\end{aligned}
+$$
 
+2D version
+![[Pasted image 20240324162903.png]]
+a is a 2D peak if and only if $a \ge b; a\ge d; a\ge c; a\ge e$
+
+Greedy Ascent Algotithm
+![[Pasted image 20240324163334.png]]
+选择起始格点，朝着一个方向不断前进直到数字不再变大或者到达边界，之后换一个方向重复上述过程，直到四个方向都遍历完毕即可找到peak
+complexity: $\mathcal{O}(nm)$
 
