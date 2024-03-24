@@ -44,3 +44,4 @@ short mode
 - [ ] 变分法
 - [ ] PQMC benchmark⏫ 
 - [ ] Kardar chapter3🔼 
+- [ ] BCS Theory⏫ 
