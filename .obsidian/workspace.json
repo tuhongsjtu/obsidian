@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "code/Data Structure/Search.md",
+                "file": "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.51103591918945
+    "width": 335.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code/Data Structure/Search.md",
+                "file": "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code/Data Structure/Search.md",
+                "file": "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code/Data Structure/Search.md"
+                "file": "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md"
               }
             }
           },
@@ -204,9 +205,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "25083b74b027c5f3",
+  "active": "2f8f6a61c23f575d",
   "lastOpenFiles": [
     "Task_plugin.md",
+    "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
+    "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure/Search.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "code/Data Structure",
@@ -235,7 +238,6 @@
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.1 The Antiferromagnet/5.1 The Antiferromagnet.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/4.2  Some groundstate theorem/PhysRev.147.392.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/4.2  Some groundstate theorem/Guang-Shan_Tian_1990_J._Phys._A__Math._Gen._23_2231.pdf",
-    "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/4.2  Some groundstate theorem/4.2_some_ground_state_theorems.pdf",
     "Many-Body/Many-body quantum theory in condensed matter physics/19.5 Bosonization of the Tomonaga model Hamiltonian.md",
     "Many-Body/Green's Function.md",
     "QMC/正则系综AFQMC.md",
@@ -251,7 +253,6 @@
     "code/sldqmc-afm-qcp/sweep_and_update.md",
     "code/sldqmc-afm-qcp/sli.md",
     "code/sldqmc-afm-qcp/pre_for_dqmc.md",
-    "QMC/辅助场量子蒙特卡洛方法.md",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
