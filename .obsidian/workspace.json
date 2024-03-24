@@ -67,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+                "file": "Project/Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+                "file": "Project/Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md"
+                "file": "Project/Log.md"
               }
             }
           },
@@ -204,8 +205,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5d551f5786ba838e",
+  "active": "0c7f4e2812a47d67",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Pic/Pasted image 20240321105637.png",
     "Pic/Pasted image 20240321105627.png",
     "Pic/Pasted image 20240321105504.png",
@@ -216,10 +218,8 @@
     "Pic/Pasted image 20240320145752的副本.png",
     "Pic/Pasted image 20240320145752.png",
     "Pic/Pasted image 20240320145743.png",
-    "Pic/Pasted image 20240320144957.png",
     "Task_plugin.md",
     "Project/Log.md",
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "math/变分法.md",
     "math/Complex Analysis.md",
