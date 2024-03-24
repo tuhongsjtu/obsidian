@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "code/Data Structure/未命名.md",
+                "file": "code/Data Structure/Search.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code/Data Structure/未命名.md",
+                "file": "code/Data Structure/Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code/Data Structure/未命名.md",
+                "file": "code/Data Structure/Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code/Data Structure/未命名.md"
+                "file": "code/Data Structure/Search.md"
               }
             }
           },
@@ -207,7 +207,7 @@
   "active": "25083b74b027c5f3",
   "lastOpenFiles": [
     "Task_plugin.md",
-    "code/Data Structure/未命名.md",
+    "code/Data Structure/Search.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "code/Data Structure",
     "Project/Log.md",
