@@ -1,3 +1,11 @@
+- [[#3.1    Scattering and fluctuations|3.1    Scattering and fluctuations]]
+- [[#3.2    Correlation functions and susceptibilities|3.2    Correlation functions and susceptibilities]]
+- [[#3.3    Lower critical dimension|3.3    Lower critical dimension]]
+- [[#3.4    Comparison to experiments|3.4    Comparison to experiments]]
+- [[#3.5    Gaussian integrals|3.5    Gaussian integrals]]
+- [[#3.6    Fluctuation corrections to the saddle point|3.6    Fluctuation corrections to the saddle point]]
+- [[#3.7    The Ginzburg criterion|3.7    The Ginzburg criterion]]
+
 ## 3.1    Scattering and fluctuations
 除了bulk热力学实验以外，散射测量可以用于探测波长$\lambda$量级的微观涨落. 在一个典型的设置中，波矢为$\mathbf{k}_i$的束入射到样品上，并在波矢$\mathbf{k}_s = \mathbf{k}_i + \mathbf{q}$处测量散射强度. 对于弹性散射，$|\mathbf{k}_i| = |\mathbf{k}_s| \equiv k$并且$q \equiv |\mathbf{q}| = 2k \sin \theta$，其中$\theta$为入射波和散射波之间的夹角. 对于散射的标准处理从费米黄金规则开始，通常导出一个以下形式的散射振幅：
 $$
@@ -349,7 +357,6 @@ $$
 $$
 \ln \det \mathbf{K} = \sum_{\mathbf{q}} \ln K(\mathbf{q}) = V \int \frac{d^d \mathbf{q}}{(2\pi)^d} \ln [K(q^2 + \xi^{-2})].
 $$
-<<<<<<< HEAD
 (3.56)式给出的自由能为：
 $$
 \begin{aligned}
@@ -366,7 +373,21 @@ C_{\text{singular}} \propto -\frac{\partial^2(\beta f)}{\partial t^2}
 \frac{1}{8u} + 2 \int \frac{d^d \mathbf{q}}{(2\pi)^d} \frac{1}{(Kq^2 - 2t)^2} &\quad \text{for } t\lt0. \\
 \end{cases}
 $$
-=======
+因此修正项正比于：
+$$
+C_F = \frac{1}{K^2} \int \frac{d^d \mathbf{q}}{(2\pi)^d} \frac{1}{(q^2 + \xi^{-2})^2}.
+$$
+这个积分的维度为$(\text{length})^{4-d}$，因此在$d=4$时性质发生变化. 当$d \gt 4$时积分在大$\mathbf{q}$发散，并且被上截断$\Lambda \simeq 1/a$主导，其中$a$是晶格间距.  当$d \lt 4$时积分在两个极限上收敛. 它可以通过将$\mathbf{q}$缩放$\xi^{-1}$来使其无量纲化，因此正比于$\xi^{4-d}$. 因此
+$$
+C_F \simeq \frac{1}{K^2} 
+\begin{cases}
+a^{4-d} \quad \text{for } d \gt 4 \\
+\xi^{4-d} \quad \text{for } d \lt 4.
+\end{cases}
+$$
+![[Pasted image 20240325202249.png]]
+在维度$d \gt 4$时，热容的涨落修正在相变的两边给背景增加了一个常数项. 然而奇点的主要形式（$C$中的不连续性）没有改变. 对于$d \lt 4$，由$\xi \propto t^{-1/2}$导致在相变处有一个发散的修正项，这比原来的不连续性更重要. 事实上，修正项对应于指数$\alpha = (4-d)/2$. 然而这只是对鞍点结果的第一次修正. $C_F$的发散仅意味着鞍点结论在维度$d \le 4$中（低于所谓的上临界维度）不再可靠. 尽管我们通过查看热容的涨落修正获得了这个维度，但在检查任何其他量（例如磁化强度或磁化率）的奇异部分时，我们也会得出相同的结论. 由涨落引起的贡献总是会修改维度$d ≤ 4$中的主要奇异行为，从而修改临界指数. 
 
 
->>>>>>> origin/main
+## 3.7    The Ginzburg criterion
+因此，我们确立了涨落的重要性，并将其确定为鞍点近似无法正确描述观察到的指数的可能原因. 然而，如前所述，有一些材料（例如超导体）的实验结果非常适合这种近似预测的奇异形式. 我们能否量化为什么涨落在超导体中不如在其他相变中重要？
