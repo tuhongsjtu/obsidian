@@ -349,6 +349,7 @@ $$
 $$
 \ln \det \mathbf{K} = \sum_{\mathbf{q}} \ln K(\mathbf{q}) = V \int \frac{d^d \mathbf{q}}{(2\pi)^d} \ln [K(q^2 + \xi^{-2})].
 $$
+<<<<<<< HEAD
 (3.56)式给出的自由能为：
 $$
 \begin{aligned}
@@ -365,3 +366,7 @@ C_{\text{singular}} \propto -\frac{\partial^2(\beta f)}{\partial t^2}
 \frac{1}{8u} + 2 \int \frac{d^d \mathbf{q}}{(2\pi)^d} \frac{1}{(Kq^2 - 2t)^2} &\quad \text{for } t\lt0. \\
 \end{cases}
 $$
+=======
+
+
+>>>>>>> origin/main
