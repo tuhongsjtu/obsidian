@@ -339,6 +339,7 @@ Z \approx \exp \left[ -V \left( \frac{t}{2}\overline{m}^2 + u\overline{m}^4 \rig
 & \int \mathcal{D}\phi_l(\mathbf{x}) \exp \left\{ -\frac{K}{2} \int d^d\mathbf{x} \left[ (\nabla\phi_l)^2 + \frac{\phi^2_l}{\xi^2_l} \right] \right\} \\
 & \cdot \int \mathcal{D}\phi_t(\mathbf{x}) \exp \left\{ -\frac{K}{2} \int d^d\mathbf{x} \left[ (\nabla\phi_t)^2 + \frac{\phi^2_t}{\xi^2_t} \right] \right\}.
 \end{align}
+\tag{3.56}
 $$
 每个高斯核函数可以通过傅立叶变换对角化：
 $$
@@ -347,4 +348,20 @@ $$
 相应的本征值为$K(\mathbf{q})=K(q^2+\xi^{-2})$. $\mathbf{K}$的行列式是这些本征值的乘积，因此：
 $$
 \ln \det \mathbf{K} = \sum_{\mathbf{q}} \ln K(\mathbf{q}) = V \int \frac{d^d \mathbf{q}}{(2\pi)^d} \ln [K(q^2 + \xi^{-2})].
+$$
+(3.56)式给出的自由能为：
+$$
+\begin{aligned}
+\beta f =& -\frac{\ln Z}{V} = \frac{t \overline{m}^2}{2} + u\overline{m}^4 + \frac{1}{2} \int \frac{d^d \mathbf{q}}{(2\pi)^d} \ln[K^2(q^2 + \xi_{\ell}^{-2})] \\
+&+ \frac{n-1}{2} \int \frac{d^d \mathbf{q}}{(2\pi)^d} \ln[K(q^2 + \xi_{t}^{-2})].
+\end{aligned}
+$$
+利用相关长度对约化温度的依赖性，热容的奇异部分可得出为：
+$$
+C_{\text{singular}} \propto -\frac{\partial^2(\beta f)}{\partial t^2} 
+= 
+\begin{cases}
+0 + \frac{n}{2} \int \frac{d^d \mathbf{q}}{(2\pi)^d} \frac{1}{(Kq^2 + t)^2}  &\quad \text{for } t\gt0 \\
+\frac{1}{8u} + 2 \int \frac{d^d \mathbf{q}}{(2\pi)^d} \frac{1}{(Kq^2 - 2t)^2} &\quad \text{for } t\lt0. \\
+\end{cases}
 $$
