@@ -55,7 +55,7 @@ $$
 \frac{K}{\xi_{t}^2} \equiv t+4 u \overline{m}^2=\left.\frac{\partial^2 \Psi(m)}{\partial \phi_{t}^2}\right|_{\overline{m}}= \begin{cases}t & \text { for } t>0 \\ 0 & \text { for } t<0\end{cases}
 \tag{3.7}
 $$
-长度尺度$\xi_{\ell}$和$\xi_{t}$的物理意义很快就会变得显而易见. 注意顺磁体的纵向分量和横向分量之间没有区别$(t \gt 0)$. 对于$t \lt 0$时的有序磁体，横向涨落没有恢复力，这对应于上一章中讨论的Goldstone模式. 
+长度尺度$\xi_{\ell}$和$\xi_{t}$的物理意义很快就会变得显而易见. 注意顺磁体的纵向分量和横向分量之间没有区别$(t \gt 0)$，这与顺磁相中磁化是各向同性是相符的. 对于$t \lt 0$时的有序磁体，横向涨落没有恢复力，这对应于上一章中讨论的Goldstone模式. 
 
 下面我们将其推至傅立叶空间中. $\phi(\mathbf{x}) = \sum_{\mathbf{q}} \phi_{\mathbf{q}} e^{i \mathbf{q} \cdot \mathbf{x}} / \sqrt{V}$，一个特定构型的概率为：
 $$
