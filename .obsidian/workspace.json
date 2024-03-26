@@ -20,7 +20,19 @@
             }
           },
           {
-            "id": "7a9d05fc6532f962",
+            "id": "104a1582ad749bb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c7f4e2812a47d67",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Task_plugin.md",
+                "file": "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.51103591918945
+    "width": 335.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -193,10 +206,6 @@
   },
   "active": "5d551f5786ba838e",
   "lastOpenFiles": [
-    "Project/Log.md",
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
-    "README.md",
     "Pic/Pasted image 20240326154231.png",
     "Pic/Pasted image 20240326154155.png",
     "Pic/Pasted image 20240326153555.png",
@@ -207,13 +216,17 @@
     "Pic/Pasted image 20240326153042.png",
     "Pic/Pasted image 20240326153018.png",
     "Pic/Pasted image 20240326153012.png",
-    "conflict-files-obsidian-git.md",
-    "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
-    "code/Data Structure/MIT 6.006 2011",
-    "code/Data Structure",
-    "Task_plugin.md",
-    "math/变分法.md",
+    "Pic/Pasted image 20240326152948.png",
     "math/Complex Analysis.md",
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+    "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
+    "Task_plugin.md",
+    "code/Data Structure/MIT 6.006 2011",
+    "code/Data Structure/Search.md",
+    "code/Data Structure",
+    "Project/Log.md",
+    "math/变分法.md",
     "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
     "Many-Body/Fermi Liquid Theory/Fermi Liquid Theory.md",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",
@@ -228,6 +241,7 @@
     "Many-Body/Many-body quantum theory in condensed matter physics/19.5 Bosonization of the Tomonaga model Hamiltonian.md",
     "Many-Body/Green's Function.md",
     "QMC/正则系综AFQMC.md",
+    "README.md",
     "Many-Body/Quantum Information/Density Matrix.md",
     "Statistical Physics/Boltzman Function.md",
     "Statistical Physics/Phase Transition Theory.md",
