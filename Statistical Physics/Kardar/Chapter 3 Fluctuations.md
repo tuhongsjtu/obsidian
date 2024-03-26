@@ -146,7 +146,6 @@ $$
 
 
 ## 3.3    Lower critical dimension
-
 在第二章中我们讨论了连续对称性的破缺如何伴随着低能激发（Goldstone模式）出现的. 这些模式可以被热力学涨落简单地激发，我们可以提问这种涨落对有序相的影响.
 
 我们首先考虑超流有序相的情况，其局部序参量为$\psi(\mathbf{x})=|\psi(\mathbf{x})| e^{i \theta(\mathbf{x})}$. 假设序参量的振幅时均匀的，一个特定构型的概率为：
@@ -236,7 +235,6 @@ $$
 
 
 ## 3.5    Gaussian integrals
-
 在之前的章节中，涨落的能量损失计算到了二阶. 涨落也会改变鞍点自由能. 在计算这个修正之前，我们对计算高斯积分进行一个简短但必要的数学转换.
 
 最简单的高斯积分包含一个变量$\phi$，
@@ -254,9 +252,11 @@ $$
 $$
 \langle e^{-ik\phi} \rangle \equiv \exp \left[ \sum_{l = 1}^{\infty} \frac{(-ik)^l}{l!} \langle \phi^l \rangle_c \right] = \exp \left[ -ikh - \frac{k^2}{2K} \right].
 $$
+
 > [!Q] 
-> 这里似乎应该没有$\exp$才对 \
-> 为什么不能认为高阶项是抵消的
+> 这里似乎应该没有$\exp$才对? 并不是，使用的是累积量，并且求和从1开始\
+> 为什么不能认为高阶项是抵消的 \
+> derive？
 
 下面我们考虑一个$N$变量的高斯积分：
 $$
@@ -339,7 +339,6 @@ $$
 
 
 ## 3.6    Fluctuation corrections to the saddle point
-
 我们现在检查鞍点解附近的涨落如何修正自由能以及宏观性质. 从(3.5)开始，包含了小涨落的配分函数为：
 $$
 \begin{align}

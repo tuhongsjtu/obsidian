@@ -20,19 +20,7 @@
             }
           },
           {
-            "id": "104a1582ad749bb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c7f4e2812a47d67",
+            "id": "7a9d05fc6532f962",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -67,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.51103591918945,
-    "collapsed": true
+    "width": 335.51103591918945
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -135,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Log.md"
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md"
               }
             }
           },
@@ -205,22 +191,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0c7f4e2812a47d67",
+  "active": "5d551f5786ba838e",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Project/Log.md",
-    "Pasted image 20240326154231.png",
-    "Pasted image 20240326154155.png",
-    "Pasted image 20240326153555.png",
-    "Pasted image 20240326153537.png",
-    "Pasted image 20240326153403.png",
-    "Pasted image 20240326153125.png",
-    "Pasted image 20240326153106.png",
-    "Pasted image 20240326153042.png",
-    "Pasted image 20240326153018.png",
-    "Pasted image 20240326153012.png",
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+    "README.md",
+    "Pic/Pasted image 20240326154231.png",
+    "Pic/Pasted image 20240326154155.png",
+    "Pic/Pasted image 20240326153555.png",
+    "Pic/Pasted image 20240326153537.png",
+    "Pic/Pasted image 20240326153403.png",
+    "Pic/Pasted image 20240326153125.png",
+    "Pic/Pasted image 20240326153106.png",
+    "Pic/Pasted image 20240326153042.png",
+    "Pic/Pasted image 20240326153018.png",
+    "Pic/Pasted image 20240326153012.png",
+    "conflict-files-obsidian-git.md",
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
@@ -241,7 +228,6 @@
     "Many-Body/Many-body quantum theory in condensed matter physics/19.5 Bosonization of the Tomonaga model Hamiltonian.md",
     "Many-Body/Green's Function.md",
     "QMC/正则系综AFQMC.md",
-    "README.md",
     "Many-Body/Quantum Information/Density Matrix.md",
     "Statistical Physics/Boltzman Function.md",
     "Statistical Physics/Phase Transition Theory.md",
