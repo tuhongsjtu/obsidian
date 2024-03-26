@@ -67,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+                "file": "Project/Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+                "file": "Project/Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md"
+                "file": "Project/Log.md"
               }
             }
           },
@@ -204,24 +205,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5d551f5786ba838e",
+  "active": "0c7f4e2812a47d67",
   "lastOpenFiles": [
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+    "Pasted image 20240326154231.png",
+    "Pasted image 20240326154155.png",
+    "Pasted image 20240326153555.png",
+    "Pasted image 20240326153537.png",
+    "Pasted image 20240326153403.png",
+    "Pasted image 20240326153125.png",
+    "Pasted image 20240326153106.png",
+    "Pasted image 20240326153042.png",
+    "Pasted image 20240326153018.png",
+    "Pasted image 20240326153012.png",
+    "Pasted image 20240326152948.png",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
-    "Pasted image 20240325202249.png",
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "conflict-files-obsidian-git.md",
     "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
-    "Pasted image 20240324163334.png",
-    "Pasted image 20240324162903.png",
-    "Pasted image 20240324152252.png",
-    "Pic/Pasted image 20240321105637.png",
-    "Pic/Pasted image 20240321105627.png",
-    "Pic/Pasted image 20240321105504.png",
-    "Pic/Pasted image 20240321105458.png",
-    "Pic/Pasted image 20240321105357.png",
-    "Pic/Pasted image 20240320150127.png",
     "Task_plugin.md",
     "Project/Log.md",
     "math/变分法.md",

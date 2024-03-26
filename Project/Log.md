@@ -8,9 +8,11 @@ max_wrap_error太大
 - [ ] 🔼 单独的nega测量有问题，会受到其他模块的影响
 
 
-## 03.20
-# 无相互作用费米子的negativity
+# 3.28
+- [ ] ⏫ EE的scaling行为有些奇怪
+- [ ] 🔼 PQMC需要数值稳定
 
+# 无相互作用费米子的negativity
 # 1. Half
 ![[Pasted image 20240320142354.png]]
 这张图对比了benchmark（简易的python程序）、free fermion（在程序中设定$\xi=0$）、fermi liquid（$h=5.0 \ \ \xi=1.0$）在子系统尺寸为系统尺寸一半时的scaling行为，系统温度均为$T = 1.0$.
@@ -40,18 +42,37 @@ benchmark和dqmc的结果是吻合的，可以用benckmark程序来研究更大�
 ## T=0.2
 ![[Pasted image 20240320150119.png]]
 ![[Pasted image 20240320150127.png]]
-总体上呈现$R_n \propto \alpha L \log L$的scaling关系，尽管斜率不大.
+总体上呈现$R_n \propto \alpha L \log L$的scaling关系，但斜率在不断变小，怀疑仍为面积律.
+
 
 
 # 相互作用费米子的negativity
 大外场的情况已经在无相互作用的half部分中展示相关结果，与无相互作用费米子非常相似
 在低外场情况下我们首先关注参数$h = 3.06, T_c = 0.5$
-# 1. Half
+# 1. Half in Finite Temperature Critical Point
 ![[Pasted image 20240321105458.png]]
 ![[Pasted image 20240321105504.png]]
 我们看到，在子系统为系统一半时，scaling行为在大尺寸下趋于平缓，$R_n \propto \alpha L$
 
-# 2. Corner
+# 2. Corner in Finite Temperature Critical Point
 ![[Pasted image 20240321105637.png]]
 ![[Pasted image 20240321105627.png]]
 在1/4情况下，scaling满足$R_n \propto \alpha L \log L$
+
+# 3. Corner in Non-Fermi Liquid Region
+## 随着温度的变化
+![[Pasted image 20240326152926.png]]
+![[Pasted image 20240326152948.png]]
+## 随着尺寸的变化
+![[Pasted image 20240326153012.png]]
+![[Pasted image 20240326153018.png]]
+![[Pasted image 20240326153106.png]]
+![[Pasted image 20240326153125.png]]
+![[Pasted image 20240326153042.png]]
+
+## 与其他相的对比
+![[Pasted image 20240326154155.png]]
+![[Pasted image 20240326154231.png]]
+
+
+
