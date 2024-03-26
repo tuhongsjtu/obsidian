@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "98a7ea13c908567a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0c7f4e2812a47d67",
             "type": "leaf",
             "state": {
@@ -206,6 +218,9 @@
   },
   "active": "5d551f5786ba838e",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Pic/Pasted image 20240326154231.png",
     "Pic/Pasted image 20240326154155.png",
     "Pic/Pasted image 20240326153555.png",
@@ -216,10 +231,7 @@
     "Pic/Pasted image 20240326153042.png",
     "Pic/Pasted image 20240326153018.png",
     "Pic/Pasted image 20240326153012.png",
-    "Pic/Pasted image 20240326152948.png",
     "math/Complex Analysis.md",
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "Task_plugin.md",
     "code/Data Structure/MIT 6.006 2011",

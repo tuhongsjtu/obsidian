@@ -135,6 +135,10 @@ $$
 $$
 \xi_{\ell}= \begin{cases}t^{-1 / 2} / \sqrt{K} & \text { for } \mathrm{t}>0 \\ (-2 t)^{-1 / 2} / \sqrt{K} & \text { for } \mathrm{t}<0 .\end{cases}
 $$
+
+> [!关联长度] 
+> 我们在之前的推导中有$\xi \approx t^{-gamma}$以及$\gamma = 1/2$，这可能是将$\xi_{\ell}$定义为关联长度的原因，因为它与之前的关联长度有着相同的标度行为.
+
 奇异性可以被描述为$\xi_{\pm} \simeq \xi_0 B_{\pm} |t|^{-\nu_{\pm}}$，$\nu = 1/2$以及$B_+ / B_- = \sqrt{2}$是普适的，而$\xi_0 \propto 1/\sqrt{K}$并不是. 横场关联长度在$t \gt 0$时等于$\xi_{\ell}$，在$t \lt 0$时为无穷. 方程(3.19)表明在$T_c$处，关联按照$1/x^{d-2}$衰减. 事实上衰减指数通常用$1/x^{d-2+\eta}$来表示，其中$\eta$是和(3.10)式中相同的指数. 对连接关联函数进行积分会产生bulk磁化率. 比如纵向磁化率的发散性也可以从以下公式获得：
 $$
 \chi_{\ell} \propto \int \mathrm{d}^d \mathbf{x} G_{\ell}^c(\mathbf{x}) \propto \int_0^{\xi_{\ell}} \frac{\mathrm{d}^d x}{x^{d-2}} \propto \xi_{\ell}^2 \simeq A_{ \pm} t^{-1} .
