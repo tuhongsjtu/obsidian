@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "b2a1036b0d7de265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "25083b74b027c5f3",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Log.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Log.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Log.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -192,10 +204,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7a9d05fc6532f962",
+  "active": "b2a1036b0d7de265",
   "lastOpenFiles": [
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Project/Log.md",
+    "conflict-files-obsidian-git.md",
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "README.md",
     "Pic/Pasted image 20240326154231.png",
@@ -208,7 +221,6 @@
     "Pic/Pasted image 20240326153042.png",
     "Pic/Pasted image 20240326153018.png",
     "Pic/Pasted image 20240326153012.png",
-    "conflict-files-obsidian-git.md",
     "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
