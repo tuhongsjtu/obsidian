@@ -19,3 +19,14 @@ $$
 \hat{H}_0 = \sum_{\theta} \sum_k v_F(k - k_F) \hat{c}^{\dagger}_{\theta, k} \hat{c}_{\theta, k}.
 $$
 这里$\sum_{\theta} = Lk_F \int \frac{d\theta}{2\pi}$，$\sum_k = L \int \frac{dk}{2\pi}$. 
+类似于一维时候的处理，我们定义相对于费米波矢的动量$\tilde{k} = k-k_F \in [-\Lambda, \Lambda]$，$\Lambda$是远小于$k_F$的动量截断. 为了减少记号，下面的$\tilde{k}$都简记$k$. 这样我们得到线性化近似后的模型：
+$$
+\hat{H}_0 = \sum_{\theta} \sum_{|k| \lt \Lambda} (v_F k) \hat{c}^{\dagger}_{\theta, k} \hat{c}_{\theta, k}.
+$$
+如果角度只有两个值$0$和$\pi$，上述哈密顿量就回到了一维费米子线性化后的形式.
+$\hat{c}_{\theta, k}$称为***手性费米子***，以强调它的方向依赖特性.
+
+我们知道费米面附近的低能激发主要是粒子-空穴激发，即$\hat{c}^{\dagger}_{\vec{k}+\vec{q}} c_{\vec{k}}$，其对应的能量是$\frac{(\vec{k}+\vec{q})^2}{2m} - \frac{\vec{k}^2}{2m} = \frac{\vec{k} \cdot \vec{q}}{m} + \frac{\vec{q}^2}{2m}$. 可以看到如果粒子-空穴激发对应的动量$|\vec{q}| \ll k_F$，所涉及的粒子在费米面附近$|\vec{k}| \approx k_F$，并且$\vec{q}$与$\vec{k}$方向比较一致，那么$\frac{\vec{q}^2}{2m}$项可以忽略，粒子-空穴激发能量就是线性的，即$\frac{(\vec{k}+\vec{q})^2}{2m} - \frac{\vec{k}^2}{2m} \approx \frac{\vec{k} \cdot \vec{q}}{m}$.
+对于当前讨论的手性费米子，其粒子-空穴激发有两种类型，即同手性（$\theta$相同）和不同手性（$\theta$不同）. 前者相当于$\vec{q}$与$\vec{k}$方向完全相同，对应于一维时候$q \rightarrow 0$过程，可以完全按照一维玻色化的方案去做. 后者中$\vec{q}$与$\vec{k}$方向不同，涉及$\hat{c}_{\theta, k}$，$\hat{c}^{\dagger}_{\theta', |\vec{k}+\vec{q}|}$，显然没法套用一维玻色化的技术来处理，这实际上说明这种基于手性费米子的形式在玻色化后很难计入小角度散射的贡献. 这也是这种玻色化方案被大家放弃的基本原因. 
+
+
