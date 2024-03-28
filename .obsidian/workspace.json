@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Many-Body/Bosonization.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.51103591918945
+    "width": 219.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Many-Body/Bosonization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Many-Body/Bosonization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Log.md"
+                "file": "Many-Body/Bosonization.md"
               }
             }
           },
@@ -194,8 +195,9 @@
   },
   "active": "7a9d05fc6532f962",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Project/Log.md",
+    "Many-Body/Bosonization.md",
+    "conflict-files-obsidian-git.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "README.md",
