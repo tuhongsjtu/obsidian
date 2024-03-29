@@ -9,8 +9,9 @@ max_wrap_error太大
 
 
 # 3.26
-- [ ] ⏫ EE的scaling行为有些奇怪
-- [ ] 🔼 PQMC需要数值稳定
+- [x] ⏫ EE的scaling行为有些奇怪 ✅ 2024-03-29
+已经验证完毕，有限温时满足体积律
+- [ ] ⏫  PQMC需要数值稳定，现在改成了有限温时温度与尺寸一起scaling，不过仍需要数值稳定
 
 # 无相互作用费米子的negativity
 # 1. Half

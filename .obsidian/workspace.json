@@ -37,6 +37,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "QMC/数值稳定.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06d72da0e0b1fc40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Project/Log.md",
                 "mode": "source",
                 "source": false
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -118,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.51103591918945,
-    "collapsed": true
+    "width": 219.51103591918945
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -135,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Task_plugin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Task_plugin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Log.md"
+                "file": "Task_plugin.md"
               }
             }
           },
@@ -205,8 +216,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2986e7ae079c5ab",
+  "active": "25083b74b027c5f3",
   "lastOpenFiles": [
+    "Project/Log.md",
+    "QMC/数值稳定.md",
     "Pasted image 20240329173944.png",
     "Pasted image 20240329173930.png",
     "Pasted image 20240329152532.png",
@@ -215,7 +228,6 @@
     "Pasted image 20240329150736.png",
     "Pasted image 20240329150727.png",
     "Many-Body/Bosonization.md",
-    "Project/Log.md",
     "conflict-files-obsidian-git.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
@@ -223,7 +235,6 @@
     "Pic/Pasted image 20240326154231.png",
     "Pic/Pasted image 20240326154155.png",
     "Pic/Pasted image 20240326153555.png",
-    "Pic/Pasted image 20240326153537.png",
     "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
