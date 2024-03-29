@@ -90,4 +90,5 @@ gapped费米系统和具有更高余维的费米面仍然保持面积律
 ![[Pasted image 20240329150727.png]]
 ![[Pasted image 20240329150736.png]]
 满足***体积律***
+![[Pasted image 20240329173944.png]]
 ![[Pasted image 20240329152532.png]]
