@@ -82,3 +82,11 @@ S = \frac{L^{d-1}}{(2\pi)^{d-1}} \frac{\log L}{12} \int \int |n_x \cdot n_k| dA_
 $$
 gapped费米系统和具有更高余维的费米面仍然保持面积律
 
+## EE
+![[Pasted image 20240329150743.png]]
+与文章中的图相似
+![[Pasted image 20240329150844.png]]
+但是似乎不太满足LlogL的修正
+![[Pasted image 20240329150727.png]]
+![[Pasted image 20240329150736.png]]
+
