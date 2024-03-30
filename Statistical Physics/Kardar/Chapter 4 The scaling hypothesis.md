@@ -1,5 +1,8 @@
 ## 4.1    The homogeneity assumption
 在之前的章节中连续相变附近的奇异行为由一系列临界指数$\{ \alpha, \beta, \gamma, \delta, \nu, \eta, \cdots \}$表征. 由于涨落的重要性鞍点近似预测的指数被发现不够可靠. 由于不同的热力学量是相互关联的，这些指数也并不是互相独立的. 本章的目的就是发现它们之间的关系，并且找到能够描述临界点的最少数量的独立指数. 
+
+![[Pasted image 20240330154254.png]]
+
 非解析结构是一条$t \lt 0, h = 0$并且的终止于$t = h = 0$的共存线. 不同的指数描述热力学量$Q(t, h)$在此点附近的主导奇异行为. 正则系综的基本量是自由能，在鞍点近似中为：
 $$
 f(t, h) = \min \left[ \frac{t}{2}m^2 + um^4 - h.m \right]_m = 
@@ -27,7 +30,7 @@ $$
 \Delta = \frac{3}{2}.
 $$
 
-均匀性假设是指，在超出鞍点近似时，自由能（以及其他热力学量）的奇异形式保留均匀形式：
+同质性假设是指，在超出鞍点近似时，自由能（以及其他热力学量）的奇异形式保留均匀形式：
 $$
 f_{\text{sing}}(t, h) = |t|^{2-\alpha} g_f(h / |t|^{\Delta}).
 $$
@@ -72,5 +75,42 @@ $$
 $$
 尽管在假定的缩放形式中使用$|t|$，我们仍然可以通过适当选择参数来确保函数在$t = 0$时对于有限$h$的解析性，例如通过设置$B_− =−B_+$来匹配等式(4.10)和解析形式(4.8). 确定了这个结果后，我们以后在用$|t|$替换标度方程中的$t$时可能会有些粗心. 当然，这些论点适用于任何物理量$Q(t, h)$.
 
+从(4.4)的自由能出发，我们可以计算其他感兴趣的物理量的奇异部分：
+* *磁化强度*通过以下得到：
+$$
+m(t, h) \sim \frac{\partial f}{\partial h} \sim |t|^{2-\alpha-\Delta} g_m(h/|t|^{\Delta}).
+$$
+在极限$x \rightarrow 0$时$g_m(x)$是一个常数，并且
+$$
+m(t, h=0) \sim |t|^{2-\alpha-\Delta}, \quad \Rightarrow \quad \beta = 2 - \alpha - \Delta.
+$$
+另一方面，如果$x \rightarrow \infty$，$g_m(x) \sim x^p$，且
+$$
+m(t = 0, h) \sim |t|^{2 - \alpha - \Delta} \left( \frac{h}{|t|^{\Delta}} \right)^p.
+$$
+因为这个极限不依赖于$t$，我们有$p\Delta = 2 - \alpha - \Delta$. 因此
+$$
+m(t, h=0) \sim h^{(2 - \alpha - \Delta) / \Delta} \quad \Rightarrow \quad \delta = \Delta / (2-\alpha-\Delta) = \Delta / \beta.
+$$
+* 类似的，磁化率的计算方法为：
+$$
+\begin{aligned}
+\chi(t, h) \sim \frac{\partial m}{\partial h} \sim |t|^{2-\alpha-2\Delta} g_{\chi}(h/|t|^{\Delta}) 
+& \Rightarrow \chi(t, h=0) \sim |t|^{2-\alpha-2\Delta} \\
+& \Rightarrow \gamma = 2\Delta - 2 + \alpha.
+\end{aligned}
+$$
+因此，同质性假设的结果是：
+(1) 所有临界量$Q(t,h)$的奇异部分都是齐次的，在转变上方和下方具有相同的指数.
+(2) 由于通过热力学导数相互联系，所有这些量都会出现相同的能隙指数$\Delta$.
+(3) 所有（bulk）临界指数只能从*两个*独立的指数获得，例如$\alpha$和$\Delta$.
+(4) 由于上述原因，存在许多指数恒等式. 例如，等式 (4.13)、(4.15) 和 (4.16) 意味着：
+$$
+\alpha + 2\beta + \gamma = \alpha + 2(2-\alpha - \Delta) + (2\Delta - 2 + \alpha) = 2 \quad (\text{Rushbrooke's identity}),
+$$
+$$
+\delta - 1 = \frac{\Delta}{2-\alpha-\Delta} - 1 = \frac{2\Delta - 2 + \alpha}{2 - \alpha - \Delta} = \frac{\gamma}{\beta} \quad (\text{Widom's identity}).
+$$
+这些恒等式可以根据下面临界指数表进行检查. 前三行基于$d = 3$时的多项理论估计；最后一行来自$d = 2$的精确解. 指数恒等式与这些值以及所有可靠的实验数据完全一致.
 
-
+![[Pasted image 20240330154153.png]]
