@@ -18,6 +18,7 @@ $$
 $$
 \Delta = \frac{3}{2}.
 $$
+
 均匀性假设是指，在超出鞍点近似时，自由能（以及其他热力学量）的奇异形式保留均匀形式：
 $$
 f_{\text{sing}}(t, h) = |t|^{2-\alpha} g_f(h / |t|^{\Delta}).
@@ -33,4 +34,31 @@ $$
 $$
 C_{\text{sing}} \sim -\frac{\partial^2 f}{\partial t^2} \sim |t|^{-\alpha} g_C(h/|t|^{\Delta}),
 $$
-产生了
+重新产生了当$h \rightarrow 0$时的标度$C_{sing} \sim |t|^{-\alpha}$.
+
+看起来我们可以自由地假设一个更一般的形式：
+$$
+C_{\pm}(t, h) = |t|^{-\alpha_{\pm}} g_\pm (h / |t|^{\Delta_{\pm}}),
+\tag{4.7}
+$$
+对于$t$的正负我们有不同的函数和指数并且它们在$t=0$时匹配. 然而，因为除了$h=0$和$t \lt 0$的共存线自由能在任何地方都是解析的，所以这种可能被排除了. 考虑一个在$t=0$和有限$h$的点，按照假设，方程$C$在这点的附近是完美解析的，展开为泰勒级数可以得到：
+$$
+C(t \ll h^{\Delta}) = \mathcal{A}(h) + t\mathcal{B}(h) + \mathcal{O}(t^2).
+$$
+进一步，相同的展开可以从$C_+$和$C_-$得到，但是(4.7)导出的展开为：
+$$
+C_{\pm} = |t|^{-|\alpha_{\pm}|} \left[ A_{\pm}\left( \frac{h}{|t|^{\Delta_{\pm}}} \right)^{p_{\pm}} + B_{\pm}\left( \frac{h}{|t|^{\Delta_{\pm}}} \right)^{q_{\pm}} + \cdots \right],
+$$
+其中$\{ p_{\pm}, q_{\pm} \}$是$g_{\pm}$对于大参数渐进展开式的主导幂，$\{A_{\pm}, B_{\pm}\}$是相应的prefactors. 将泰勒展开与(4.8)式做对比要求$p_{\pm} \Delta_{\pm} = -\alpha_{\pm}$以及$q_{\pm} \Delta_{\pm} = - (1 + \alpha_{\pm})$，得到：
+$$
+C(t \ll h^{\Delta}) = A_{\pm} h^{-\alpha_{\pm} / \Delta_{\pm}} + B_{\pm} h^{-(1 + \alpha_{\pm}) / \Delta_{\pm}} |t| + \cdots
+$$
+$t = 0$的连续性要求$\alpha_+ / \Delta_+ = \alpha_- / \Delta_-$以及$( 1+\alpha_+) / \Delta_+ = (1 + \alpha_-) / \Delta_-$，这表明
+$$
+\begin{cases}
+\alpha_+ = \alpha_- \equiv \alpha \\
+\Delta_+ = \Delta_- \equiv \Delta.
+\end{cases}
+$$
+尽管在假定的缩放形式中使用$|t|$，我们仍然可以通过适当选择参数来确保函数在$t = 0$时对于有限$h$的解析性，例如通过设置$B_− =−B_+$来匹配等式(4.10)和解析形式(4.8). 确定了这个结果后，我们以后在用$|t|$替换标度方程中的$t$时可能会有些粗心. 当然，这些论点适用于任何物理量$Q(t, h)$.
+
