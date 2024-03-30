@@ -127,7 +127,7 @@ $$
 第二个条件决定了自由能的奇异部分. 因为$\ln Z(t, h)$是*广延量*并且*无量纲*，它必须有以下形式：
 $$
 \ln Z = \left( \frac{L}{\xi} \right)^d \times g_s + \cdots + \left( \frac{L}{a} \right)^d \times g_a,
-\4.19
+\tag{4.19}
 $$
 其中$g_s$和$g_a$是关于无量纲参数的非奇异函数. （$a$是一个合适的微观长度.）自由能主要的奇异部分来自于第一项，表现为：
 $$
@@ -141,4 +141,24 @@ $$
 $$
 2 - \alpha = d \nu \quad (\text{Joshephson's identity}).
 $$
-从广义同质性假设获得的恒等式涉及空间维度$d$，被称为*超尺度关系*（*hyperscaling relations*）. $\alpha$和$\nu$之间的关系与上表中的指数一致.
+从广义同质性假设获得的恒等式涉及空间维度$d$，被称为*超尺度关系*（*hyperscaling relations*）. $\alpha$和$\nu$之间的关系与上表中的指数一致. 然而，这与$d \gt 4$时的鞍点值$\alpha = 0$以及$\nu = 1/2$不符合. 因此，任何临界行为理论都必须解释这种关系在低维情况下的有效性，以及$d>4$时的失效. 
+
+## 4.3    Critical correlation functions and self-similarity
+迄今为止尚未得到解释的一个指数是$\eta$，它描述了关联函数在临界点的衰减. 恰好在临界点，相关长度是无限的，并且没有其他长度尺度（样本大小除外）来切断关联函数的衰减. 因此，所有关联都会随着分离的幂而衰减. 
+正如前一章所讨论的，磁化强度相关性的下降为：
+$$
+G_{m, m}^c(\mathbf{x}) \equiv \langle m(\mathbf{x}) m(\mathbf{0}) \rangle - \langle m \rangle^2 \sim 1 / |\mathbf{x}|^{d - 2 + \eta}.
+$$
+相似的，我们也可以定义一个指数$\eta'$来描述能量-能量关联函数的衰减：
+$$
+G_{E, E}^c(\mathbf{x}) = \langle \mathcal{H}(\mathbf{x}) \mathcal{H}(\mathbf{0}) \rangle - \langle \mathcal{H} \rangle^2 \sim 1/|\mathbf{x}|^{d-2+\eta'}.
+$$
+远离临界点，幂律在距离$|\mathbf{x}| \gg \xi$处被截断. 由于响应函数可以通过积分连接关联函数得到，因此还有额外的指数恒等式，例如$(\text{Fisher's identity})$：
+$$
+\chi \sim \int d^d \mathbf{x} G_{mm}^c(\mathbf{x}) \sim \int^{\xi} \frac{d^d x}{|x|^{d-2+\eta}} \sim \xi^{2-\eta} \sim |t|^{-\nu(2-\eta)} \quad \Rightarrow \quad \gamma = (2 - \eta)\nu.
+$$
+相似的，对于热容：
+$$
+C \sim \int d^d \mathbf{x} G_{EE}^c(\mathbf{x}) \sim \int^{\xi} \frac{d^d x}{|x|^{d-2+\eta'}} \sim \xi^{2-\eta'} \sim |t|^{-\nu(2-\eta')} \quad \Rightarrow \quad \alpha = (2 - \eta')\nu.
+$$
+和以前一样，两个独立的指数足以描述所有奇异的关键行为. 
