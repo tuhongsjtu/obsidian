@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Task_plugin.md",
+                "file": "QMC/数值稳定.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Task_plugin.md",
+                "file": "QMC/数值稳定.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Task_plugin.md"
+                "file": "QMC/数值稳定.md"
               }
             }
           },
@@ -216,8 +216,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "25083b74b027c5f3",
+  "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
+    "Task_plugin.md",
     "Project/Log.md",
     "QMC/数值稳定.md",
     "Pasted image 20240329173944.png",
@@ -238,7 +239,6 @@
     "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
-    "Task_plugin.md",
     "math/变分法.md",
     "math/Complex Analysis.md",
     "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
