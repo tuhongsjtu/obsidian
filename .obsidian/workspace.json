@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QMC/数值稳定.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.51103591918945
+    "width": 219.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QMC/数值稳定.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QMC/数值稳定.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QMC/数值稳定.md"
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md"
               }
             }
           },
@@ -218,9 +219,11 @@
   },
   "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+    "QMC/数值稳定.md",
     "Task_plugin.md",
     "Project/Log.md",
-    "QMC/数值稳定.md",
     "Pasted image 20240329173944.png",
     "Pasted image 20240329173930.png",
     "Pasted image 20240329152532.png",
@@ -230,7 +233,6 @@
     "Pasted image 20240329150727.png",
     "Many-Body/Bosonization.md",
     "conflict-files-obsidian-git.md",
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "README.md",
     "Pic/Pasted image 20240326154231.png",
@@ -263,7 +265,6 @@
     "code/sldqmc-afm-qcp/everything.md",
     "code/sldqmc-afm-qcp/参数.md",
     "code/sldqmc-afm-qcp/Untitled.md",
-    "code/sldqmc-afm-qcp/sweep_and_update.md",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
