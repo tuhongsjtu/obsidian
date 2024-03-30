@@ -7,9 +7,14 @@ f(t, h) = \min \left[ \frac{t}{2}m^2 + um^4 - h.m \right]_m =
 -\frac{1}{16} \frac{t^2}{u} \quad &\text{for } h = 0, \ \ t \lt 0 \\
 -\frac{3}{4^{4/3}} \frac{h^{4/3}}{u^{1/3}} \quad &\text{for } h \neq 0, \ \ t = 0.
 \end{cases}
+\tag{4.1}
 $$
 自由能中的奇点实际上可以用一个关于$t$和$h$的齐次函数来描述，如：
 $$
 f(t, h) = |t|^2 g_f(h / |t|^{\Delta}).
+\tag{4.2}
 $$
-函数$g_f$只依赖于$x \equiv h / |t|^{\Delta}$的组合. 其中$\Delta$被称为*能隙指数（gap exponent）
+函数$g_f$只依赖于$x \equiv h / |t|^{\Delta}$的组合. 其中$\Delta$被称为*能隙指数（gap exponent）*. 通过比较上面的两个等式可以很容易地得到$g_f$的渐进行为. 如果$\lim_{x \rightarrow 0} g_f(x) \sim 1/u$则恢复$h = 0$的极限，而为了获得适当的$h$的幂，我们必须设置$\lim_{x \rightarrow \infty} g_f(x) \sim x^{4/3}/u^{1/3}$. 后者表明$f \sim |t|^2 h^{4/3} / (u^{1/3} |t|^{4\Delta/3})$. 由于$f$在$t = 0$上不具有$t$的依赖性，因此能隙指数的值为：
+$$
+\Delta = \frac{3}{2}.
+$$
