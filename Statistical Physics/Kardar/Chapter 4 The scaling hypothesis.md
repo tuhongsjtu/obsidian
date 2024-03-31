@@ -270,6 +270,7 @@ $$
 (1) 从一个最一般的对称允许的哈密顿量开始. 比如，在存在旋转对称性时：
 $$
 \beta \mathcal{H} = \int d^d \mathbf{x} \left[ \frac{t}{2}m^2 + um^4 + vm^6 + \cdots + \frac{K}{2}(\nabla m)^2 + \frac{L}{2}(\nabla^2 m)^2 + \cdots \right].
+\tag{4.41}
 $$
 因此，具有这种对称性的特定系统完全由（无限维）参数空间中的一个点$S \equiv ( t, u, v, \cdots, K, L, \cdots)$指定.
 (2) 在构型空间执行重整化的三个步骤：(i) 按照$b$粗粒化；(ii) 重新标度，$\mathbf{x}' = \mathbf{x} / b$；(iii) 归一化，$m' = m / \zeta$. 这样就完成了变量的改变：
@@ -277,4 +278,12 @@ $$
 m'(\mathbf{x}') = \frac{1}{\zeta b^d} \int_{\text{Cell of size } b \text{ centered at } b\mathbf{x}'} d^d \mathbf{x} m(\mathbf{x}).
 $$
 我们可以使用原始构型的概率$\mathcal{P}[m(\mathbf{x})] \propto \exp(-\beta \mathcal{H}[m(\mathbf{x})])$和上面的变量替换来构建新构型的概率$\mathcal{P}'[m'(\mathbf{x}')]$. 自然这是程序中最困难的一步. 
-(3) 
+(3) 由于旋转对称性在RG中被保留下来，缩放的哈密顿量必须也由$(4.41)$中参数空间的一点描述. 
+$$
+\begin{aligned}
+\beta \mathcal{H}'[m'(\mathbf{x}')] 
+\equiv & \ln \mathcal{P}'[m'(\mathbf{x}')] = f_b + \int d^d \mathbf{x}' \left[ \frac{t'}{2}m'^2 + u' m'^4  + v'm'^6 + \cdots + \frac{K'}{2}(\nabla m')^2 + \frac{L'}{2} (\nabla^2 m')^2 + \cdots
+\right].
+\end{aligned}
+$$
+重整化后的参数是原始参数的函数，即$t' = t_b(t, u, \cdots)$；$u' = u_b(t,)$
