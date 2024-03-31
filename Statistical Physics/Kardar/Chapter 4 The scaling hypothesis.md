@@ -183,5 +183,6 @@ $$
 (3) ***重整化(Renormalize)：*** 重新标度的磁化强度分布中的涨落变化通常与原始不同，即图片之间的对比度存在差异. 这可以通过定义*重正化*磁化强度来引入对比度的变化$\zeta$来弥补：
 $$
 \vec{m}_{\text{new}}(\mathbf{x}_{\text{new}}) = \frac{1}{\zeta b^d} \int_{\text{Cell centered at }b\mathbf{x}_{\text{new}}} d^d \mathbf{x}' \vec{m}(\mathbf{x}').
+\tag{4.29}
 $$
-
+通过这些步骤，每个构型$\vec{m}_{\text{old}}(\mathbf{x})$产生一个新的重整化构型$\vec{m}_{\text{new}}(\mathbf{x})$. 方程(4.29)可以认为是从一组随机变量到另一个的映射，可以用于构造概率分布，或者权重$W_b[\vec{m}_{\text{new}(\mathbf{x})}] = \exp\{  -\beta \mathcal{H}_b[\vec{m}_{\text{new}}(\mathbf{x})]  \}$. Kadanoff的见解是，由于长度尺度小于$\xi$，重整化构型在统计上与原始构型相似，因此它们可能是按照也接近原始构型的哈密顿量$\beta \mathcal{H}_b$ 
