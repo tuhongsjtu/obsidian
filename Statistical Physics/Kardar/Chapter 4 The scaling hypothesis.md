@@ -264,4 +264,17 @@ $$
 ***
 
 ## 4.5    The renormalization group (formal)
-之前的章节中我们注意到所有的临界性质都可以通过递归关系(4.32)得到. 尽管概念上很吸引人，但尚不清楚如何正式执行这样的程序. 特别的，
+之前的章节中我们注意到所有的临界性质都可以通过递归关系(4.32)得到. 尽管概念上很吸引人，但尚不清楚如何正式执行这样的程序. 特别的，特别是，为什么两个哈密顿量的形式应该相同，为什么两个参数$t$和$h$足以描述变换？在本节中，我们概述了一个更正式的过程，用于识别dilation operation对哈密顿量的影响. 
+
+该程序的各个步骤如下：
+(1) 从一个最一般的对称允许的哈密顿量开始. 比如，在存在旋转对称性时：
+$$
+\beta \mathcal{H} = \int d^d \mathbf{x} \left[ \frac{t}{2}m^2 + um^4 + vm^6 + \cdots + \frac{K}{2}(\nabla m)^2 + \frac{L}{2}(\nabla^2 m)^2 + \cdots \right].
+$$
+因此，具有这种对称性的特定系统完全由（无限维）参数空间中的一个点$S \equiv ( t, u, v, \cdots, K, L, \cdots)$指定.
+(2) 在构型空间执行重整化的三个步骤：(i) 按照$b$粗粒化；(ii) 重新标度，$\mathbf{x}' = \mathbf{x} / b$；(iii) 归一化，$m' = m / \zeta$. 这样就完成了变量的改变：
+$$
+m'(\mathbf{x}') = \frac{1}{\zeta b^d} \int_{\text{Cell of size } b \text{ centered at } b\mathbf{x}'} d^d \mathbf{x} m(\mathbf{x}).
+$$
+我们可以使用原始构型的概率$\mathcal{P}[m(\mathbf{x})] \propto \exp(-\beta \mathcal{H}[m(\mathbf{x})])$和上面的变量替换来构建新构型的概率$\mathcal{P}'[m'(\mathbf{x}')]$. 自然这是程序中最困难的一步. 
+(3) 
