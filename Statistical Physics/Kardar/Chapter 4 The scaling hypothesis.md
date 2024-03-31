@@ -185,4 +185,23 @@ $$
 \vec{m}_{\text{new}}(\mathbf{x}_{\text{new}}) = \frac{1}{\zeta b^d} \int_{\text{Cell centered at }b\mathbf{x}_{\text{new}}} d^d \mathbf{x}' \vec{m}(\mathbf{x}').
 \tag{4.29}
 $$
-通过这些步骤，每个构型$\vec{m}_{\text{old}}(\mathbf{x})$产生一个新的重整化构型$\vec{m}_{\text{new}}(\mathbf{x})$. 方程(4.29)可以认为是从一组随机变量到另一个的映射，可以用于构造概率分布，或者权重$W_b[\vec{m}_{\text{new}(\mathbf{x})}] = \exp\{  -\beta \mathcal{H}_b[\vec{m}_{\text{new}}(\mathbf{x})]  \}$. Kadanoff的见解是，由于长度尺度小于$\xi$，重整化构型在统计上与原始构型相似，因此它们可能是按照也接近原始构型的哈密顿量$\beta \mathcal{H}_b$ 
+通过这些步骤，每个构型$\vec{m}_{\text{old}}(\mathbf{x})$产生一个新的重整化构型$\vec{m}_{\text{new}}(\mathbf{x})$. 方程(4.29)可以认为是从一组随机变量到另一个的映射，可以用于构造概率分布，或者权重$W_b[\vec{m}_{\text{new}(\mathbf{x})}] = \exp\{  -\beta \mathcal{H}_b[\vec{m}_{\text{new}}(\mathbf{x})]  \}$. Kadanoff的见解是，由于长度尺度小于$\xi$，重整化构型在统计上与原始构型相似，因此它们可能是按照也接近原始构型的哈密顿量$\beta \mathcal{H}_b$分布. 特别的，原始哈密顿量通过调节两个参数$t$和$h$到$0$来达到临界：在这一点原始构型与重新标度的系统是统计相似的. 因此临界哈密顿量在重新标度和重整化下应该是不变的. 在最初的问题中，我们远离了有限$t$和$h$的临界性. Kadanoff假设相应的重整化哈密顿量类似地由非零$t_{\text{new}}$和/或$h_{\text{new}}$描述.
+
+接近临界的原始哈密顿量和重正化哈密顿量的接近度由两个参数$t$和$h$描述的假设大大简化了分析. RG变换对构型概率的影响现在通过两个参数映射$t_{\text{new}} \equiv t_b(t_{\text{old}, h_{\text{old}}})$和$h_{\text{new}} \equiv h_b(t_{\text{old}}, h_{\text{old}})$来描述. 下一步要注意的是，由于变换仅涉及最短长度尺度的变化，因此它不会导致任何奇点. 重整化参数必须是原始参数的解析函数，因此可扩展为
+***
+如何理解“变换仅涉及最短长度尺度的变化，因此它不会导致任何奇点”
+***
+$$
+\begin{cases}
+t_b(t, h) = A(b)t + B(b)h + \cdots \\
+h_b(t, h) = C(b)t + D(b)h + \cdots
+\end{cases}
+$$
+注意在上面的泰勒展开中没有常数项. 这表明如果$\beta \mathcal{H}$在临界点$(t = h = 0)$，$\beta \mathcal{H}_b$也在临界点，并且$(t_{\text{new}} = h_{\text{new}} = 0)$. 进一步，由于旋转对称性，在组合变换$(m(x) \rightarrow -m(x), h \rightarrow -h, t \rightarrow t)$下，构型的权重不变. 由于RG保留了这种对称性，因此上述表达式中的系数$B$和$C$必须为零，这导致了进一步的简化：
+$$
+\begin{cases}
+t_b(t, h) = A(b)t + \cdots \\
+h_b(t, h) = D(b)h + \cdots
+\end{cases}
+$$
+剩余的系数$A(b)$和$D(b)$取决于（任意）缩放因子$b$，并且对于$b=1$有$A(1) = D(1) = 1$. 由于上述变换可以按顺序进行，并且$b_1$和$b_2$重新缩放的净效果是$b_1b_2$的尺度变化，因此RG过程有时被称为*半群*。
