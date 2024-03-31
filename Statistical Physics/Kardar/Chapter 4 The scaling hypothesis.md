@@ -295,4 +295,15 @@ $$
 
 ![[Pasted image 20240331194802.png]]
 
-(4.32)式代表了一个简化的二维参数空间，$t = h = 0$是不动点，bing qie
+(5) (4.32)式代表了一个简化的二维参数空间，$t = h = 0$是不动点，并且方程中的最低阶描述了其邻域的行为. 一般的，我们可以通过线性化其附近的递归关系来研究不动点的稳定性. 在RG下，$S^* + \delta S$被转化为：
+$$
+S^*_{\alpha} + \delta S'_{\alpha} = S^*_{\alpha} + (\Re_b^L)_{\alpha \beta} \delta S_{\beta} + \cdots, \quad \text{where } (\Re_b^L)_{\alpha \beta} \equiv \left. \frac{\partial S'_{\alpha}}{\partial S_{\beta}} \right|_{S^*}.
+$$
+现在我们对角化矩阵$(\Re_b^L)_{\alpha \beta}$来得到本征向量$\mathcal{O}_i$以及相应的本征值$\lambda(b)_i$. 由于群性质
+$$
+\Re_b^L \Re_{b'}^L \mathcal{O}_i = \lambda(b)_i \lambda(b')_i = \Re_{bb'}^L \mathcal{O}_i = \lambda(bb')_i \mathcal{O}_i.
+$$
+加上$\lambda(1)_i = 1$我们可以得到
+$$
+\lambda(b)_i = b^{y_i}.
+$$
