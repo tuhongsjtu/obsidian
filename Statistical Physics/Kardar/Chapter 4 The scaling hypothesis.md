@@ -210,10 +210,47 @@ $$
 $$
 \begin{cases}
 t' \equiv t_b = b^{y_t}t + \cdots \\
-h' \equiv h_b = b^{h_h}h + \cdots
+h' \equiv h_b = b^{y_h}h + \cdots
 \end{cases}
 \tag{4.32}
 $$
 如果$\beta \mathcal{H}_{\text{old}}$轻微偏离临界点，它被一个大但有限的关联长度$\xi_{\text{old}}$描述. 在RG变换后，由于(4.28)的重新标度，新的关联长度小了$b$倍. 因此重整化哈密顿量是离临界更远的，RG过程使参数远离原点，即指数$y_t$和$y_h$必须为正. 
+
 我们现在可以探索得出式(4.32)的假设的一些结果.
-(1) ***The free energy:***  
+(1) ***The free energy:***  RG变换是一个多对一映射，将原始构型映射到一个新的构型上. 因为新构型的权重$W'([m'])$是旧构型权重$W([m])$的求和，配分函数不变，即：
+$$
+Z = \int Dm W([m]) = \int Dm' W'([m']) = Z'.
+$$
+因此$\ln Z = \ln Z'$，相应的自由能之间的关联为：
+$$
+Vf(t, h) = V'f(t', h').
+$$
+在$d$维时，缩放的体积比原体积小了$b^d$倍，因此：
+$$
+f(t, h) = b^{-d} f(b^{y_t}t, b^{y_h}h),
+$$
+其中我们使用了这样的假设：两个从相同哈密顿量得到的只有$t$和$h$发生变化的自由能，描述了一个关于$t$和$h$的齐次函数. 通过选择一个缩放因子$b$使得$b^{y_t}$是一个常数，即单位，即$b = t^{−1/y_t}$，这可以变得明显，从而导致：
+$$
+f(t, h) = t^{d/y_t} f(1, h/t^{y_h/y_t}) \equiv t^{d/y_t} g_f(h / t^{y_h/y_t}).
+$$
+根据之前的结果(4.4)对比，我们可以得到指数间的关系为：
+$$
+2 - \alpha = d / y_t, \quad \Delta = y_h / y_t.
+\tag{4.37}
+$$
+(2) ***Correlation length:*** 所有长度尺度在RG中要除一个因子$b$，对于关联长度也是如此，$\xi' = \xi / b$，因此：
+$$
+\xi(t, h) = b\xi(b^{y_t}t, b^{y_h}h) = t^{-1/y_t} \xi(1, h/t^{y_h/y_t}) \sim t^{-\nu}
+$$
+这表明$\nu = 1/y_t$，并且使用(4.37)式我们可以再次得到超标度关系$2-\alpha = d\nu$.
+(3) ***Magnetization:*** 从自由能的齐次形式(4.36)我们可以得到其他体物理量如磁化强度. 或者，根据$Z$、$V$和$h$的 RG 结果，我们可以直接得出结论：
+$$
+m(t, h) = - \frac{1}{V} \frac{\partial \ln Z(t, h)}{\partial h} 
+= -\frac{1}{b^d V'} \frac{\partial \ln Z'(t', h')}{b^{-y_h} \partial h'} = b^{y_h-d}m(b^{y_t}t, b^{y_h}h).
+$$
+选择$b = t^{-1/y_t}$，我们得到$\beta = (y_h - d) / y_t$以及$\Delta = y_h / y_t$.
+
+因此很明显可以得到，任意物理量$X$的奇异部分有一个齐次形式：
+$$
+X(t, h) = b^{y_X} X(b^{y_t}t)
+$$
