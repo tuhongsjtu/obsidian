@@ -54,33 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "25083b74b027c5f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Task_plugin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b52afee61713e2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/Complex Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+                "file": "Project/Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+                "file": "Project/Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md"
+                "file": "Project/Log.md"
               }
             }
           },
@@ -217,11 +193,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2986e7ae079c5ab",
+  "active": "06d72da0e0b1fc40",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Pasted image 20240401133945.png",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
-    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Many-Body/Bosonization.md",
     "Project/Log.md",
     "Pasted image 20240401094429.png",
@@ -236,7 +212,6 @@
     "QMC/数值稳定.md",
     "Task_plugin.md",
     "Pasted image 20240329173944.png",
-    "Pasted image 20240329173930.png",
     "conflict-files-obsidian-git.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "README.md",

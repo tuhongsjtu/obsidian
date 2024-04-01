@@ -391,12 +391,13 @@ $$
 f_{\mathrm{sing}}(t,h)=-t^{d/2}\left[A+\frac{h^2}{2t^{1+d/2}}\right]\equiv t^{2-\alpha}g_f(h/t^\Delta).
 \tag{4.59}
 $$
-注意与$L, \cdots$正比例的高阶梯度不影响(4.59)的奇异行为. 
-not effect the singular behavior in Eq. (4.59). On approaching the point $h=0$ for $t= 0^+$, the singular part of the free energy is described by a homogeneous scaling form, with exponents
-
- 
+***
+为什么积分是这种形式？一次齐次函数不是没有截距吗？
+***
+注意与$L, \cdots$正比例的高阶梯度不影响(4.59)的奇异行为. 当接近$h = 0, t = 0^+$时，自由能的奇异部分由齐次标度形式描述，其中指数为：
 $$
 \alpha_{+}=2-d/2,\quad\Delta=1/2+d/4.
 $$
+由于有序相$t \lt 0$不稳定，指数$\beta$没有定义. 然而磁化率$\chi\propto\partial^2f/\partial h^2\propto1/t$按照指数$\gamma_+ = 1$发散.
 
-Since the ordered phase for $t<0$ is not stable, the exponent $\beta$ is undefined. The susceptibility $\chi\propto\partial^2f/\partial h^2\propto1/t$, however, diverges with the exponent $\gamma_{+}=1$
+## 4.7    The Gaussian model (renormalization group)
