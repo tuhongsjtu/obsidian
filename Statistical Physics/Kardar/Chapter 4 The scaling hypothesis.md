@@ -343,6 +343,35 @@ $$
 $$
 （我们应该使用一个不同的记号，比如$\tilde{m}_i(\mathbf{q})$来表示傅立叶模式. 为了简洁起见，我们使用相同的符号，但明确包含参数$\mathbf{q}$作为傅立叶变换函数的指示符）最后一个变换使用于无限尺寸极限（$L \rightarrow \infty$），$V$是系统体积.
 在用傅立叶模式重新表达哈密顿量时我们遇到了下面的表达式：
-$$
 
 $$
+\int\mathrm{d}^d\mathbf{x}m(\mathbf{x})^2=\int\mathrm{d}^d\mathbf{x}\sum_{\mathbf{q},\mathbf{q}^{\prime}}\frac{\mathrm{e}^{-i(\mathbf{q}+\mathbf{q}^{\prime})\cdot\mathbf{x}}}{V^2}\vec{m}(\mathbf{q})\cdot\vec{m}(\mathbf{q}^{\prime})=\sum_{\mathbf{q}}\frac{\vec{m}(\mathbf{q})\cdot\vec{m}(-\mathbf{q})}{V}.
+$$
+相似的操作的导出了哈密顿量为：
+$$
+\beta\mathcal{H}=\sum_{\mathbf{q}}\left(\frac{t+Kq^{2}+Lq^{4}+\cdots}{2V}\right)|m(\mathbf{q})|^{2}-\vec{h}\cdot\vec{m}(\mathbf{q}=\mathbf{0}).
+$$
+其中$|m(\mathbf{q})|^2$是$\vec{m}(\mathbf{q})$的模的平方，因为$\vec{m}(\mathbf{q})$和$\vec{m}(\mathbf{-q})$是共轭的. 
+***
+对于定义在复数域的序参量，结果是什么样的？
+***
+ With the choice of the normalization in Eq. (4.50), the Jacobian of the transfor mation to Fourier modes is $1/\sqrt{V}$ per mode, and the partition function equals
+
+ 
+$$
+Z=\prod_{\mathbf{q}}V^{-n/2}\int\mathrm{d}\vec{m}(\mathbf{q})\exp\biggl[-\frac{t+Kq^{2}+Lq^{4}+\cdots}{2V}|m(\mathbf{q})|^{2}+\vec{h}\cdot\vec{m}(\mathbf{q}=0)\biggr].
+$$
+ The integral for $\mathbf{q}=\mathbf{0}$ is
+
+$$
+Z_{0}=V^{-n/2}\int_{-\infty}^{\infty}\mathrm{d}\vec{m}(\mathbf{0})\exp\biggl[-\frac{t}{2V}|m(\mathbf{0})|^{2}+\vec{h}\cdot\vec{m}(\mathbf{0})\biggr]=\biggl(\frac{2\pi}{t}\biggr)^{n/2}\exp\biggl[\frac{Vh^{2}}{2t}\biggr].
+$$
+After performing the integrations for $\mathbf{q}\neq\mathbf{0}$, we obtain
+ The total number of modes, $N$, equals the number of original lattice points. Apart from a constant factor resulting from $(2\pi)^{nN/2}$, the free energy is
+
+$$
+f(t,h)=-\frac{\ln Z}{V}=\frac{n}{2}\int_{BZ}\frac{\mathrm{d}^d\mathbf{q}}{(2\pi)^d}\ln\left(t+Kq^2+Lq^4+\cdots\right)-\frac{h^2}{2t}.
+$$
+ 
+
+ 
