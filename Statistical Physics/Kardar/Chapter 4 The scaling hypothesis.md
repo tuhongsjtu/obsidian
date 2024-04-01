@@ -340,6 +340,7 @@ $$
 \vec{m}(\mathbf{q}) = \int d^d \mathbf{x} e^{i\mathbf{q} \cdot \mathbf{x}} \vec{m}(\mathbf{x}) \\
 \vec{m}(\mathbf{x}) = \sum_{\mathbf{q}} \frac{e^{-i\mathbf{q}\cdot\mathbf{x}}}{V} \vec{m}(\mathbf{q}) = \int \frac{d^d \mathbf{q}}{(2\pi)^d} e^{-i\mathbf{q} \cdot \mathbf{x}} \vec{m}(\mathbf{q}).
 \end{cases}
+\tag{4.50}
 $$
 （我们应该使用一个不同的记号，比如$\tilde{m}_i(\mathbf{q})$来表示傅立叶模式. 为了简洁起见，我们使用相同的符号，但明确包含参数$\mathbf{q}$作为傅立叶变换函数的指示符）最后一个变换使用于无限尺寸极限（$L \rightarrow \infty$），$V$是系统体积.
 在用傅立叶模式重新表达哈密顿量时我们遇到了下面的表达式：
@@ -354,24 +355,54 @@ $$
 其中$|m(\mathbf{q})|^2$是$\vec{m}(\mathbf{q})$的模的平方，因为$\vec{m}(\mathbf{q})$和$\vec{m}(\mathbf{-q})$是共轭的. 
 ***
 对于定义在复数域的序参量，结果是什么样的？
+傅立叶变换Jacobian行列式
 ***
- With the choice of the normalization in Eq. (4.50), the Jacobian of the transfor mation to Fourier modes is $1/\sqrt{V}$ per mode, and the partition function equals
-
- 
+ 由于(4.50)中归一化的选择，每个模式转换为傅立叶模式的Jacobian行列式为$1/\sqrt{V}$，配分函数等于：
 $$
 Z=\prod_{\mathbf{q}}V^{-n/2}\int\mathrm{d}\vec{m}(\mathbf{q})\exp\biggl[-\frac{t+Kq^{2}+Lq^{4}+\cdots}{2V}|m(\mathbf{q})|^{2}+\vec{h}\cdot\vec{m}(\mathbf{q}=0)\biggr].
 $$
- The integral for $\mathbf{q}=\mathbf{0}$ is
-
+ $\mathbf{q}=\mathbf{0}$的积分等于：
 $$
 Z_{0}=V^{-n/2}\int_{-\infty}^{\infty}\mathrm{d}\vec{m}(\mathbf{0})\exp\biggl[-\frac{t}{2V}|m(\mathbf{0})|^{2}+\vec{h}\cdot\vec{m}(\mathbf{0})\biggr]=\biggl(\frac{2\pi}{t}\biggr)^{n/2}\exp\biggl[\frac{Vh^{2}}{2t}\biggr].
 $$
-After performing the integrations for $\mathbf{q}\neq\mathbf{0}$, we obtain
- The total number of modes, $N$, equals the number of original lattice points. Apart from a constant factor resulting from $(2\pi)^{nN/2}$, the free energy is
-
+在进行过$\mathbf{q} \neq \mathbf{0}$的积分后，我们得到：
+$$
+Z = \exp \left[ \frac{Vh^2}{2t} \right]  \prod_{\mathbf{q}} \left( \frac{2\pi}{t + Kq^2 + Lq^4 + \cdots} \right)^{n/2}.
+$$
+总模式数$N$等于原格点数. 除了由$(2\pi)^{nN/2}$产生的常数因子外，自由能为
 $$
 f(t,h)=-\frac{\ln Z}{V}=\frac{n}{2}\int_{BZ}\frac{\mathrm{d}^d\mathbf{q}}{(2\pi)^d}\ln\left(t+Kq^2+Lq^4+\cdots\right)-\frac{h^2}{2t}.
+\tag{4.56}
 $$
- 
+ ![[Pasted image 20240401133945.png]]
+ (4.56)中的积分遍布布里渊区，对于间距为$a$的超立方晶格，它是以原点为中心，变长为$2\pi/a$的立方体. 
+
+we approximate the shape of the Brillouin zone by a hypersphere of radius $\Lambda\approx\pi/\alpha$. The spherical symmetry of the integrand then allows us to write
+
+$$
+f_{\mathrm{sing}}(t,h)=\frac{n}{2}K_{d}\int_{0}^{\Lambda}\mathrm{d}qq^{d-1}\ln\left(t+Kq^{2}+Lq^{4}+\cdots\right)-\frac{h^{2}}{2t},
+$$
+ where $K_d\equiv S_d/(2\pi)^d$, and $S_d$ is the $d$ -dimensional solid angle. The leading dependence of the integral on $t$ can be extracted after rescaling $q$ by a factor of $\sqrt {t/K}$, as
 
  
+$$
+\begin{aligned}
+f_{\mathrm{sing}}(t,h)& =\frac{n}{2}K_{d}\left(\frac{t}{K}\right)^{d/2}\int_{0}^{\Lambda\sqrt{K}/\sqrt{t}}\mathrm{d}xx^{d-1} \\
+&\times\left[\ln t+\ln\left(1+x^2+Ltx^4/K^2+\cdots\right)\right]-\frac{h^2}{2t}.
+\end{aligned}
+$$
+ Ignoring analytic contributions in $t$ the leading singular dependence of the free
+ energy can be written as
+
+$$
+f_{\mathrm{sing}}(t,h)=-t^{d/2}\left[A+\frac{h^2}{2t^{1+d/2}}\right]\equiv t^{2-\alpha}g_f(h/t^\Delta).
+$$
+ $\begin{pmatrix}4.59\end{pmatrix}$ Note that the higher order gradients, i.e. terms proportional to $L,\cdots$, do
+not effect the singular behavior in Eq. (4.59). On approaching the point $h=0$ for $t= 0^+$, the singular part of the free energy is described by a homogeneous scaling form, with exponents
+
+ 
+$$
+\alpha_{+}=2-d/2,\quad\Delta=1/2+d/4.
+$$
+
+Since the ordered phase for $t<0$ is not stable, the exponent $\beta$ is undefined. The susceptibility $\chi\propto\partial^2f/\partial h^2\propto1/t$, however, diverges with the exponent $\gamma_{+}=1$
