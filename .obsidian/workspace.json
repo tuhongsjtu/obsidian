@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "624c5f8697329359",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistical Physics/Phase Transition Theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "06d72da0e0b1fc40",
             "type": "leaf",
             "state": {
@@ -194,8 +206,9 @@
   },
   "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
-    "Many-Body/Bosonization.md",
+    "Statistical Physics/Phase Transition Theory.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+    "Many-Body/Bosonization.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Project/Log.md",
     "Pasted image 20240401133945.png",
@@ -234,7 +247,6 @@
     "QMC/正则系综AFQMC.md",
     "Many-Body/Quantum Information/Density Matrix.md",
     "Statistical Physics/Boltzman Function.md",
-    "Statistical Physics/Phase Transition Theory.md",
     "code/sldqmc-afm-qcp/sweep.md",
     "code/sldqmc-afm-qcp/green function and self energy.md",
     "code/sldqmc-afm-qcp/everything.md",
