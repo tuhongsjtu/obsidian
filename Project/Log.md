@@ -75,7 +75,7 @@ benchmark和dqmc的结果是吻合的，可以用benckmark程序来研究更大�
 ![[Pasted image 20240326154155.png]]
 ![[Pasted image 20240326154231.png]]
 
-## 3.28
+## EE and Fermi Surface
 Entanglement entropy and the Fermi surface
 这篇文章为费米面为$d-1$维的gapless系统提供了纠缠熵的scaling law公式
 $$
@@ -93,3 +93,13 @@ gapped费米系统和具有更高余维的费米面仍然保持面积律
 满足***体积律***
 ![[Pasted image 20240329173944.png]]
 ![[Pasted image 20240329152532.png]]
+
+## 零温Nega
+按照$\beta = L$进行scale
+### corner
+![[Pasted image 20240401094331.png]]
+![[Pasted image 20240401094336.png]]
+
+### half
+![[Pasted image 20240401094423.png]]
+![[Pasted image 20240401094429.png]]
