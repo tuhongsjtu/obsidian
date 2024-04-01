@@ -333,4 +333,4 @@ RG运用在*高斯模型*的内容会在下一部分介绍. 为了后面比较�
 $$
 Z = \int \mathcal{D} \vec{m}(\mathbf{x}) \exp \left\{ - \int d^d \mathbf{x} \left[  \frac{t}{2}m^2 + \frac{K}{2} (\nabla m)^2 + \frac{L}{2} (\nabla^2 m)^2 + \cdots - \vec{h} \cdot \vec{m} \right] \right\}.
 $$
-显然这个模型只在$t \ge 0$时是良定义的，因为没有$m^4$的项来保证$t \lt 0$时的稳定性. 
+显然这个模型只在$t \ge 0$时是良定义的，因为没有$m^4$的项来保证$t \lt 0$时的稳定性. 配分函数在$t = 0$仍然有奇异性，我们可以将其视为从无序侧接近相变. 
