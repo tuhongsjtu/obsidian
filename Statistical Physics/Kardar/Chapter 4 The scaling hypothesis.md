@@ -375,29 +375,23 @@ f(t,h)=-\frac{\ln Z}{V}=\frac{n}{2}\int_{BZ}\frac{\mathrm{d}^d\mathbf{q}}{(2\pi)
 \tag{4.56}
 $$
  ![[Pasted image 20240401133945.png]]
- (4.56)中的积分遍布布里渊区，对于间距为$a$的超立方晶格，它是以原点为中心，变长为$2\pi/a$的立方体. 
-
-we approximate the shape of the Brillouin zone by a hypersphere of radius $\Lambda\approx\pi/\alpha$. The spherical symmetry of the integrand then allows us to write
-
+ (4.56)中的积分遍布布里渊区，对于间距为$a$的超立方晶格，它是以原点为中心，变长为$2\pi/a$的立方体. 然而我们期望奇异性来自于接近$\mathbf{q} = \mathbf{0}$的长波长模式. 布里渊区边缘附近的贡献显然是解析的，因为对于有限的$q^2$对数可以简单地按照$t$展开. 因此为了简化当$t \rightarrow 0$时奇异行为的提取，我们通过半径为$\Lambda\approx\pi/\alpha$的超球面来近似布里渊区的形状. 积分的球对称性允许我们写出：
 $$
 f_{\mathrm{sing}}(t,h)=\frac{n}{2}K_{d}\int_{0}^{\Lambda}\mathrm{d}qq^{d-1}\ln\left(t+Kq^{2}+Lq^{4}+\cdots\right)-\frac{h^{2}}{2t},
 $$
- where $K_d\equiv S_d/(2\pi)^d$, and $S_d$ is the $d$ -dimensional solid angle. The leading dependence of the integral on $t$ can be extracted after rescaling $q$ by a factor of $\sqrt {t/K}$, as
-
- 
+其中$K_d\equiv S_d/(2\pi)^d$，$S_d$是$d$维的立体角. 通过$\sqrt{t/K}$重新调整$q$后，积分对于$t$的主要依赖为：
 $$
 \begin{aligned}
 f_{\mathrm{sing}}(t,h)& =\frac{n}{2}K_{d}\left(\frac{t}{K}\right)^{d/2}\int_{0}^{\Lambda\sqrt{K}/\sqrt{t}}\mathrm{d}xx^{d-1} \\
 &\times\left[\ln t+\ln\left(1+x^2+Ltx^4/K^2+\cdots\right)\right]-\frac{h^2}{2t}.
 \end{aligned}
 $$
- Ignoring analytic contributions in $t$ the leading singular dependence of the free
- energy can be written as
-
+忽略$t$中的解析贡献，自由能的主要奇异依赖性可以写为：
 $$
 f_{\mathrm{sing}}(t,h)=-t^{d/2}\left[A+\frac{h^2}{2t^{1+d/2}}\right]\equiv t^{2-\alpha}g_f(h/t^\Delta).
+\tag{4.59}
 $$
- $\begin{pmatrix}4.59\end{pmatrix}$ Note that the higher order gradients, i.e. terms proportional to $L,\cdots$, do
+注意与$L, \cdots$正比例的高阶梯度不影响(4.59)的奇异行为. 
 not effect the singular behavior in Eq. (4.59). On approaching the point $h=0$ for $t= 0^+$, the singular part of the free energy is described by a homogeneous scaling form, with exponents
 
  
