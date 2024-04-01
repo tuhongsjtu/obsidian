@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.51103591918945,
-    "collapsed": true
+    "width": 219.51103591918945
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Log.md"
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md"
               }
             }
           },
@@ -193,13 +192,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "06d72da0e0b1fc40",
+  "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
-    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
-    "Pasted image 20240401133945.png",
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Many-Body/Bosonization.md",
+    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Project/Log.md",
+    "Pasted image 20240401133945.png",
     "Pasted image 20240401094429.png",
     "Pasted image 20240401094423.png",
     "Pasted image 20240401094336.png",
