@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "ec1937cffa8b78e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project/Log.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "624c5f8697329359",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+                "file": "Project/Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+                "file": "Project/Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md"
+                "file": "Project/Log.md"
               }
             }
           },
@@ -204,8 +216,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2986e7ae079c5ab",
+  "active": "ec1937cffa8b78e5",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Pic/Pasted image 20240401133945.png",
     "Pic/Pasted image 20240401094429.png",
     "Pic/Pasted image 20240401094423.png",
@@ -216,9 +229,7 @@
     "Pic/Pasted image 20240330154254.png",
     "Pic/Pasted image 20240330154153.png",
     "Pic/Pasted image 20240329173944.png",
-    "Pic/Pasted image 20240329173930.png",
     "Statistical Physics/Useful Formula.md",
-    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Many-Body/Bosonization.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
