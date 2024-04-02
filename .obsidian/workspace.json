@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md"
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md"
               }
             }
           },
@@ -206,9 +206,9 @@
   },
   "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
     "Project/Log.md",
     "Statistical Physics/Phase Transition Theory.md",
