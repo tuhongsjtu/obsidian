@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Useful Formula.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Useful Formula.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Useful Formula.md"
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md"
               }
             }
           },
@@ -204,29 +204,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7a9d05fc6532f962",
+  "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
-    "Many-Body/Bosonization.md",
+    "Pic/Pasted image 20240401133945.png",
+    "Pic/Pasted image 20240401094429.png",
+    "Pic/Pasted image 20240401094423.png",
+    "Pic/Pasted image 20240401094336.png",
+    "Pic/Pasted image 20240401094331.png",
+    "Pic/Pasted image 20240331194802.png",
+    "Pic/Pasted image 20240330190735.png",
+    "Pic/Pasted image 20240330154254.png",
+    "Pic/Pasted image 20240330154153.png",
+    "Pic/Pasted image 20240329173944.png",
+    "Pic/Pasted image 20240329173930.png",
     "Statistical Physics/Useful Formula.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+    "Many-Body/Bosonization.md",
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
     "Project/Log.md",
     "Statistical Physics/Phase Transition Theory.md",
-    "Pasted image 20240401133945.png",
-    "Pasted image 20240401094429.png",
-    "Pasted image 20240401094423.png",
-    "Pasted image 20240401094336.png",
-    "Pasted image 20240401094331.png",
-    "Pasted image 20240331194802.png",
     "math/Complex Analysis.md",
-    "Pasted image 20240330190735.png",
-    "Pasted image 20240330154254.png",
-    "Pasted image 20240330154153.png",
     "QMC/数值稳定.md",
     "Task_plugin.md",
-    "Pasted image 20240329173944.png",
     "conflict-files-obsidian-git.md",
     "README.md",
     "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
@@ -251,7 +252,6 @@
     "Statistical Physics/Boltzman Function.md",
     "code/sldqmc-afm-qcp/sweep.md",
     "code/sldqmc-afm-qcp/green function and self energy.md",
-    "code/sldqmc-afm-qcp/everything.md",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
