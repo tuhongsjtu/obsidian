@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Log.md"
+                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md"
               }
             }
           },
@@ -204,13 +204,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "06d72da0e0b1fc40",
+  "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+    "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
+    "Project/Log.md",
     "Statistical Physics/Phase Transition Theory.md",
     "Many-Body/Bosonization.md",
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
-    "Project/Log.md",
     "Pasted image 20240401133945.png",
     "Pasted image 20240401094429.png",
     "Pasted image 20240401094423.png",
@@ -225,7 +227,6 @@
     "Task_plugin.md",
     "Pasted image 20240329173944.png",
     "conflict-files-obsidian-git.md",
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "README.md",
     "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "code/Data Structure/MIT 6.006 2011",
