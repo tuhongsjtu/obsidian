@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Many-Body/Bosonization.md",
+                "file": "Statistical Physics/Useful Formula.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+                "file": "Statistical Physics/Useful Formula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+                "file": "Statistical Physics/Useful Formula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md"
+                "file": "Statistical Physics/Useful Formula.md"
               }
             }
           },
@@ -204,15 +204,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2986e7ae079c5ab",
+  "active": "7a9d05fc6532f962",
   "lastOpenFiles": [
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+    "Many-Body/Bosonization.md",
+    "Statistical Physics/Useful Formula.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
     "Project/Log.md",
     "Statistical Physics/Phase Transition Theory.md",
-    "Many-Body/Bosonization.md",
     "Pasted image 20240401133945.png",
     "Pasted image 20240401094429.png",
     "Pasted image 20240401094423.png",
@@ -251,7 +252,6 @@
     "code/sldqmc-afm-qcp/sweep.md",
     "code/sldqmc-afm-qcp/green function and self energy.md",
     "code/sldqmc-afm-qcp/everything.md",
-    "code/sldqmc-afm-qcp/参数.md",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
