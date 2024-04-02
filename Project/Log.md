@@ -75,6 +75,7 @@ benchmark和dqmc的结果是吻合的，可以用benckmark程序来研究更大�
 ![[Pasted image 20240326154155.png]]
 ![[Pasted image 20240326154231.png]]
 
+
 ## EE and Fermi Surface
 Entanglement entropy and the Fermi surface
 这篇文章为费米面为$d-1$维的gapless系统提供了纠缠熵的scaling law公式
