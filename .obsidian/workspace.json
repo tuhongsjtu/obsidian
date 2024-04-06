@@ -8,48 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5d551f5786ba838e",
+            "id": "235d32735d9c2702",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "104a1582ad749bb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98a7ea13c908567a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c7f4e2812a47d67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project/Log.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -215,28 +179,33 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5d551f5786ba838e",
+  "active": "235d32735d9c2702",
   "lastOpenFiles": [
+    "Project/Log.md",
+    "conflict-files-obsidian-git.md",
     "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
-    "Pic/Pasted image 20240326154231.png",
-    "Pic/Pasted image 20240326154155.png",
-    "Pic/Pasted image 20240326153555.png",
-    "Pic/Pasted image 20240326153537.png",
-    "Pic/Pasted image 20240326153403.png",
-    "Pic/Pasted image 20240326153125.png",
-    "Pic/Pasted image 20240326153106.png",
-    "Pic/Pasted image 20240326153042.png",
-    "Pic/Pasted image 20240326153018.png",
-    "Pic/Pasted image 20240326153012.png",
+    "Statistical Physics/Useful Formula.md",
+    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+    "QMC/数值稳定.md",
+    "Pic/Pasted image 20240401133945.png",
+    "Pic/Pasted image 20240401094429.png",
+    "Pic/Pasted image 20240401094423.png",
+    "Pic/Pasted image 20240401094336.png",
+    "Pic/Pasted image 20240401094331.png",
+    "Pic/Pasted image 20240331194802.png",
+    "Pic/Pasted image 20240330190735.png",
+    "Pic/Pasted image 20240330154254.png",
+    "Pic/Pasted image 20240330154153.png",
+    "Pic/Pasted image 20240329173944.png",
+    "Many-Body/Bosonization.md",
     "math/Complex Analysis.md",
     "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "Task_plugin.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure/Search.md",
     "code/Data Structure",
-    "Project/Log.md",
     "math/变分法.md",
     "Many-Body/Fermi Liquid Theory/Green's Function of FL.md",
     "Many-Body/Fermi Liquid Theory/Fermi Liquid Theory.md",
@@ -258,11 +227,6 @@
     "Statistical Physics/Phase Transition Theory.md",
     "code/sldqmc-afm-qcp/sweep.md",
     "code/sldqmc-afm-qcp/green function and self energy.md",
-    "code/sldqmc-afm-qcp/everything.md",
-    "code/sldqmc-afm-qcp/参数.md",
-    "code/sldqmc-afm-qcp/Untitled.md",
-    "code/sldqmc-afm-qcp/sweep_and_update.md",
-    "code/sldqmc-afm-qcp/sli.md",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
