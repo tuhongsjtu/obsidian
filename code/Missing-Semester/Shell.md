@@ -57,6 +57,9 @@ echo > hello3.txt
 
 > [!NOTE] 
 > 感觉是一种很牛逼的程序设计哲学
+> 
+> 对于`echo`这种不用输入流的程序，以上无效
+
 
 还可以使用 `>>` 来向一个文件追加内容。使用管道（ _pipes_ ），我们能够更好的利用文件重定向。 `|` 操作符允许我们将一个程序的输出和另外一个程序的输入连接起来：
 ```shell
@@ -90,3 +93,5 @@ $ echo 3 | sudo tee brightness
 $ echo 1 | sudo tee /sys/class/leds/input6::scrolllock/brightness
 ```
 
+
+## 本章习题
