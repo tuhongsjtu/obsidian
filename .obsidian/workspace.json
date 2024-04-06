@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dff2e4e22016d2cf",
+        "id": "e43cf548fcd6727a",
         "type": "tabs",
         "children": [
           {
-            "id": "235d32735d9c2702",
+            "id": "b08544cb495f2367",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25083b74b027c5f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b52afee61713e2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/Complex Analysis.md",
+                "file": "code/Missing-Semester/Shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "code/Missing-Semester/Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "code/Missing-Semester/Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "code/Missing-Semester/Shell.md"
               }
             }
           },
@@ -179,10 +155,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "235d32735d9c2702",
+  "active": "b08544cb495f2367",
   "lastOpenFiles": [
-    "Project/Log.md",
+    "code/Missing-Semester/课程信息.md",
+    "code/Missing-Semester/未命名",
+    "code/Missing-Semester/Shell.md",
+    "code/Missing-Semester",
+    "code/未命名.md",
+    "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "conflict-files-obsidian-git.md",
+    "Project/Log.md",
     "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
@@ -201,7 +183,6 @@
     "Pic/Pasted image 20240329173944.png",
     "Many-Body/Bosonization.md",
     "math/Complex Analysis.md",
-    "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "Task_plugin.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure/Search.md",
@@ -216,17 +197,11 @@
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.2 Half-Odd Integer Spin Chains/1_YY_Weekly.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.1 The Antiferromagnet/L-M_theorem.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.1 The Antiferromagnet/5.1 The Antiferromagnet.pdf",
-    "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/4.2  Some groundstate theorem/PhysRev.147.392.pdf",
-    "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/4.2  Some groundstate theorem/Guang-Shan_Tian_1990_J._Phys._A__Math._Gen._23_2231.pdf",
     "Many-Body/Many-body quantum theory in condensed matter physics/19.5 Bosonization of the Tomonaga model Hamiltonian.md",
     "Many-Body/Green's Function.md",
     "QMC/正则系综AFQMC.md",
     "README.md",
     "Many-Body/Quantum Information/Density Matrix.md",
-    "Statistical Physics/Boltzman Function.md",
-    "Statistical Physics/Phase Transition Theory.md",
-    "code/sldqmc-afm-qcp/sweep.md",
-    "code/sldqmc-afm-qcp/green function and self energy.md",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
