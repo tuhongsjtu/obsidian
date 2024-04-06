@@ -39,4 +39,28 @@ missing:~$ cat < hello.txt > hello2.txt
 missing:~$ cat hello2.txt
 hello
 ```
-关于`cat < hello.txt > hello2.txt`可以理解为，第一个字段是运行的程序名，所以重定向
+关于`cat < hello.txt > hello2.txt`，我的理解是，任何一个程序都有输入流和输出流，默认输入流为键盘，当使用`< hello.txt`时将输入流重定向为文件`hello.txt`。但是如果给`cat`传输一个文件参数，则会抛弃输入流，专注于打印给定的文件参数，这一点可以通过运行：
+```shell
+echo < hello.txt hello2.txt
+echo hello2.txt < hello.txt
+```
+来观察到，我们可以看到运行的结果都是`hello2.txt`中的内容，这表明`echo`应该是默认不使用输入流的，只有当没有给定参数时，才会请求使用输入流。
+为了验证这一点我还使用了以下命令：
+```shell
+echo hello.txt hello2.txt > hello3.txt
+echo < hello.txt hello2.txt > hello3.txt
+echo > hello3.txt
+```
+结果是第一行里会有两个文件的内容，第二行里`hello3.txt`中只会有`hello2.txt`的内容，第三行里命令会请求用户用键盘输入。
+
+> [!NOTE] 
+> 感觉是一种很牛逼的程序设计哲学
+
+
+还可以使用 `>>` 来向一个文件追加内容。使用管道（ _pipes_ ），我们能够更好的利用文件重定向。 `|` 操作符允许我们将一个程序的输出和另外一个程序的输入连接起来：
+```shell
+missing:~$ ls -l / | tail -n1
+drwxr-xr-x 1 root  root  4096 Jun 20  2019 var
+missing:~$ curl --head --silent google.com | grep --ignore-case content-length | cut --delimiter=' ' -f2
+219
+```

@@ -6,5 +6,13 @@
       ],
       "key": "K"
     }
+  ],
+  "editor:insert-callout": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
   ]
 }
