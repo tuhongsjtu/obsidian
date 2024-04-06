@@ -94,4 +94,4 @@ $ echo 1 | sudo tee /sys/class/leds/input6::scrolllock/brightness
 ```
 
 
-## 本章习题
+## Shell脚本
