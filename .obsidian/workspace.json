@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Log.md"
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md"
               }
             }
           },
@@ -216,8 +216,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ec1937cffa8b78e5",
+  "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
+    "Project/Log.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Pic/Pasted image 20240401133945.png",
     "Pic/Pasted image 20240401094429.png",
@@ -234,7 +235,6 @@
     "Many-Body/Bosonization.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
-    "Project/Log.md",
     "Statistical Physics/Phase Transition Theory.md",
     "math/Complex Analysis.md",
     "QMC/数值稳定.md",
