@@ -414,12 +414,20 @@ $$
 因为两个模式集合在Gaussian模型中解耦，积分是很简单，并且：
 $$
 \begin{aligned}
-Z\sim\exp\left[-\frac{n}{2}V\int_{\Lambda/b}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}}
-{(2\pi)^{d}}\ln(t+Kq^{2}+Lq^{4}+\cdots)\right|\times\int{\cal D}\tilde{\tilde{m}}(\mathbf{q}^{<}) \\
-\endP{
+Z&\sim\exp\left[-\frac{n}{2}V\int_{\Lambda/b}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}}
+{(2\pi)^{d}}\ln(t+Kq^{2}+Lq^{4}+\cdots)\right|\times\int{\cal D}\tilde{\vec{m}}(\mathbf{q}^{<}) \\
+& \times \exp \left[ -\int_0^{\Lambda/b} \frac{d^d\mathbf{q}}{(2\pi)^d} \left( \frac{t + Kq^2 + Lq^4 + \cdots}{2} |\tilde{m}(\mathbf{q})|^2 + \vec{h}\cdot \tilde{\vec{m}}(\mathbf{0}) \right) \right].
+\end{aligned}
 $$
 
-(2) ***Rescale:*** 模式$\tilde{\vec{m}}(\mathbf{q}^{\lt})$的配分函数与原本的相似，除了
+
+(2) ***Rescale:*** 模式$\tilde{\vec{m}}(\mathbf{q}^{\lt})$的配分函数与原本的相似，除了上截断减小到$\Lambda/b$，反映了实空间分辨率的粗化$\mathbf{x}' = \mathbf{x}/b$与倒空间$\mathbf{q}'=b\mathbf{q}$是等价的，并将截断值恢复到其原始值. 重新调整后的配分函数为：
+$$
+\begin{aligned}
+Z=&\mathrm{e}^{-V\delta f_{b}(t)}\times\int{\cal D}\tilde{\vec{m}}(\mathbf{q}^{\prime})\times\exp\left[-\int_{0}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}^{\prime}}{(2\pi)^{d}}b^{-d}\right. \\
+&\times \left( \frac{}{} \right) 
+\end{aligned}
+$$
 
 The partition function for the modes $\tilde{\vec{m}}(\mathbf{q}^{<})$ is similar to the original, except
 that the upper cutoff has decreased to $\Lambda/b$, reflecting the coarsening in resolution The rescaling $\mathbf{x}^{\prime}=\mathbf{x}/b$ in real space is equivalent to $\mathbf{q}^{\prime}=b\mathbf{q}$ in momentum space, and restores the cutoff to its original value. The rescaled partition function is
