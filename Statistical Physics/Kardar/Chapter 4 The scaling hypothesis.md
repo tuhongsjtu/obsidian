@@ -391,9 +391,6 @@ $$
 f_{\mathrm{sing}}(t,h)=-t^{d/2}\left[A+\frac{h^2}{2t^{1+d/2}}\right]\equiv t^{2-\alpha}g_f(h/t^\Delta).
 \tag{4.59}
 $$
-***
-为什么积分是这种形式？一次齐次函数不是没有截距吗？
-***
 注意与$L, \cdots$正比例的高阶梯度不影响(4.59)的奇异行为. 当接近$h = 0, t = 0^+$时，自由能的奇异部分由齐次标度形式描述，其中指数为：
 $$
 \alpha_{+}=2-d/2,\quad\Delta=1/2+d/4.
@@ -401,3 +398,38 @@ $$
 由于有序相$t \lt 0$不稳定，指数$\beta$没有定义. 然而磁化率$\chi\propto\partial^2f/\partial h^2\propto1/t$按照指数$\gamma_+ = 1$发散.
 
 ## 4.7    The Gaussian model (renormalization group)
+Gaussian模型的重整化使用傅立叶模式是最方便的. 目标是通过RG间接地计算配分函数：
+$$
+Z \sim \int \mathcal{D}\vec{m}(\mathbf{q}) \exp \left[ -\int_0^{\Lambda} \frac{d^d\mathbf{q}}{(2\pi)^d} \left( \frac{t + Kq^2 + Lq^4 + \cdots}{2} \right) |m(\mathbf{q})|^2 + \vec{h} \cdot \vec{m}(\mathbf{0}) \right]
+$$
+注意布里渊区近似为半径为$\Lambda$的超平面. 
+(1) ***Coarse grain:*** 消除$a \lt x \lt ba$尺度上的涨落类似于消除波数$\Lambda/b \lt q \lt \Lambda$的傅立叶模式. 因此我们将动量分成两个子集，
+$$
+\{ \vec{m}(\mathbf{q}) \} = \{ \vec{\sigma}(\mathbf{q}^{\gt}) \} \oplus \{ \tilde{\vec{m}}(\mathbf{q}^{\lt}) \},
+$$
+因此可以把积分写成：
+$$
+Z = \int \mathcal{D}\tilde{\vec{m}}(\mathbf{q}^{\lt}) \int \mathcal{D} \vec{\sigma}(\mathbf{q}^{\gt}) e^{-\beta \mathcal{H}[\tilde{\vec{m}}, \vec{\sigma}]}.
+$$
+因为两个模式集合在Gaussian模型中解耦，积分是很简单，并且：
+$$
+\begin{aligned}
+Z\sim\exp\left[-\frac{n}{2}V\int_{\Lambda/b}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}}
+{(2\pi)^{d}}\ln(t+Kq^{2}+Lq^{4}+\cdots)\right|\times\int{\cal D}\tilde{\tilde{m}}(\mathbf{q}^{<}) \\
+\endP{
+$$
+
+(2) ***Rescale:*** 模式$\tilde{\vec{m}}(\mathbf{q}^{\lt})$的配分函数与原本的相似，除了
+
+The partition function for the modes $\tilde{\vec{m}}(\mathbf{q}^{<})$ is similar to the original, except
+that the upper cutoff has decreased to $\Lambda/b$, reflecting the coarsening in resolution The rescaling $\mathbf{x}^{\prime}=\mathbf{x}/b$ in real space is equivalent to $\mathbf{q}^{\prime}=b\mathbf{q}$ in momentum space, and restores the cutoff to its original value. The rescaled partition function is
+
+$Z=\mathrm{e}^{-V\delta f_{b}(t)}\times\int{\cal D}\tilde{\tilde{m}}(\mathbf{q}^{\prime})\times\exp\left[-\int_{0}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}^{\prime}}{(2\pi)^{d}}b^{-d}\right]$
+ 
+(3) Renormalize: The final step of RG in real space is the renormalization of mag:
+netization, $\vec{m}^{\prime}(\mathbf{x}^{\prime})=\vec{m}(\mathbf{x}^{\prime})/\zeta$. Alternatively, we can renormalize the Fourier modes according to $\vec{m}^{\prime}(\mathbf{q}^{\prime})=\tilde{\vec{m}}(\mathbf{q}^{\prime})/z$, resulting in
+
+$$
+\begin{aligned}Z&=\mathrm{e}^{-V\delta f_{b}(t)}\times\int{\mathcal D}\vec{m}^{\prime}(\mathbf{q}^{\prime})\times\exp\left[-\int_{0}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}^{\prime}}{(2\pi)^{d}}b^{-d}z^{2}\right]\\&\times\left(\frac{t+Kb^{-2}q^{'2}+Lb^{-4}q^{'4}+\cdots}{2}\right)|m^{\prime}(\mathbf{q}^{'})|^{2}+z\vec{h}\cdot\vec{m}^{\prime}(\mathbf{0})\end{aligned}
+$$
+ 

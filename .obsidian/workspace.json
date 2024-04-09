@@ -130,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.51103591918945
+    "width": 219.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -216,7 +217,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2986e7ae079c5ab",
+  "active": "2f8f6a61c23f575d",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
