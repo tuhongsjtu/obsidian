@@ -323,7 +323,7 @@ $$
 $$
 因此我们得到指数$\nu_1 = 1/y_1$，以及与$g_{\alpha}$相关的一组广义能隙指数$\Delta_{\alpha} = y_{\alpha} / y_1$. 
 
-让我们假定固定点$S^*$描述了方程(4.41)中无外场磁体的临界点. 当温度或其他一些控制参数发生变化时，有效哈密顿量的系数也会发生改变，并且$S$沿着参数空间中的轨迹移动. 除了临界温度点，磁体具有有限的关联长度. 如果点$S$所采取的轨迹仅在一点与$S^*$吸引盆相交，则可以实现这一点. 为了实现这一点，吸引盆必须具有同维$1$，即固定点$S^*$必须有且只有一个相关算符. 这提供了*普适类*的解释，因为系统的许多微观细节构成了吸引盆的无关算符的巨大空间. 在存在磁场时，必须调整两个系统参数才能达到临界点$(T = T_c, h = 0)$. 因此，磁场对应于$S^*$处的额外的相关算符. 同样，其他“奇”相互作用，比如$\{ m^3, m^5, \cdots \}$，不应该导出任何其他相关算符.
+让我们假定固定点$S^*$描述了方程(4.41)中无外场磁体的临界点. 当温度或其他一些控制参数发生变化时，有效哈密顿量的系数也会发生改变，并且$S$沿着参数空间中的轨迹移动. 除了临界温度点，磁体具有有限的关联长度. 如果点$S$所采取的轨迹仅在一点与$S^*$吸引盆相交，则可以实现这一点. 为了实现这一点，吸引盆必须具有同维$1$，即固定点$S^*$必须有且只有一个相关算符. 这提供了*普适类* 的解释，因为系统的许多微观细节构成了吸引盆的无关算符的巨大空间. 在存在磁场时，必须调整两个系统参数才能达到临界点$(T = T_c, h = 0)$. 因此，磁场对应于$S^*$处的额外的相关算符. 同样，其他“奇”相互作用，比如$\{ m^3, m^5, \cdots \}$，不应该导出任何其他相关算符.
 
 尽管本节中概述的正式程序非常严格，但它存在一些相当明显的缺点：我们如何实际分析地实现步骤(2)的RG变换？对称性允许存在无限数量的相互作用，因此参数$S$的空间过大. 我们如何先验知道RG变换存在不动点；$\Re_b$可以线性化等等？在Kadanoff最初制定RG之后，存在一段不确定时期，直到Wilson展示了如何在Landau-Ginzburg模型中实施（至少是扰动地）这些步骤.
 
@@ -425,17 +425,12 @@ $$
 $$
 \begin{aligned}
 Z=&\mathrm{e}^{-V\delta f_{b}(t)}\times\int{\cal D}\tilde{\vec{m}}(\mathbf{q}^{\prime})\times\exp\left[-\int_{0}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}^{\prime}}{(2\pi)^{d}}b^{-d}\right. \\
-&\times \left( \frac{}{} \right) 
+&\times \left. \left( \frac{t + Kb^{-2} q'^2 + Lb^{-4}q'^4 + \cdots}{2} |\tilde{m}(\mathbf{q}')|^2 + \vec{h} \cdot \tilde{\vec{m}}(\mathbf{0}) \right) \right]. 
 \end{aligned}
 $$
-
-The partition function for the modes $\tilde{\vec{m}}(\mathbf{q}^{<})$ is similar to the original, except
-that the upper cutoff has decreased to $\Lambda/b$, reflecting the coarsening in resolution The rescaling $\mathbf{x}^{\prime}=\mathbf{x}/b$ in real space is equivalent to $\mathbf{q}^{\prime}=b\mathbf{q}$ in momentum space, and restores the cutoff to its original value. The rescaled partition function is
-
-$Z=\mathrm{e}^{-V\delta f_{b}(t)}\times\int{\cal D}\tilde{\tilde{m}}(\mathbf{q}^{\prime})\times\exp\left[-\int_{0}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}^{\prime}}{(2\pi)^{d}}b^{-d}\right]$
  
-(3) Renormalize: The final step of RG in real space is the renormalization of mag:
-netization, $\vec{m}^{\prime}(\mathbf{x}^{\prime})=\vec{m}(\mathbf{x}^{\prime})/\zeta$. Alternatively, we can renormalize the Fourier modes according to $\vec{m}^{\prime}(\mathbf{q}^{\prime})=\tilde{\vec{m}}(\mathbf{q}^{\prime})/z$, resulting in
+(3) ***Renormalize: *** 
+(3) Renormalize: The final step of RG in real space is the renormalization of magnetization, $\vec{m}^{\prime}(\mathbf{x}^{\prime})=\vec{m}(\mathbf{x}^{\prime})/\zeta$. Alternatively, we can renormalize the Fourier modes according to $\vec{m}^{\prime}(\mathbf{q}^{\prime})=\tilde{\vec{m}}(\mathbf{q}^{\prime})/z$, resulting in
 
 $$
 \begin{aligned}Z&=\mathrm{e}^{-V\delta f_{b}(t)}\times\int{\mathcal D}\vec{m}^{\prime}(\mathbf{q}^{\prime})\times\exp\left[-\int_{0}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}^{\prime}}{(2\pi)^{d}}b^{-d}z^{2}\right]\\&\times\left(\frac{t+Kb^{-2}q^{'2}+Lb^{-4}q^{'4}+\cdots}{2}\right)|m^{\prime}(\mathbf{q}^{'})|^{2}+z\vec{h}\cdot\vec{m}^{\prime}(\mathbf{0})\end{aligned}
