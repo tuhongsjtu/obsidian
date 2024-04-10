@@ -397,9 +397,8 @@ $$
 $$
 由于有序相$t \lt 0$不稳定，指数$\beta$没有定义. 然而磁化率$\chi\propto\partial^2f/\partial h^2\propto1/t$按照指数$\gamma_+ = 1$发散.
 
-
 > [!NOTE]
-> 这里忽略括号里其他guan'yu
+> 这里得到自由能$f_{\text{sing}}(t, h)\sim t^{d/2}$的原因是，在$t \rightarrow 0$时积分变为常数，并且我们只考虑主导项。如果考虑展开中更高次项的贡献，则会给标度行为带来新的贡献. 
 
 
 ## 4.7    The Gaussian model (renormalization group)
