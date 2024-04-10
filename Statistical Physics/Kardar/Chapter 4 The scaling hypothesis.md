@@ -397,6 +397,11 @@ $$
 $$
 由于有序相$t \lt 0$不稳定，指数$\beta$没有定义. 然而磁化率$\chi\propto\partial^2f/\partial h^2\propto1/t$按照指数$\gamma_+ = 1$发散.
 
+
+> [!NOTE]
+> 这里忽略括号里其他guan'yu
+
+
 ## 4.7    The Gaussian model (renormalization group)
 Gaussian模型的重整化使用傅立叶模式是最方便的. 目标是通过RG间接地计算配分函数：
 $$
