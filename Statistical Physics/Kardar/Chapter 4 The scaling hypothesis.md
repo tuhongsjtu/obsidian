@@ -424,6 +424,10 @@ Z&\sim\exp\left[-\frac{n}{2}V\int_{\Lambda/b}^{\Lambda}\frac{\mathrm{d}^{d}\math
 \end{aligned}
 $$
 
+> [!NOTE]
+> 可以考虑最简单的自旋波模型，可以有波长为$a, 2a, 4a, \cdots$的模式，当我们按照$ba$粗粒化时，所有波长小于$ba$的模式都会变为$0$. 因此在布里渊区只保留了长波部分的模式，即RG抹去了系统的短波行为.
+> 
+>另一方面，积分$\int \mathcal{D} \vec{m}(\mathbf{q})$实际上是关于变量$\vec{m}(\mathbf{q_1}), \vec{m}(\mathbf{q_2}), \cdots$的重积分（考虑是对场的遍历，所以理所应当的是对所有变量的重积分，实空间亦是如此），所以自然地可以拆分成两部分积分，尽管场的构型写成了两个子集的直和.
 
 (2) ***Rescale:*** 模式$\tilde{\vec{m}}(\mathbf{q}^{\lt})$的配分函数与原本的相似，除了上截断减小到$\Lambda/b$，反映了实空间分辨率的粗化$\mathbf{x}' = \mathbf{x}/b$与倒空间$\mathbf{q}'=b\mathbf{q}$是等价的，并将截断值恢复到其原始值. 重新调整后的配分函数为：
 $$
