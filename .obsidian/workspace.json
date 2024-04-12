@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "mode": "source",
                 "source": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md"
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md"
               }
             }
           },
@@ -217,10 +217,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2f8f6a61c23f575d",
+  "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+    "conflict-files-obsidian-git.md",
     "code/Missing-Semester/课程信息.md",
     "code/Missing-Semester/Shell.md",
     "code/Missing-Semester",
@@ -264,7 +265,6 @@
     "QMC/正则系综AFQMC.md",
     "Many-Body/Quantum Information/Density Matrix.md",
     "Statistical Physics/Boltzman Function.md",
-    "code/sldqmc-afm-qcp/sweep.md",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
