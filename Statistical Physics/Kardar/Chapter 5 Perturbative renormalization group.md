@@ -93,6 +93,44 @@ $$
 (2) 八对包含了$m_\alpha$，$m_\beta$和不同下标$m$的缩放：
 $$
 \begin{aligned}&\langle m_\alpha(\mathbf{q})m_i(\mathbf{q}_1)\rangle_0\langle m_\beta(\mathbf{q}^{\prime})m_j(\mathbf{q}_3)\rangle_0\langle m_i(\mathbf{q}_2)m_j(-\mathbf{q}_1-\mathbf{q}_2-\mathbf{q}_3)\rangle_0\\&=\frac{\delta_{\alpha i}\delta_{\beta j}\delta_{ij}(2\pi)^{3d}\delta^d(\mathbf{q}+\mathbf{q}_1)\delta^d(\mathbf{q}^{\prime}+\mathbf{q}_3)\delta^d(\mathbf{q}_1+\mathbf{q}_3)}{(t+Kq^2)(t+Kq^{\prime2})(t+Kq_2^2)}.
-
 \end{aligned}
+\tag{5.15}
 $$
+与上面相同的操作我们可以得到：
+$$
+-8u \frac{\delta_{\alpha \beta} (2\pi)^d \delta^d(\mathbf{q} + \mathbf{q}')}{(t + Kq^2)^2} \int \frac{d^d \mathbf{q}_2}{(2\pi)^d} \frac{1}{t + Kq^2_2}. \tag{5.16}
+$$
+将这些贡献加在一起我们可以得到：
+$$
+\begin{aligned}\langle m_\alpha(\mathbf{q})m_\beta(\mathbf{q}')\rangle=\frac{\delta_{\alpha\beta}(2\pi)^d\delta^d(\mathbf{q}+\mathbf{q}')}{t+Kq^2}\bigg[1-\frac{4u(n+2)}{t+Kq^2}\int\frac{\mathrm{d}^d\mathbf{k}}{(2\pi)^d}\frac{1}{t+Kk^2}+\mathcal{O}(u^2)\bigg].\end{aligned}
+\tag{5.17}
+$$
+
+
+## 5.3    Diagrammatic representation of perturbation theory
+微扰论中更高阶的计算变得更加复杂，可以引入图表示来帮助跟踪所有可能的收缩. 要计算$u$中第$p$阶的$\ell$点期望值$\langle \prod_{i=1}^{\ell} m_{\alpha_i}(\mathbf{q}_i) \rangle$，按照以下规则进行：
+(1) 按照标记$(\mathbf{q}_i, \alpha_i)$画$\ell$个点，对应着需要的关联函数的坐标. 画$p$个四脚顶点，由内部动量和指数表示，例如$\{ (\mathbf{k}_1, i), (\mathbf{k}_2, i),(\mathbf{k}_3, j),(\mathbf{k}_4, j),\}$. 由于四条腿不等价，因此四脚顶点由用虚线连接的两个实心分支表示. （向高阶相互作用的延伸很简单.）
+![[Pasted image 20240412173111.png]]
+(2) 图中的每个点现在都对应着$m_{\alpha_i}(\mathbf{q}_i)$的一个因子，并且乘积的无微扰平均值通过Wick定理计算. 这是通过将一个点连接到另一个点的线以所有拓扑上不同的方式成对连接所有外部和内部点来实现的；参见下面的(5).
+(3) 每一个这样的图的代数值通过以下规则得到：
+(i) 连接一对点的线表示两点平均，即
+![[Pasted image 20240412173806.png|210]]
+对应于
+$$
+\delta_{\alpha_1 \alpha_2} (2\pi)^d \delta^d(\mathbf{q}_1 + \mathbf{q}_2)/(t + Kq_1^2)
+$$
+(ii) 一个顶点
+![[Pasted image 20240412174024.png|210]]
+代表
+$$
+u(2\pi)^d\delta^d(\mathbf{k}_1 + \mathbf{k}_2 + \mathbf{k}_3 + \mathbf{k}_4)
+$$
+（delta函数保证了动量是守恒的.）
+(4) 对$4p$个内动量$\{ \mathbf{k}_i \}$积分，并且对$2p$个内指标求和，注意此时每个关闭的loop产生一个因子$\delta_{ii} = n$.
+(5) 这里有一个数值因子：
+$$
+\frac{(-1)^p}{p!}\times\text{number of different pairings leading to the same topology.}
+$$
+第一项来自于指数的展开；第二项
+
+
