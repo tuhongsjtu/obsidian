@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "a2469ed28853b50c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ec1937cffa8b78e5",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -217,11 +229,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2986e7ae079c5ab",
+  "active": "a2469ed28853b50c",
   "lastOpenFiles": [
-    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "conflict-files-obsidian-git.md",
+    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "code/Missing-Semester/课程信息.md",
     "code/Missing-Semester/Shell.md",
     "code/Missing-Semester",
