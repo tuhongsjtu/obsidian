@@ -131,6 +131,10 @@ $$
 $$
 \frac{(-1)^p}{p!}\times\text{number of different pairings leading to the same topology.}
 $$
-第一项来自于指数的展开；第二项
+第一项来自于指数的展开；第二项仅仅指出通过对称性相关的图给出相同的结果，并且可以计算一次。
+(6) 当计算累积量时，仅需要包含完全连接的图（没有不相交的部分）. 这是一个巨大的简化. 
 
-
+例如，对于传播子图
+![[Pasted image 20240412174654.png|300]]
+展开到二阶可以得到：
+![[Pasted image 20240412174802.png]]
