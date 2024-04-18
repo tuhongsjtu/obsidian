@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Project/Draft.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Project/Draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Log.md",
+                "file": "Project/Draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Log.md"
+                "file": "Project/Draft.md"
               }
             }
           },
@@ -218,9 +218,9 @@
   },
   "active": "ec1937cffa8b78e5",
   "lastOpenFiles": [
+    "Project/Log.md",
     "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Pic/Pasted image 20240326152948.png",
-    "Project/Log.md",
     "Task_plugin.md",
     "Pasted image 20240412174802.png",
     "Pasted image 20240412174654.png",
