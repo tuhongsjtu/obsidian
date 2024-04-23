@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md"
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md"
               }
             }
           },
@@ -218,6 +218,7 @@
   },
   "active": "ec1937cffa8b78e5",
   "lastOpenFiles": [
+    "Project/FM-Triangle-Coupled-Model.md",
     "Project/Draft.md",
     "Project/Log.md",
     "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
@@ -263,7 +264,6 @@
     "Many-Body/Many-body quantum theory in condensed matter physics/19.5 Bosonization of the Tomonaga model Hamiltonian.md",
     "Many-Body/Green's Function.md",
     "QMC/正则系综AFQMC.md",
-    "Many-Body/Quantum Information/Density Matrix.md",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
