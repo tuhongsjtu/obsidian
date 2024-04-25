@@ -156,6 +156,7 @@ $$
  其中
 $$
 S(q)=\langle|m_1(\mathbf{q})|^2\rangle=\int\mathrm{d}^d\mathbf{x}\mathrm{e}^{i\mathbf{q}\cdot\mathbf{x}}\langle m_1(\mathbf{x}-\mathbf{x}')\:m_1(\mathbf{0})\rangle 
+\tag{5.20}
 $$
 是散射实验中的可观测量.
 从(5.17)式中我们得到
@@ -166,3 +167,28 @@ $$
 $$
 S(q)^{-1}=t+Kq^2+4u(n+2)\int\frac{\mathrm{d}^d\mathbf{k}}{(2\pi)^d}\frac{1}{t+Kk^2}+\mathcal{O}(u^2).
 $$
+在高温相中，(5.20)表明在$q \rightarrow 0$极限下$S(q)$正是磁化率$\chi$. 出于这个原因$S(q)$有时被$\chi(q)$表示. 因此，磁化率的倒数为
+$$
+\chi^{-1}(t) = t + 4u(n+2) \int \frac{\mathrm{d}^d \mathbf{k}}{(2\pi)^d} \frac{1}{t + Kk^2} + \mathcal{O}(u^2).
+$$
+磁化率在$t=0$不再发散，因为
+$$
+\begin{aligned}
+\chi^{-1}(0)& =4u(n+2)\int\frac{\mathrm{d}^{d}\mathbf{k}}{(2\pi)^{d}}\frac{1}{Kk^{2}}=\frac{4(n+2)u}{K}\frac{S_{d}}{(2\pi)^{d}}\int_{0}^{\Lambda}dkk^{d-3}  \\
+&=\frac{4(n+2)u}KK_d\left(\frac{\Lambda^{d-2}}{d-2}\right)& (5.24) 
+\end{aligned}
+$$
+是一个有限的数$(K_d \equiv S_d / (2\pi)^d)$. 这是因为在$u$存在时临界温度被降低为一个负值. 修改后的临界点是通过要求$\chi^{-1}(t_c) = 0$获得的，因此可以从方程(5.23)中得到
+$$
+t_c = -4u(n+2) \int \frac{\mathrm{d}^d \mathbf{k}}{(2\pi)^d} \frac{1}{t_c + K k^2} \approx 
+- \frac{4u(n+2)K_d \Lambda^{d-2}}{(d-2)K} \lt 0.
+$$
+![[Pasted image 20240425113740.png]]
+在移动的临界点，扰动的磁化率如何发散？从(5.23)中得到，
+$$
+\begin{aligned}
+\chi^{-1}(t)-\chi^{-1}(t_{c})& =t-t_{c}+4u(n+2)\int\frac{\mathrm{d}^{d}\mathbf{k}}{(2\pi)^{d}}\left(\frac{1}{t+Kk^{2}}-\frac{1}{t_{c}+Kk^{2}}\right)  \\
+&=(t-t_c)\left[1-\frac{4u(n+2)}{K^2}\int\frac{\mathrm{d}^d\mathbf{k}}{(2\pi)^d}\frac1{k^2(k^2+(t-t_c)/K)}+\mathcal{O}(u^2)\right].
+\end{aligned}
+$$
+从第一个方程到第二个方程，我们将$t_c$的位置从一个
