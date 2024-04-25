@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md"
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md"
               }
             }
           },
@@ -206,9 +206,9 @@
   },
   "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
+    "Project/FM-Triangle-Coupled-Model.md",
     "Project/Log.md",
     "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
-    "Project/FM-Triangle-Coupled-Model.md",
     "Project/Draft.md",
     "Pic/Pasted image 20240326152948.png",
     "Task_plugin.md",
