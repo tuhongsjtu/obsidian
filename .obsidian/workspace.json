@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "3bac8a946f1141cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "624c5f8697329359",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -204,11 +216,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2986e7ae079c5ab",
+  "active": "3bac8a946f1141cf",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+    "conflict-files-obsidian-git.md",
     "Project/FM-Triangle-Coupled-Model.md",
     "Project/Log.md",
-    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Project/Draft.md",
     "Pic/Pasted image 20240326152948.png",
     "Task_plugin.md",
@@ -218,7 +231,6 @@
     "Pasted image 20240412173806.png",
     "Pasted image 20240412173518.png",
     "Pasted image 20240412173111.png",
-    "conflict-files-obsidian-git.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "code/Missing-Semester/课程信息.md",
     "code/Missing-Semester/Shell.md",
