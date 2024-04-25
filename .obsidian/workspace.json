@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "3bac8a946f1141cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "624c5f8697329359",
             "type": "leaf",
             "state": {
@@ -80,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.51103591918945
+    "width": 219.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -146,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md"
               }
             }
           },
@@ -216,10 +205,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3bac8a946f1141cf",
+  "active": "2f8f6a61c23f575d",
   "lastOpenFiles": [
-    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "conflict-files-obsidian-git.md",
+    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Project/FM-Triangle-Coupled-Model.md",
     "Project/Log.md",
     "Project/Draft.md",
