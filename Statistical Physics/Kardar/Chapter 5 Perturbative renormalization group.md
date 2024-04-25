@@ -140,4 +140,29 @@ $$
 ![[Pasted image 20240412174802.png]]
 
 ## 5.4 Susceptibility
-式(5.17)中的修正项与非微扰值相似并非偶然. 
+式(5.17)中的修正项与非微扰值相似并非偶然. 这是因为两点关联函数的形式受到对称性的约束，从恒等式中可以看出
+$$
+\langle m_{\alpha}(\mathbf{q}) m_{\beta}(\mathbf{q}') \rangle 
+= \int d^d \mathbf{x} \int d^d \mathbf{x}' e^{i\mathbf{q}\cdot \mathbf{x} + i\mathbf{q}' \cdot \mathbf{x}'} \langle m_{\alpha}(\mathbf{x}) m_{\beta}(\mathbf{x}') \rangle.
+$$
+实空间的两点关联函数必须满足平移对称性和旋转对称性，并且（在高温相中）$\langle m_\alpha(\mathbf{x})m_\beta(\mathbf{x}^\prime)\rangle=\delta_{\alpha\beta}\langle m_1(\mathbf{x}-\mathbf{x}^{\prime})m_1(\mathbf{0})\rangle$. 转换为质心和相对坐标，上述积分变为
+$$
+\begin{aligned}
+&\langle m_{\alpha}(\mathbf{q})m_{\beta}(\mathbf{q}^{\prime})\rangle \\
+&=\int\mathrm{d}^d\left(\frac{\mathbf{x}+\mathbf{x}'}{2}\right)\mathrm{d}^d\left(\mathbf{x}-\mathbf{x}'\right)\mathrm{e}^{i(\mathbf{q}+\mathbf{q}')\cdot(\mathbf{x}+\mathbf{x}')/2}\mathrm{e}^{i(\mathbf{x}-\mathbf{x}')\cdot(\mathbf{q}-\mathbf{q}')/2}\delta_{\alpha\beta}\langle m_1(\mathbf{x}-\mathbf{x}')\:m_1(\mathbf{0})\rangle \\
+&\equiv(2\pi)^d\delta^d(\mathbf{q}+\mathbf{q}^{\prime})\delta_{\alpha\beta}S(q),& \text{(5.19)} 
+\end{aligned}
+$$
+ 其中
+$$
+S(q)=\langle|m_1(\mathbf{q})|^2\rangle=\int\mathrm{d}^d\mathbf{x}\mathrm{e}^{i\mathbf{q}\cdot\mathbf{x}}\langle m_1(\mathbf{x}-\mathbf{x}')\:m_1(\mathbf{0})\rangle 
+$$
+是散射实验中的可观测量.
+从(5.17)式中我们得到
+$$
+S(q) = \frac{1}{t + Kq^2} \left[ 1 - \frac{4u(n+2)}{t + Kq^2} \int \frac{\mathrm{d}^d\mathbf{k}}{(2\pi)^d} \frac{1}{t + Kk^2} + \mathcal{O}(u^2) \right].
+$$
+我们可以检查可观测量的倒数的展开
+$$
+S(q)^{-1}=t+Kq^2+4u(n+2)\int\frac{\mathrm{d}^d\mathbf{k}}{(2\pi)^d}\frac{1}{t+Kk^2}+\mathcal{O}(u^2).
+$$
