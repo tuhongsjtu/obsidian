@@ -444,8 +444,7 @@ Z=&\mathrm{e}^{-V\delta f_{b}(t)}\times\int{\cal D}\tilde{\vec{m}}(\mathbf{q}^{\
 \end{aligned}
 $$
  
-(3) ***Renormalize: *** 
-(3) Renormalize: The final step of RG in real space is the renormalization of magnetization, $\vec{m}^{\prime}(\mathbf{x}^{\prime})=\vec{m}(\mathbf{x}^{\prime})/\zeta$. Alternatively, we can renormalize the Fourier modes according to $\vec{m}^{\prime}(\mathbf{q}^{\prime})=\tilde{\vec{m}}(\mathbf{q}^{\prime})/z$, resulting in
+(3) ***Renormalize:*** The final step of RG in real space is the renormalization of magnetization, $\vec{m}^{\prime}(\mathbf{x}^{\prime})=\vec{m}(\mathbf{x}^{\prime})/\zeta$. Alternatively, we can renormalize the Fourier modes according to $\vec{m}^{\prime}(\mathbf{q}^{\prime})=\tilde{\vec{m}}(\mathbf{q}^{\prime})/z$, resulting in
 
 $$
 \begin{aligned}Z&=\mathrm{e}^{-V\delta f_{b}(t)}\times\int{\mathcal D}\vec{m}^{\prime}(\mathbf{q}^{\prime})\times\exp\left[-\int_{0}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}^{\prime}}{(2\pi)^{d}}b^{-d}z^{2}\right]\\&\times\left(\frac{t+Kb^{-2}q^{'2}+Lb^{-4}q^{'4}+\cdots}{2}\right)|m^{\prime}(\mathbf{q}^{'})|^{2}+z\vec{h}\cdot\vec{m}^{\prime}(\mathbf{0})\end{aligned}
