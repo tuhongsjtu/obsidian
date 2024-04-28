@@ -237,3 +237,25 @@ $$
 $$
 以下类型的项是由于扩展乘积而产生的：
 ![[Pasted image 20240428105900.png]]
+每行中的第二个元素是具有给定“对称性”的项数. 这些系数的总和为$2^4 = 16$. 由于平均值$\langle \mathcal{O} \rangle_\sigma$仅涉及短波长涨落，因此仅出现$\vec{\sigma}$的收缩. 由此产生的内部动量从$\Lambda/b$积分到$\Lambda$.
+$[1]$没有$\vec{\sigma}$的因子因此等于$\mathcal{U}[\tilde{\vec{m}}]$. 第二项和第五项涉及奇数个$\vec{\sigma}$因此它们的平均值为$0$. $[3]$只有一种收缩，结果为
+$$
+\begin{align}
+&-u\times2\int\frac{\mathrm{d}^d\mathbf{q}_1\cdots\mathrm{d}^d\mathbf{q}_4}{(2\pi)^{4d}}(2\pi)^d\delta^d(\mathbf{q}_1+\cdots+\mathbf{q}_4)\frac{\delta_{jj}(2\pi)^d\delta^d(\mathbf{q}_1+\mathbf{q}_2)}{t+Kq_1^2}\tilde{\vec{m}}(\mathbf{q}_3)\cdot\tilde{\vec{m}}(\mathbf{q}_4)\\
+&=-2nu\int_0^{\Lambda/b}\frac{\mathrm{d}^d\mathbf{q}}{(2\pi)^d}|\tilde{m}(\mathbf{q})|^2\int_{\Lambda/b}^\Lambda\frac{\mathrm{d}^d\mathbf{k}}{(2\pi)^d}\frac1{t+Kk^2}.
+\end{align}
+\tag{5.36}
+$$
+$[4]$也只有一种收缩，但是这里没有closed loop(因子$\delta_{jj}$)因此没有因子$n$. 项$[6]$中4个$\vec{\sigma}$的各种缩放导致了许多不依赖于$\tilde{\vec{m}}$的项. 我们将这些项的总和表示为$uV\delta f_b^1$. 收集所有这些项，一阶$u$的粗粒化哈密顿量为
+$$\begin{aligned}
+\tilde{\beta\mathcal{H}}[\tilde{\vec{m}}]=&V\left(\delta f_{b}^{0}+u\delta f_{b}^{1}\right)+\int_{0}^{\Lambda/b}\frac{\mathrm{d}^{d}\mathbf{q}}{(2\pi)^{d}}\left(\frac{\tilde{t}+Kq^{2}}{2}\right)|\tilde{m}(\mathbf{q})|^{2}  \\
+&+u\int_0^{\Lambda/b}\frac{\mathrm{d}^d\mathbf{q}_1\mathrm{d}^d\mathbf{q}_2\mathrm{d}^d\mathbf{q}_3}{(2\pi)^{3d}}\tilde{\vec{m}}(\mathbf{q}_1)\cdot\tilde{\vec{m}}(\mathbf{q}_2)\tilde{\vec{m}}(\mathbf{q}_3)\cdot\tilde{\vec{m}}(-\mathbf{q}_1-\mathbf{q}_2-\mathbf{q}_3),
+\end{aligned}$$
+其中
+$$
+\tilde{t} = t + 4u (n+2) \int_{\Lambda/b}^{\Lambda} \frac{d^d \mathbf{k}}{(2\pi)^d} \frac{1}{t+Kk^2}
+$$
+粗粒化哈密顿量因此可以被三个参数$\tilde{t}, \tilde{K}$和$\tilde{u}$描述. 最后两个参数是不变的，
+$$
+\tilde{K} = K, 
+$$
