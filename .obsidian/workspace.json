@@ -91,8 +91,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md"
+                "file": "Statistical Physics/Kardar/Chapter 3 Fluctuations.md"
               }
             }
           },
@@ -229,11 +228,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2986e7ae079c5ab",
+  "active": "5d551f5786ba838e",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
-    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Pasted image 20240428122915.png",
     "Pasted image 20240428105900.png",
     "Pasted image 20240428103447.png",
