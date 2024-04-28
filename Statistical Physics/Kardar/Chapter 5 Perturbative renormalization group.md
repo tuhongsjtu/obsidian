@@ -200,4 +200,40 @@ $$
 
 ## 5.5 Perturbative RG (first order)
 最后一节演示了如何以$u$的幂微扰计算与Landau-Ginzburg哈密顿量相关的各种期望值. 然而，微扰级数在接近临界点时本质上是发散的，不能用于表征维度$d \le 4$中的临界行为. Wilson表明可以通过将重整化群和微扰结合成计算临界指数的系统方法. 因此，我们将3.7节中高斯模型的RG计算拓展到Landau-Ginzburg哈密顿量，将$\mathcal{U} = u \int d^d \mathbf{x} m^4$作为一个微扰.
-(1) 粗粒化：这是RG中最困难的一步. 
+(1) 粗粒化：这是RG中最困难的一步. 和之前一样，将涨落分为两部分，
+![[Pasted image 20240428103447.png]]
+在配分函数中
+$$
+Z=\int\mathcal{D}\tilde{\vec{m}}(\mathbf{q})\mathcal{D}\vec{\sigma}(\mathbf{q})\mathrm{exp}\left\{-\int_{0}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}}{(2\pi)^{d}}\left(\frac{t+Kq^{2}}{2}\right)\\\left(|\tilde{m}(\mathbf{q})|^{2}+|\sigma(\mathbf{q})|^{2}\right)-\mathcal{U}[\tilde{\vec{m}}(\mathbf{q}),\vec{\sigma}(\mathbf{q})]\right\},
+$$
+两个模式的集合因为算符$\mathcal{U}$被混合，将$\{ \vec{\sigma}(\mathbf{q}) \}$积分的结果可以写成
+$$
+\begin{aligned}\text{Z}
+=&\int\mathcal{D}\tilde{\vec{m}}(\mathbf{q})\exp\left\{-\int_{0}^{\Lambda/b}\frac{\mathrm{d}^{d}\mathbf{q}}{(2\pi)^{d}}\left(\frac{t+Kq^{2}}{2}\right)|\tilde{m}(\mathbf{q})|^{2}\right\}
+\\&\times\exp\left\{-\frac{nV}{2}\int_{\Lambda/b}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}}{(2\pi)^{d}}\ln\left(t+Kq^{2}\right)\right\}\left\langle\mathrm{e}^{-\mathcal{U}\left[\tilde{\vec{m}},{\vec{\sigma}}\right]}\right\rangle_{\sigma}\\
+\equiv&\int\mathcal{D}\tilde{\vec{m}}(\mathbf{q})\mathrm{e}^{-\beta\tilde{\mathcal{H}}\left[\tilde{\vec{m}}\right]}.\end{aligned}
+$$
+这里定义了部分平均值
+$$
+\langle\mathcal{O}\rangle_\sigma\equiv\int\frac{\mathcal{D}\vec{\sigma}(\mathbf{q})}{Z_\sigma}\mathcal{O}\exp\biggl[-\int_{\Lambda/b}^\Lambda\frac{\mathrm{d}^d\mathbf{q}}{(2\pi)^d}\biggl(\frac{t+Kq^2}{2}\biggr)|\sigma(\mathbf{q})|^2\biggr],
+$$
+其中$Z_{\sigma}=\int \mathcal{D} \vec{\sigma}(\mathbf{q}) \exp \{ -\beta \mathcal{H}_0[\vec{\sigma}] \}$，是与短波涨落相关的高斯配分函数. 从方程(5.30)我们得到
+$$
+\tilde{\beta\mathcal{H}}[\tilde{\vec{m}}]=V\delta f_{b}^{0}+\int_{0}^{\Lambda/b}\frac{\mathrm{d}^{d}\mathbf{q}}{(2\pi)^{d}}\left(\frac{t+Kq^{2}}{2}\right)|\tilde{m}(\mathbf{q})|^{2}-\ln\left\langle\mathrm{e}^{-\mathcal{U}\left[\tilde{\vec{m}},\vec{\sigma}\right]}\right\rangle_{\sigma}.
+$$
+最终表达式可以扰动计算为：
+$$
+\begin{aligned}\ln\left\langle\mathrm{e}^{-\mathcal{U}}\right\rangle_{\sigma}
+=&-\left\langle\mathcal{U}\right\rangle_{\sigma}+\frac{1}{2}\left(\left\langle\mathcal{U}^{2}\right\rangle_{\sigma}-\left\langle\mathcal{U}\right\rangle_{\sigma}^{2}\right)+\cdots\\
+&+\frac{(-1)^{\ell}}{\ell!}\times\ell\text{th cumulant of }\mathcal{U}+\cdots\end{aligned}
+$$
+可以使用前面部分中设置的规则来计算累积量. 例如，在一阶时，我们需要计算
+$$
+\begin{gathered}
+\left\langle\mathcal{U}\left[\tilde{\vec{m}},\vec{\sigma}\right]\right\rangle_{\sigma} =u\int\frac{\mathrm{d}^{d}\mathbf{q}_{1}\mathrm{d}^{d}\mathbf{q}_{2}\mathrm{d}^{d}\mathbf{q}_{3}\mathrm{d}^{d}\mathbf{q}_{4}}{\left(2\pi\right)^{4d}}(2\pi)^{d}\delta^{d}(\mathbf{q}_{1}+\mathbf{q}_{2}+\mathbf{q}_{3}+\mathbf{q}_{4}) \\
+\left\langle\left[\tilde{\vec{m}}(\mathbf{q}_1)+\vec{\sigma}(\mathbf{q}_1)\right]\cdot\left[\tilde{\vec{m}}(\mathbf{q}_2)+\vec{\sigma}(\mathbf{q}_2)\right]\right\rangle  \\
+\times\left.\left[\tilde{\vec{m}}(\mathbf{q}_{3})+\vec{\sigma}(\mathbf{q}_{3})\right]\cdot\left[\tilde{\vec{m}}(\mathbf{q}_{4})+\vec{\sigma}(\mathbf{q}_{4})\right]\right\rangle_{\sigma}. 
+\end{gathered}
+$$
+以下类型的项是由于扩展乘积而产生的：
+![[Pasted image 20240428105900.png]]
