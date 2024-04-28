@@ -292,3 +292,10 @@ $u$的递归关系很容易积分得到$u(\ell) = u_0 e^{(4−d) \ell} = u_0 b^{
 $$
 \frac{\mathrm{d}}{\mathrm{d}\ell}\begin{pmatrix}\delta t\\\delta u\end{pmatrix}=\begin{pmatrix}2&\frac{4(n+2)K_d\Lambda^{d-2}}{K}\\0&4-d\end{pmatrix}\begin{pmatrix}\delta t\\\delta u\end{pmatrix}.
 $$
+在递归关系的微分形式中，矩阵的特征值决定了算子的相关性. 由于上述矩阵的一侧元素为零，因此其特征值是对角元素，并且与高斯模型一样，我们可以确定$y_t = 2$，并且$y_u = 4−d$. 该阶的结果与高斯模型的量纲分析所获得的结果相同. 唯一的区别在于特征方向. 指数$y_t = 2$仍然与$u = 0$相关，而$y_u = 4 −d$实际上与方向$t =−4u(n+2)K_d \Lambda^{d−2}/K$相关. 这与从磁化率计算到$u$量级的转变温度的变化一致.
+![[Pasted image 20240428122915.png]]
+对于$d>4$，高斯不动点只有一个与$y_t$相关的不稳定方向. 因此它正确地描述了相变. 对于$d<4$，它有两个相关方向并且不稳定. 不幸的是，递归关系在这个阶上没有其他固定点，而且我们似乎从微扰RG中学到的东西很少. 然而，由于我们正在处理交替序列，我们可以预期下一阶的递归关系将被修改为
+$$
+\begin{cases}\frac{\mathrm dt}{\mathrm d\ell}=2t+\frac{4u(n+2)K_d\Lambda^d}{t+K\Lambda^2}-Au^2\\\frac{\mathrm du}{\mathrm d\ell}=(4-d)u-Bu^2,\end{cases}
+$$
+其中$A$和$B$是正的. 现在在$u^* = (4-d) / B$处有一个额外的固定点. 对于系统微扰理论，我们需要保持参数$u$较小. 因此，新的不动点只能在小$\epsilon = 4 − d$时系统地探索；我们被引导考虑在$d = 4$附近空间维度的扩展！对于在$\mathcal{O}(\epsilon)$处有效的计算，我们必须跟踪$u$的递归关系中的二阶项，但仅跟踪$t$的递归关系中的一阶项. 因此，无需计算上述递推关系中的$A$项. 
