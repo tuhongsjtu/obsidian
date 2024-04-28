@@ -200,7 +200,7 @@ $$
 
 ## 5.5 Perturbative RG (first order)
 最后一节演示了如何以$u$的幂微扰计算与Landau-Ginzburg哈密顿量相关的各种期望值. 然而，微扰级数在接近临界点时本质上是发散的，不能用于表征维度$d \le 4$中的临界行为. Wilson表明可以通过将重整化群和微扰结合成计算临界指数的系统方法. 因此，我们将3.7节中高斯模型的RG计算拓展到Landau-Ginzburg哈密顿量，将$\mathcal{U} = u \int d^d \mathbf{x} m^4$作为一个微扰.
-(1) 粗粒化：这是RG中最困难的一步. 和之前一样，将涨落分为两部分，
+(1) ***粗粒化***：这是RG中最困难的一步. 和之前一样，将涨落分为两部分，
 ![[Pasted image 20240428103447.png]]
 在配分函数中
 $$
@@ -257,5 +257,38 @@ $$
 $$
 粗粒化哈密顿量因此可以被三个参数$\tilde{t}, \tilde{K}$和$\tilde{u}$描述. 最后两个参数是不变的，
 $$
-\tilde{K} = K, 
+\tilde{K} = K, \text{ and } \tilde{u} = u.
+$$
+(2) ***重标度***：通过设置$\mathbf{q} = b^{-1} \mathbf{q}'$，以及
+(3) ***重整化***：$\tilde{\vec{m}} = z \vec{m}'$得到
+$$
+\begin{align}
+(\beta\mathcal{H})^{\prime}[m^{\prime}]=V\left(\delta f_{b}^{0}+u\delta f_{b}^{1}\right)+\int_{0}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}^{\prime}}{(2\pi)^{d}}b^{-d}z^{2}\left(\frac{\tilde{t}+Kb^{-2}q^{\prime2}}{2}\right)\left|m^{\prime}(\mathbf{q}^{\prime})\right|^{2}\\
++uz^{4}b^{-3d}\int_{0}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{q}^{\prime}_{1}\mathrm{d}^{d}\mathbf{q}_{2}^{\prime}\mathrm{d}^{d}\mathbf{q}_{3}^{\prime}}{(2\pi)^{3d}}\vec{m}^{\prime}(\mathbf{q}_{1}^{\prime})\cdot\vec{m}^{\prime}(\mathbf{q}_{2}^{\prime})\vec{m}^{\prime}(\mathbf{q}_{3}^{\prime})\cdot\vec{m}^{\prime}(-\mathbf{q}_{1}^{\prime}-\mathbf{q}_{2}^{\prime}-\mathbf{q}_{3}^{\prime}).
+\end{align}
+$$
+重整化哈密顿量的特征是相互作用的三元组$(t', K', u')$，使得
+$$
+t' = b^{-d} z^2 \tilde{t}, \quad K' = b^{-d-2}z^2K, \quad u' = b^{-3d} z^4 u.
+$$
+由于在Gaussian模型中有一个固定点$t^* = u^* = 0$，使得我们设置$z = b^{1 + \frac{d}{2}}$，因此$K' = K$. 该点附近$t$和$u$的递归关系由下式给出
+$$
+\begin{cases}t_b'=b^2\left[t+4u(n+2)\int_{\Lambda/b}^{\Lambda}\frac{\mathrm{d}^d\mathbf{k}}{(2\pi)^d}\frac{1}{t+Kk^2}\right]\\u_b'=b^{4-d}u.\end{cases}
+\tag{5.42}
+$$
+虽然$u$这一阶的递归关系与通过量纲分析获得的递归关系相同，但$t$的递归关系不同. 通过设置$b = e^{\ell}$将离散的递归关系转化为连续微分流量方程是常规的，因此对于一个无限小的$\delta \ell$，
+$$
+t_{b}^{\prime}\equiv t(b)=t(1+\delta\ell)=t+\delta\ell\frac{\mathrm{d}t}{\mathrm{d}\ell}+\mathcal{O}(\delta\ell^{2}),\quad u_{b}^{\prime}\equiv u(b)=u+\delta\ell\frac{\mathrm{d}u}{\mathrm{d}\ell}+\mathcal{O}(\delta\ell^{2}).
+$$
+将方程(5.42)展开到$\delta \ell$的一阶，得到
+$$
+\begin{cases}t+\delta\ell\frac{\mathrm dt}{\mathrm d\ell}=(1+2\delta\ell)\left(t+4u(n+2)\frac{S_d}{(2\pi)^d}\frac{1}{t+K\Lambda^2}\Lambda^d\delta\ell\right)\\u+\delta\ell\frac{\mathrm du}{\mathrm d\ell}=(1+(4-d)\delta\ell)u.\end{cases}
+$$
+控制$t$和$u$在重标度下演化的微分方程为
+$$
+\begin{cases}\frac{\mathrm dt}{\mathrm d\ell}=2t+\frac{4u(n+2)K_d\Lambda^d}{t+K\Lambda^2}\\\frac{\mathrm du}{\mathrm d\ell}=(4-d)u.\end{cases}
+$$
+$u$的递归关系很容易积分得到$u(\ell) = u_0 e^{(4−d) \ell} = u_0 b^{4−d}$. 递归关系可以在不动点$t^* = u^* = 0$附近通过设置$t = t^* + \delta t$和$u^* = u + \delta u$线性化，
+$$
+\frac{\mathrm{d}}{\mathrm{d}\ell}\begin{pmatrix}\delta t\\\delta u\end{pmatrix}=\begin{pmatrix}2&\frac{4(n+2)K_d\Lambda^{d-2}}{K}\\0&4-d\end{pmatrix}\begin{pmatrix}\delta t\\\delta u\end{pmatrix}.
 $$
