@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "5103c9796fbfb0f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1e137f41621c6a31",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md"
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md"
               }
             }
           },
@@ -217,15 +229,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2986e7ae079c5ab",
+  "active": "5103c9796fbfb0f0",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Pasted image 20240428122915.png",
     "Pasted image 20240428105900.png",
     "Pasted image 20240428103447.png",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Project/FM-Triangle-Coupled-Model.md",
     "Project/Draft.md",
-    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Pasted image 20240425113740.png",
     "conflict-files-obsidian-git.md",
@@ -237,7 +249,6 @@
     "Pasted image 20240412174024.png",
     "Pasted image 20240412173806.png",
     "Pasted image 20240412173518.png",
-    "Pasted image 20240412173111.png",
     "code/Missing-Semester/课程信息.md",
     "code/Missing-Semester/Shell.md",
     "code/Missing-Semester",
