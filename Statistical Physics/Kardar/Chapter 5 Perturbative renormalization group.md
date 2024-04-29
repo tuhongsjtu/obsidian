@@ -299,3 +299,17 @@ $$
 \begin{cases}\frac{\mathrm dt}{\mathrm d\ell}=2t+\frac{4u(n+2)K_d\Lambda^d}{t+K\Lambda^2}-Au^2\\\frac{\mathrm du}{\mathrm d\ell}=(4-d)u-Bu^2,\end{cases}
 $$
 其中$A$和$B$是正的. 现在在$u^* = (4-d) / B$处有一个额外的固定点. 对于系统微扰理论，我们需要保持参数$u$较小. 因此，新的不动点只能在小$\epsilon = 4 − d$时系统地探索；我们被引导考虑在$d = 4$附近空间维度的扩展！对于在$\mathcal{O}(\epsilon)$处有效的计算，我们必须跟踪$u$的递归关系中的二阶项，但仅跟踪$t$的递归关系中的一阶项. 因此，无需计算上述递推关系中的$A$项. 
+
+
+## 5.6 Perturbative RG (second order)
+二阶$\mathcal{U}$的粗粒化哈密顿量为：
+$$
+\begin{aligned}\beta\tilde{\mathcal{H}}[\tilde{\vec{m}}]=&V\delta f_{b}^{0}+\int_{0}^{\Lambda/b}\frac{\mathrm{d}^{d}\mathbf{q}}{(2\pi)^{d}}\left(\frac{t+Kq^{2}}{2}\right)\\&|\tilde{m}(\mathbf{q})|^{2}+\langle\mathcal{U}\rangle_{\sigma}-\frac{1}{2}\left(\langle\mathcal{U}^{2}\rangle_{\sigma}-\langle\mathcal{U}\rangle_{\sigma}^{2}\right)+O(\mathcal{U}^{3}).\end{aligned}
+$$
+为了计算$(\langle \mathcal{U}^2 \rangle_{\sigma} - \langle \mathcal{U} \rangle^2_{\sigma})$，我们需要考虑将两个$\mathcal{U}$分解为$\tilde{\vec{m}}$和$\vec{\sigma}$的所有可能情况. 因为一阶微扰中计算得到每个$\mathcal{U}$可以分解为六种不同的项，所以两个$\mathcal{U}$一共有$36$种可能. 
+![[Pasted image 20240429193624.png]]
+在这个展开矩阵中，许多矩阵元是$0$或者可以在这个阶段忽略，这主要是出于以下原因：
+(1) 所有至少包含类型$[1]$的11个项都为$0$，因为它们不能收缩为一个连通（connected）块，并且在计算累积量时连通块被抵消. 
+(2) 另外12项（例如$[2] \times [3]$）涉及奇数个$\vec{\sigma}$，因此由于奇偶性（parity）为$0$
+(3) 其中两项，$[2] \times [5]$和$[5] \times [2]$，包含了一个顶点，其中两个$\vec{\sigma}$收缩在一起，剩下$\tilde{\vec{m}}(\mathbf{q}^{<})$和${\vec{\sigma}}(\mathbf{q}^{>})$，由于$\delta$函数的存在，顶点要求四个脚的动量和为$0$，收缩要求其中两个$\sigma$的动量和为$0$，所以要求$\mathbf{q}^< + \mathbf{q}^> = \mathbf{0}$，这是不可能的. 
+(4) 项$[3] \times [6]$和$[4] \times [6]$，及其拓扑等价项，有两个$\tilde{\vec{m}}$. 它们包含两个环积分，并且作为系数$\tilde{t}$的
