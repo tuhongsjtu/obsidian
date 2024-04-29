@@ -326,4 +326,27 @@ $$
 
 (6) $[6] \times [6]$的贡献是常数，可以被收集为$u^2 V \delta f_b^2$.
 (7) 项$[3] \times [3]$，$[3] \times [4]$，$[4] \times [3]$和$[4] \times [4]$的为$\tilde{\vec{m}}^4$贡献，比如$[3] \times [3]$的结果为：
-![[Pasted image 20240429201859.png|200]]
+![[Pasted image 20240429201859.png|400]]
+$$
+\begin{aligned}
+\frac{u^{2}}{2}&\times2\times2\times2\int_{0}^{\Lambda/b}\frac{\mathrm{d}^{d}\mathbf{q}_{1}\cdots\mathrm{d}^{d}\mathbf{q}_{4}}{(2\pi)^{4d}}\int_{\Lambda/b}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{k}_{1}\mathrm{d}^{d}\mathbf{k}_{2}\mathrm{d}^{d}\mathbf{k}_{1}^{\prime}\mathrm{d}^{d}\mathbf{k}_{2}^{\prime}}{(2\pi)^{4d}} \\
+&\times(2\pi)^{2d}\delta^d(\mathbf{q}_1+\mathbf{q}_2+\mathbf{k}_1+\mathbf{k}_2)\delta^d(\mathbf{k}'_1+\mathbf{k}'_2+\mathbf{q}_3+\mathbf{q}_4) \\
+&\times\frac{\delta_{\alpha\alpha^{\prime}}(2\pi)^{d}\delta^{d}(\mathbf{k}_{1}+\mathbf{k}_{1}^{\prime})}{t+Kk_{1}^{2^{\prime}}}\frac{\delta_{\alpha\alpha^{\prime}}(2\pi)^{d}\delta^{d}(\mathbf{k}_{2}+\mathbf{k}_{2}^{'})}{t+Kk_{2}^{2^{\prime}}}\tilde{\vec{m}}(\mathbf{q}_{1})\cdot\tilde{\vec{m}}(\mathbf{q}_{2})\tilde{\vec{m}}(\mathbf{q}_{3})\cdot\tilde{\vec{m}}(\mathbf{q}_{4}) \\
+=&4nu^{2}\int_{0}^{\Lambda/b}\frac{\mathrm{d}^{d}\mathbf{q}_{1}\cdots\mathrm{d}^{d}\mathbf{q}_{4}}{(2\pi)^{4d}}(2\pi)^{d}\delta^{d}(\mathbf{q}_{1}+\mathbf{q}_{2}+\mathbf{q}_{3}+\mathbf{q}_{4})\tilde{\vec{m}}(\mathbf{q}_{1})\cdot\tilde{\vec{m}}(\mathbf{q}_{2})\tilde{\vec{m}}(\mathbf{q}_{3})\cdot\tilde{\vec{m}}(\mathbf{q}_{4}) \\
+&\times\int\frac{\mathrm{d}^{d}\mathbf{k}}{(2\pi)^{d}}\frac{1}{(t+Kk^{2})\left(t+K(\mathbf{q}_{1}+\mathbf{q}_{2}-\mathbf{k})^{2}\right)}.& (5.48) 
+\end{aligned}
+$$
+来自项$[3] \times [4]$，$[4] \times [3]$和$[4] \times [4]$的收缩会导出相同的项，只是因子分别为$8$，$8$和$16$. 除了对$\mathbf{q}_1$和$\mathbf{q}_2$的依赖之外，最终结果的形式为$\mathcal{U}[\tilde{\vec{m}}]$. 事实上最后一个积分可以展开为：
+$$
+f(\mathbf{q}_1+\mathbf{q}_2)=\int\frac{\mathrm{d}^d\mathbf{k}}{(2\pi)^d}\frac{1}{(t+Kk^2)^2}\left[1-\frac{2K\mathbf{k}\cdot(\mathbf{q}_1+\mathbf{q}_2)-K(\mathbf{q}_1+\mathbf{q}_2)^2}{(t+Kk^2)}+\cdots\right].
+$$
+傅立叶变换回实空间后，我们发现除了$m^4$之外，还有$m^2 (\nabla m)^2$，$m^2 \nabla^2 ,^2$等等.
+将这些所有贡献放在一起，$u^2$阶的粗粒化哈密顿量为
+$$
+\begin{aligned}
+\tilde{\beta}_{\mathcal{H}} =& V\left(\delta f_{b}^{0}+u\delta f_{b}^{1}+u^{2}\delta f_{b}^{2}\right)+\int_{0}^{\Lambda/b}\frac{\mathrm{d}^{d}\mathbf{q}}{(2\pi)^{d}}|\tilde{m}(\mathbf{q})|^{2}  \\
+&\left[\frac{t+Kq^2}{2}+2u(n+2)\int_{\Lambda/b}^{\Lambda}\frac{\mathrm{d}^d\mathbf{k}}{(2\pi)^d}\frac{1}{t+Kk^2}-\frac{u^2}{2}A(t,K,q^2)\right] \\
+&+\int_{0}^{\Lambda/b}\frac{\mathrm{d}^{d}\mathbf{q}_{1}\mathrm{d}^{d}\mathbf{q}_{2}\mathrm{d}^{d}\mathbf{q}_{3}}{(2\pi)^{3d}}\tilde{\vec{m}}(\mathbf{q}_{1})\cdot\tilde{\vec{m}}(\mathbf{q}_{2})\tilde{\vec{m}}(\mathbf{q}_{3})\cdot\tilde{\vec{m}}(\mathbf{q}_{4})\times\left[u-\frac{u^{2}}{2}(8n+64)\right] \\
+&\int_{\Lambda/b}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{k}}{(2\pi)^{d}}\frac{1}{(t+Kk^{2})^{2}}+\mathcal{O}(u^{2}q^{2})\Bigg]+\mathcal{O}(u^{2}\tilde{m}^{6}q^{2},\cdots)+\mathcal{O}(u^{3}).\quad(5.50)
+\end{aligned}
+$$
