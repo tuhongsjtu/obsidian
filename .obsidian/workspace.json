@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md"
+                "file": "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md"
               }
             }
           },
@@ -229,12 +229,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2986e7ae079c5ab",
+  "active": "5103c9796fbfb0f0",
   "lastOpenFiles": [
+    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Pasted image 20240429201859.png",
     "Pasted image 20240429193624.png",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
-    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Pasted image 20240428122915.png",
     "Pasted image 20240428105900.png",
@@ -250,7 +250,6 @@
     "Pasted image 20240412174802.png",
     "Pasted image 20240412174654.png",
     "Pasted image 20240412174024.png",
-    "Pasted image 20240412173806.png",
     "code/Missing-Semester/课程信息.md",
     "code/Missing-Semester/Shell.md",
     "code/Missing-Semester",
