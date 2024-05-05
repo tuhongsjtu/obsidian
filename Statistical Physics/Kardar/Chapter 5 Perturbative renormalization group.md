@@ -350,3 +350,4 @@ $$
 &\int_{\Lambda/b}^{\Lambda}\frac{\mathrm{d}^{d}\mathbf{k}}{(2\pi)^{d}}\frac{1}{(t+Kk^{2})^{2}}+\mathcal{O}(u^{2}q^{2})\Bigg]+\mathcal{O}(u^{2}\tilde{m}^{6}q^{2},\cdots)+\mathcal{O}(u^{3}).\quad(5.50)
 \end{aligned}
 $$
+
