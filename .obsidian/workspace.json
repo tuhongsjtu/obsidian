@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Draft.md",
+                "file": "Many-Body/Green's Function.md",
                 "mode": "source",
                 "source": false
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Draft.md",
+                "file": "Many-Body/Green's Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Draft.md",
+                "file": "Many-Body/Green's Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Draft.md"
+                "file": "Many-Body/Green's Function.md"
               }
             }
           },
@@ -231,6 +231,7 @@
   },
   "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
+    "Project/Draft.md",
     "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Pasted image 20240429201859.png",
@@ -240,7 +241,6 @@
     "Pasted image 20240428105900.png",
     "Pasted image 20240428103447.png",
     "Project/FM-Triangle-Coupled-Model.md",
-    "Project/Draft.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Pasted image 20240425113740.png",
     "conflict-files-obsidian-git.md",
