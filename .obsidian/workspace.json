@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Many-Body/Green's Function.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.51103591918945,
-    "collapsed": true
+    "width": 219.51103591918945
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -159,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Many-Body/Green's Function.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Many-Body/Green's Function.md",
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Many-Body/Green's Function.md"
+                "file": "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md"
               }
             }
           },
@@ -231,6 +230,7 @@
   },
   "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
+    "Many-Body/Green's Function.md",
     "Project/Draft.md",
     "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
@@ -275,7 +275,6 @@
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.1 The Antiferromagnet/5.1 The Antiferromagnet.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/4.2  Some groundstate theorem/PhysRev.147.392.pdf",
     "Many-Body/Many-body quantum theory in condensed matter physics/19.5 Bosonization of the Tomonaga model Hamiltonian.md",
-    "Many-Body/Green's Function.md",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
