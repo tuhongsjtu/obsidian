@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture/WannierTools.md",
+                "file": "lecture/能带拓扑理论.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lecture/WannierTools.md",
+                "file": "lecture/能带拓扑理论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lecture/WannierTools.md",
+                "file": "lecture/能带拓扑理论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lecture/WannierTools.md"
+                "file": "lecture/能带拓扑理论.md"
               }
             }
           },
@@ -230,8 +230,9 @@
   },
   "active": "d2986e7ae079c5ab",
   "lastOpenFiles": [
-    "Project/Log.md",
     "lecture/WannierTools.md",
+    "lecture/能带拓扑理论.md",
+    "Project/Log.md",
     "lecture",
     "Project/Draft.md",
     "Project/FM-Triangle-Coupled-Model.md",
@@ -271,7 +272,6 @@
     "Many-Body/Fermi Liquid Theory/Fermi Liquid Theory.md",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/Appendix B Linear Response and Generating Functionals.pdf",
-    "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/1.3 Magnitude of Interactions in Metals-week3.md",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.2 Half-Odd Integer Spin Chains/Assa Chap 5.2.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.2 Half-Odd Integer Spin Chains/1_YY_Weekly.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.1 The Antiferromagnet/L-M_theorem.pdf",
