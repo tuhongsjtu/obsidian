@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QMC/Monte Carlo/Wolff-Cluster.md",
+                "file": "QMC/Monte Carlo/Cluster.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QMC/Monte Carlo/Wolff-Cluster.md",
+                "file": "QMC/Monte Carlo/Cluster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QMC/Monte Carlo/Wolff-Cluster.md",
+                "file": "QMC/Monte Carlo/Cluster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QMC/Monte Carlo/Wolff-Cluster.md"
+                "file": "QMC/Monte Carlo/Cluster.md"
               }
             }
           },
@@ -157,7 +157,7 @@
   },
   "active": "53cdce1a412b779d",
   "lastOpenFiles": [
-    "QMC/Monte Carlo/Wolff-Cluster.md",
+    "QMC/Monte Carlo/Cluster.md",
     "QMC/Monte Carlo",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Statistical Physics/Phase Transition Theory.md",
