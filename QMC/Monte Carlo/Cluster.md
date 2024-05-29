@@ -12,3 +12,8 @@ P_{\text{add}} = 1 - e^{-2\beta J_{ij}}.
 $$
 
 # Geometry Cluster
+The proof is similar with Wolff-Cluster algorithm. Consider two configurations $\mu$ and $\nu$, we have
+$$
+\frac{g_{\mu \rightarrow \nu}}{g_{\nu \rightarrow \mu}} = e^{-\beta(E_{\nu} - E_{\mu})}.
+$$
+In geometric cluster algorithm, two clusters are formed simultaneously, thus two boundaries
