@@ -18,3 +18,5 @@ Sachdev等构建了一个质量项引入disorder的Hertz-Mills理论，该理论
 # Universal theory of strange metals from spatially random interactions
 费米液体预测了$\sim T^2$形式的电阻
 非费米液体的比热会出现对数增强的索末菲比热$\sim T\ln(T)$
+
+为什么$v = 0$时没有残余电阻，而上一篇文章的数值结果中有？
