@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "code/Git.md",
+                "file": "Project/disorder.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code/Git.md",
+                "file": "Project/disorder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code/Git.md",
+                "file": "Project/disorder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code/Git.md"
+                "file": "Project/disorder.md"
               }
             }
           },
@@ -157,6 +157,8 @@
   },
   "active": "aedceb5c5343044b",
   "lastOpenFiles": [
+    "Project/Log.md",
+    "Project/disorder.md",
     "code/Git.md",
     "QMC/Monte Carlo/Cluster.md",
     "QMC/Monte Carlo",
@@ -166,7 +168,6 @@
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "lecture/能带拓扑理论.md",
     "lecture/WannierTools.md",
-    "Project/Log.md",
     "lecture",
     "Project/Draft.md",
     "Project/FM-Triangle-Coupled-Model.md",
@@ -197,7 +198,6 @@
     "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
-    "math/变分法.md",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/Appendix B Linear Response and Generating Functionals.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.2 Half-Odd Integer Spin Chains/Assa Chap 5.2.pdf",
