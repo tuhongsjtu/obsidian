@@ -20,6 +20,7 @@ Sachdev等构建了一个质量项引入disorder的Hertz-Mills理论，该理论
 非费米液体的比热会出现对数增强的索末菲比热$\sim T\ln(T)$
 
 为什么$v = 0$时没有残余电阻，而上一篇文章的数值结果中有？
+横场Ising模型的质量项为什么是h？
 
 Several cases of disorder are studied in this work by large-$N$ approach.
 Original model:
