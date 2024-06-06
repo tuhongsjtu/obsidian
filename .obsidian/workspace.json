@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/disorder.md",
+                "file": "Statistical Physics/Finite-size effects.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/disorder.md",
+                "file": "Statistical Physics/Finite-size effects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/disorder.md",
+                "file": "Statistical Physics/Finite-size effects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/disorder.md"
+                "file": "Statistical Physics/Finite-size effects.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "aedceb5c5343044b",
   "lastOpenFiles": [
-    "Project/Log.md",
     "Project/disorder.md",
+    "Statistical Physics/Finite-size effects.md",
+    "Project/Log.md",
     "code/Git.md",
     "QMC/Monte Carlo/Cluster.md",
     "QMC/Monte Carlo",
@@ -195,7 +196,6 @@
     "math/Complex Analysis.md",
     "QMC/数值稳定.md",
     "README.md",
-    "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",
