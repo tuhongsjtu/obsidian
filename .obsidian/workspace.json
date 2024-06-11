@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Physics/Finite-size effects.md",
+                "file": "Statistical Physics/Phase Transition Theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Finite-size effects.md",
+                "file": "Statistical Physics/Phase Transition Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Finite-size effects.md",
+                "file": "Statistical Physics/Phase Transition Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Finite-size effects.md"
+                "file": "Statistical Physics/Phase Transition Theory.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "aedceb5c5343044b",
   "lastOpenFiles": [
-    "Project/disorder.md",
     "Statistical Physics/Finite-size effects.md",
+    "Project/disorder.md",
     "Project/Log.md",
     "code/Git.md",
     "QMC/Monte Carlo/Cluster.md",
