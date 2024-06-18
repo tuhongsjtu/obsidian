@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "code/未命名.md",
+                "file": "code/leetcode.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code/未命名.md",
+                "file": "code/leetcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code/未命名.md",
+                "file": "code/leetcode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code/未命名.md"
+                "file": "code/leetcode.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "b08544cb495f2367",
   "lastOpenFiles": [
-    "Project/FM-Triangle-Coupled-Model.md",
     "code/未命名.md",
+    "Project/FM-Triangle-Coupled-Model.md",
+    "code/leetcode.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Pasted image 20240412174802.png",
@@ -202,7 +203,6 @@
     "Many-Body/Many-body quantum theory in condensed matter physics/19.5 Bosonization of the Tomonaga model Hamiltonian.md",
     "Many-Body/Green's Function.md",
     "QMC/正则系综AFQMC.md",
-    "README.md",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
