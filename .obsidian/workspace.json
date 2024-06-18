@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md",
+                "file": "code/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md",
+                "file": "code/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md",
+                "file": "code/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/FM-Triangle-Coupled-Model.md"
+                "file": "code/未命名.md"
               }
             }
           },
@@ -155,8 +155,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2f8f6a61c23f575d",
+  "active": "b08544cb495f2367",
   "lastOpenFiles": [
+    "Project/FM-Triangle-Coupled-Model.md",
+    "code/未命名.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
     "Pasted image 20240412174802.png",
@@ -169,7 +171,6 @@
     "code/Missing-Semester/课程信息.md",
     "code/Missing-Semester/未命名",
     "code/Missing-Semester",
-    "code/未命名.md",
     "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
     "conflict-files-obsidian-git.md",
     "Project/Log.md",
@@ -202,7 +203,6 @@
     "Many-Body/Green's Function.md",
     "QMC/正则系综AFQMC.md",
     "README.md",
-    "Many-Body/Quantum Information/Density Matrix.md",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
