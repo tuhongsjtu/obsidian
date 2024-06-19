@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Physics/Phase Transition Theory.md",
+                "file": "Project/disorder.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Physics/Phase Transition Theory.md",
+                "file": "Project/disorder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Physics/Phase Transition Theory.md",
+                "file": "Project/disorder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Physics/Phase Transition Theory.md"
+                "file": "Project/disorder.md"
               }
             }
           },
@@ -157,14 +157,17 @@
   },
   "active": "aedceb5c5343044b",
   "lastOpenFiles": [
+    "Pasted image 20240619162135.png",
+    "Pasted image 20240619161921.png",
+    "Project/未命名.md",
+    "Project/Log.md",
+    "Statistical Physics/Phase Transition Theory.md",
     "Statistical Physics/Finite-size effects.md",
     "Project/disorder.md",
-    "Project/Log.md",
     "code/Git.md",
     "QMC/Monte Carlo/Cluster.md",
     "QMC/Monte Carlo",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
-    "Statistical Physics/Phase Transition Theory.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "lecture/能带拓扑理论.md",
@@ -186,7 +189,6 @@
     "Task_plugin.md",
     "Pasted image 20240412174802.png",
     "Pasted image 20240412174654.png",
-    "Pasted image 20240412174024.png",
     "code/Missing-Semester/课程信息.md",
     "code/Missing-Semester/Shell.md",
     "code/Missing-Semester",
@@ -194,8 +196,6 @@
     "Many-Body/Bosonization.md",
     "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
     "math/Complex Analysis.md",
-    "QMC/数值稳定.md",
-    "README.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",
