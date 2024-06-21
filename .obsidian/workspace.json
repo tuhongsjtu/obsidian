@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/disorder.md",
+                "file": "Project/Universal theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/disorder.md",
+                "file": "Project/Universal theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/disorder.md",
+                "file": "Project/Universal theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/disorder.md"
+                "file": "Project/Universal theory.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "aedceb5c5343044b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Project/disorder.md",
+    "conflict-files-obsidian-git.md",
     "Project/Universal theory.md",
     "code/leetcode.md",
     "Pasted image 20240619162135.png",
