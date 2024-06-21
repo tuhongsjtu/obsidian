@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb60fea0124529e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/disorder.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/disorder.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/disorder.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -155,10 +168,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aedceb5c5343044b",
+  "active": "eb60fea0124529e5",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Project/disorder.md",
+    "Project/Universal theory.md",
+    "conflict-files-obsidian-git.md",
     "code/leetcode.md",
     "Pasted image 20240619162135.png",
     "Pasted image 20240619161921.png",
@@ -195,7 +209,6 @@
     "Statistical Physics/Useful Formula.md",
     "Many-Body/Bosonization.md",
     "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
-    "math/Complex Analysis.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",

@@ -26,8 +26,14 @@ Several cases of disorder are studied in this work by large-$N$ approach.
 Original model:
 $$
 
+<<<<<<< HEAD
 $$i
 
 
 ![[Pasted image 20240619161921.png|600]]
 ![[Pasted image 20240619162135.png|450]]
+=======
+$$
+
+
+>>>>>>> origin/main
