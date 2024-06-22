@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d679543d0e4322ec",
+        "id": "e43cf548fcd6727a",
         "type": "tabs",
         "children": [
           {
-            "id": "aedceb5c5343044b",
+            "id": "b08544cb495f2367",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Universal theory.md",
+                "file": "code/Python/函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.51103591918945
+    "width": 335.51103591918945
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Universal theory.md",
+                "file": "code/Python/函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Universal theory.md",
+                "file": "code/Python/函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Universal theory.md"
+                "file": "code/Python/函数.md"
               }
             }
           },
@@ -155,54 +155,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aedceb5c5343044b",
+  "active": "b08544cb495f2367",
   "lastOpenFiles": [
-    "Project/disorder.md",
-    "conflict-files-obsidian-git.md",
+    "Many-Body/Green's Function.md",
+    "Statistical Physics/Finite-size effects.md",
+    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
+    "code/Python/函数.md",
+    "code/Python/字典（哈希表）.md",
     "Project/Universal theory.md",
-    "code/leetcode.md",
+    "code/Python",
+    "code/未命名.md",
+    "Project/未命名.md",
     "Pasted image 20240619162135.png",
     "Pasted image 20240619161921.png",
-    "Project/未命名.md",
-    "Project/Log.md",
-    "Statistical Physics/Phase Transition Theory.md",
-    "Statistical Physics/Finite-size effects.md",
-    "code/Git.md",
-    "QMC/Monte Carlo/Cluster.md",
-    "QMC/Monte Carlo",
-    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
-    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+    "Project/disorder.md",
+    "code/leetcode.md",
+    "conflict-files-obsidian-git.md",
     "lecture/能带拓扑理论.md",
     "lecture/WannierTools.md",
     "lecture",
-    "Project/Draft.md",
-    "Project/FM-Triangle-Coupled-Model.md",
-    "Project/Negativity in Coupled Model.md",
-    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
-    "Many-Body/Green's Function.md",
+    "code/Git.md",
+    "QMC/Monte Carlo/Cluster.md",
+    "QMC/Monte Carlo",
     "Pasted image 20240429201859.png",
     "Pasted image 20240429193624.png",
     "Pasted image 20240428122915.png",
     "Pasted image 20240428105900.png",
     "Pasted image 20240428103447.png",
     "Pasted image 20240425113740.png",
-    "Pic/Pasted image 20240326152948.png",
-    "Task_plugin.md",
+    "Project/FM-Triangle-Coupled-Model.md",
+    "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "Pasted image 20240412174802.png",
-    "code/Missing-Semester/课程信息.md",
+    "Pasted image 20240412174654.png",
     "code/Missing-Semester/Shell.md",
+    "code/Missing-Semester/课程信息.md",
+    "code/Missing-Semester/未命名",
     "code/Missing-Semester",
-    "Statistical Physics/Useful Formula.md",
-    "Many-Body/Bosonization.md",
+    "code/Data Structure/MIT 6.006 2011/MIT 6.006 2011.md",
+    "Project/Log.md",
     "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
+    "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
+    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
+    "Statistical Physics/Useful Formula.md",
+    "QMC/数值稳定.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/Appendix B Linear Response and Generating Functionals.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.2 Half-Odd Integer Spin Chains/Assa Chap 5.2.pdf",
-    "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.2 Half-Odd Integer Spin Chains/1_YY_Weekly.pdf",
-    "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.1 The Antiferromagnet/L-M_theorem.pdf",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
