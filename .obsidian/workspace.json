@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "code/leetcode/0-1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b38d30ee6acc4af8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "code/Python/字典（哈希表）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa01b05c1dd3c0f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "code/Python/函数.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,13 +180,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b08544cb495f2367",
+  "active": "aa01b05c1dd3c0f7",
   "lastOpenFiles": [
+    "code/Python/字典（哈希表）.md",
+    "code/leetcode/0-1.md",
+    "code/Python/函数.md",
+    "code/leetcode",
+    "code/leetcode/leetcode.md",
     "Many-Body/Green's Function.md",
     "Statistical Physics/Finite-size effects.md",
     "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
-    "code/Python/函数.md",
-    "code/Python/字典（哈希表）.md",
     "Project/Universal theory.md",
     "code/Python",
     "code/未命名.md",
@@ -169,7 +197,6 @@
     "Pasted image 20240619162135.png",
     "Pasted image 20240619161921.png",
     "Project/disorder.md",
-    "code/leetcode.md",
     "conflict-files-obsidian-git.md",
     "lecture/能带拓扑理论.md",
     "lecture/WannierTools.md",
@@ -197,12 +224,10 @@
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
     "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
     "Statistical Physics/Useful Formula.md",
-    "QMC/数值稳定.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/Appendix B Linear Response and Generating Functionals.pdf",
-    "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/5.2 Half-Odd Integer Spin Chains/Assa Chap 5.2.pdf",
     "未命名 2.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
