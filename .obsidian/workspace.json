@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "code/Python/函数.md",
+                "file": "Project/Problem.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code/Python/函数.md",
+                "file": "Project/Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code/Python/函数.md",
+                "file": "Project/Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code/Python/函数.md"
+                "file": "Project/Problem.md"
               }
             }
           },
@@ -182,15 +182,20 @@
   },
   "active": "aa01b05c1dd3c0f7",
   "lastOpenFiles": [
+    "Pasted image 20240624114521.png",
+    "Pasted image 20240624114507.png",
+    "Pasted image 20240624114032.png",
+    "Pasted image 20240624113808.png",
+    "Project/Universal theory.md",
+    "Project/Problem.md",
+    "code/Python/函数.md",
     "code/Python/字典（哈希表）.md",
     "code/leetcode/0-1.md",
-    "code/Python/函数.md",
     "code/leetcode",
     "code/leetcode/leetcode.md",
     "Many-Body/Green's Function.md",
     "Statistical Physics/Finite-size effects.md",
     "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
-    "Project/Universal theory.md",
     "code/Python",
     "code/未命名.md",
     "Project/未命名.md",
@@ -209,11 +214,8 @@
     "Pasted image 20240428122915.png",
     "Pasted image 20240428105900.png",
     "Pasted image 20240428103447.png",
-    "Pasted image 20240425113740.png",
     "Project/FM-Triangle-Coupled-Model.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
-    "Pasted image 20240412174802.png",
-    "Pasted image 20240412174654.png",
     "code/Missing-Semester/Shell.md",
     "code/Missing-Semester/课程信息.md",
     "code/Missing-Semester/未命名",
@@ -222,8 +224,6 @@
     "Project/Log.md",
     "Statistical Physics/Kardar/Chapter 1    Collective behavior, from particles to fields.md",
     "Statistical Physics/Kardar/Chapter 2    Statistical fields.md",
-    "Statistical Physics/Kardar/Chapter 3 Fluctuations.md",
-    "Statistical Physics/Useful Formula.md",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
     "Many-Body/Interacting_Electrons_and_Quantum_Magnetism/11 Spin Wave Theory.pdf",
