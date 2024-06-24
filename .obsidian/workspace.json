@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b08544cb495f2367",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "code/leetcode/0-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b38d30ee6acc4af8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "code/Python/字典（哈希表）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "aa01b05c1dd3c0f7",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.51103591918945
+    "width": 335.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -182,6 +158,10 @@
   },
   "active": "aa01b05c1dd3c0f7",
   "lastOpenFiles": [
+    "Pasted image 20240624121621.png",
+    "Pasted image 20240624120631.png",
+    "Pasted image 20240624120422.png",
+    "Pasted image 20240624120415.png",
     "Pasted image 20240624114521.png",
     "Pasted image 20240624114507.png",
     "Pasted image 20240624114032.png",
@@ -210,10 +190,6 @@
     "QMC/Monte Carlo/Cluster.md",
     "QMC/Monte Carlo",
     "Pasted image 20240429201859.png",
-    "Pasted image 20240429193624.png",
-    "Pasted image 20240428122915.png",
-    "Pasted image 20240428105900.png",
-    "Pasted image 20240428103447.png",
     "Project/FM-Triangle-Coupled-Model.md",
     "Statistical Physics/Kardar/Chapter 4 The scaling hypothesis.md",
     "code/Missing-Semester/Shell.md",
