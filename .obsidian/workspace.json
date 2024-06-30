@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Problem.md",
+                "file": "code/leetcode/数组.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.51103591918945,
-    "collapsed": true
+    "width": 219.51103591918945
   },
   "right": {
     "id": "04ef13bda26685a2",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Problem.md",
+                "file": "code/leetcode/数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Problem.md",
+                "file": "code/leetcode/数组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Problem.md"
+                "file": "code/leetcode/数组.md"
               }
             }
           },
@@ -158,14 +157,15 @@
   },
   "active": "aedceb5c5343044b",
   "lastOpenFiles": [
+    "code/leetcode/0-1.md",
+    "code/leetcode/数组.md",
+    "Project/Problem.md",
     "Pasted image 20240624121937.png",
     "Project/Universal theory.md",
-    "code/leetcode/0-1.md",
     "code/leetcode",
     "code/Python/字典（哈希表）.md",
     "code/Python/函数.md",
     "code/Python",
-    "Project/Problem.md",
     "Pasted image 20240624121621.png",
     "Pasted image 20240624120631.png",
     "Pasted image 20240624120422.png",
@@ -178,7 +178,6 @@
     "conflict-files-obsidian-git.md",
     "code/leetcode.md",
     "Pasted image 20240619162135.png",
-    "Pasted image 20240619161921.png",
     "Project/未命名.md",
     "Project/Log.md",
     "Statistical Physics/Phase Transition Theory.md",
