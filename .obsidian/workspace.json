@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Task_plugin.md",
+                "file": "Statistical Physics/Kivelson/Chapter 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Task_plugin.md",
+                "file": "Statistical Physics/Kivelson/Chapter 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Task_plugin.md",
+                "file": "Statistical Physics/Kivelson/Chapter 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Task_plugin.md"
+                "file": "Statistical Physics/Kivelson/Chapter 1.md"
               }
             }
           },
@@ -157,6 +157,9 @@
   },
   "active": "aedceb5c5343044b",
   "lastOpenFiles": [
+    "Statistical Physics/Kivelson",
+    "Task_plugin.md",
+    "Statistical Physics/Kivelson/Chapter 1.md",
     "code/leetcode/排序.md",
     "Project/Log.md",
     "code/leetcode/数组.md",
@@ -194,9 +197,6 @@
     "lecture",
     "Project/Draft.md",
     "Project/FM-Triangle-Coupled-Model.md",
-    "Project/Negativity in Coupled Model.md",
-    "Statistical Physics/Kardar/Chapter 5 Perturbative renormalization group.md",
-    "Many-Body/Green's Function.md",
     "code/Missing-Semester",
     "code/Data Structure/MIT 6.006 2011",
     "code/Data Structure",
