@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "code/leetcode/排序.md",
+                "file": "Task_plugin.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code/leetcode/排序.md",
+                "file": "Task_plugin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code/leetcode/排序.md",
+                "file": "Task_plugin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code/leetcode/排序.md"
+                "file": "Task_plugin.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "aedceb5c5343044b",
   "lastOpenFiles": [
-    "code/leetcode/数组.md",
     "code/leetcode/排序.md",
+    "Project/Log.md",
+    "code/leetcode/数组.md",
     "Pasted image 20240701000807.png",
     "Pasted image 20240630235331.png",
     "code/leetcode/0-1.md",
@@ -180,7 +181,6 @@
     "conflict-files-obsidian-git.md",
     "code/leetcode.md",
     "Project/未命名.md",
-    "Project/Log.md",
     "Statistical Physics/Phase Transition Theory.md",
     "Statistical Physics/Finite-size effects.md",
     "code/Git.md",
